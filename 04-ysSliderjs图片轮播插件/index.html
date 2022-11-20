@@ -1,0 +1,52 @@
+﻿
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ysSlider.js图片轮播插件</title>
+    <link rel="stylesheet" href="animate.min.css">
+
+
+    <script src="dist/ysslider.js"></script>
+    <link rel="stylesheet" href="dist/ysslider.css" />
+    <style>
+        .container {
+            margin: 150px auto;
+            max-width: 960px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+ 
+        <div class="ysslider">
+            <div class="item"><img src="imgs/1.jpg" /></div>
+            <div class="item fadeIn"><img src="imgs/2.jpg" /></div>
+            <div class="item"><img src="imgs/3.jpg" /></div>
+            <div class="item"><img src="imgs/4.jpg" /></div>
+            <div class="controlbar">
+                <a href="javascript:void(0);" class="prev">上一个</a>
+                <a href="javascript:void(0);" class="next">下一个</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        var mySlider = new ysSlider({
+            animate: true,
+            touch: true
+        });
+
+        document.querySelector(".prev").onclick = function () {
+            mySlider.prev();
+        }
+
+        document.querySelector(".next").onclick = function () {
+            mySlider.next();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+/*!
+ * ysslider - Free, simple and responsive slider plugin.
+ * Author: Yusuf SEZER <yusufsezer@mail.com>
+ * Version: v1.0.0
+ * Url: https://github.com/yusufsefasezer/ysSlider.js
+ * License: MIT
+ */
+
+/* line 4, src/sass/ysslider.scss */
+.ysslider {
+  position: relative;
+  max-width: 600px !important;
+  max-height: 450px !important;
+}
+
+/* line 10, src/sass/ysslider.scss */
+.ysslider .yscontrolbar {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+}
+
+/* line 16, src/sass/ysslider.scss */
+.ysslider .yscontrolbar a {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* line 23, src/sass/ysslider.scss */
+.ysslider .yscontrolbar .next {
+  position: absolute;
+  transform: translate(0%, -50%);
+  right: 0%;
+}
+
+/* line 29, src/sass/ysslider.scss */
+.ysslider .yscontrolbar .prev {
+  position: absolute;
+  transform: translate(0%, -50%);
+  left: 0%;
+}
