@@ -1,0 +1,151 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald|Lobster);
+
+body {
+  margin-top: 7%;
+  background: #e9eadc;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMTklIiBzdG9wLWNvbG9yPSIjZTllYWRjIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2FkYWNhMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9yYWRpYWxHcmFkaWVudD4KICA8cmVjdCB4PSItNTAiIHk9Ii01MCIgd2lkdGg9IjEwMSIgaGVpZ2h0PSIxMDEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+  background: -moz-radial-gradient(center, ellipse cover,  #e9eadc 19%, #adaca2 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(19%,#e9eadc), color-stop(100%,#adaca2));
+  background: -webkit-radial-gradient(center, ellipse cover,  #e9eadc 19%,#adaca2 100%);
+  background: -o-radial-gradient(center, ellipse cover,  #e9eadc 19%,#adaca2 100%);
+  background: -ms-radial-gradient(center, ellipse cover,  #e9eadc 19%,#adaca2 100%);
+  background: radial-gradient(ellipse at center,  #e9eadc 19%,#adaca2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9eadc', endColorstr='#adaca2',GradientType=1 );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Oswald, Arial;
+  text-align: center;
+  color: #47473c;
+}
+
+a {
+  color: #47473c;
+  font-family: Lobster;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: Lobster;
+  font-weight: normal;
+  margin: 0;
+}
+
+#container {
+margin: 0 auto;
+width: 1100px;
+max-width: 1100px;
+-webkit-perspective: 2000px;
+   -moz-perspective: 2000px;
+    -ms-perspective: 2000px;
+     -o-perspective: 2000px;
+        perspective: 2000px;
+}
+  
+  #information {
+    margin-top: 1em;
+    display: block;
+    color: red;
+    font-size: 20px;
+  }
+  
+  #navigation a {
+    display: inline-block;
+    line-height: 2.8em;
+    margin-right: 1em;
+    width: 40px;
+    height: 40px;
+    background: rgba(0,0,0,0.1);
+    color: #fff;
+    border-radius: 40px;
+    -webkit-transition: .3s ease-in;
+       -moz-transition: .3s ease-in;
+        -ms-transition: .3s ease-in;
+         -o-transition: .3s ease-in;
+            transition: .3s ease-in;
+  }
+  
+  #navigation a.selected, #navigation a:hover {
+    background: rgba(0,0,0,.3);
+    text-decoration: none;
+  }
+
+  #portfolio-item {
+    display: none;
+  }
+  
+  #portfolio {
+    margin: 2em 0 1em;
+    -webkit-transform-style: preserve-3d;
+       -moz-transform-style: preserve-3d;
+        -ms-transform-style: preserve-3d;
+         -o-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+  }
+
+  #portfolio div {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    margin: 1em;
+    width: 200px;
+    height: 150px;
+    box-shadow: 0px 0px 25px rgba(0,0,0,.3);
+  }
+  
+    #portfolio div span {
+      text-align: left;
+      position: absolute;
+      color: #fff;
+      background: rgba(0,0,0,0.6);
+      width: 90px;
+      padding: 5px 15px 7px;
+      z-index: 1;
+      left: -10px;
+      bottom: 10px;
+    }
+  
+  .animated {
+    -webkit-transition: .9s ease-out;
+       -moz-transition: .9s ease-out;
+        -ms-transition: .9s ease-out;
+         -o-transition: .9s ease-out;
+            transition: .9s ease-out;
+  }
+  
+  .flipped-horizontal-right {
+    -webkit-transform: rotateY(360deg);
+       -moz-transform: rotateY(360deg);
+        -ms-transform: rotateY(360deg);
+         -o-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+  
+  .flipped-horizontal-left {
+    -webkit-transform: rotateY(-360deg);
+       -moz-transform: rotateY(-360deg);
+        -ms-transform: rotateY(-360deg);
+         -o-transform: rotateY(-360deg);
+            transform: rotateY(-360deg);
+  }
+  
+  .flipped-vertical-top {
+    -webkit-transform: rotateX(360deg);
+       -moz-transform: rotateX(360deg);
+        -ms-transform: rotateX(360deg);
+         -o-transform: rotateX(360deg);
+            transform: rotateX(360deg);
+  }
+  
+  .flipped-vertical-bottom {
+    -webkit-transform: rotateX(-360deg);
+       -moz-transform: rotateX(-360deg);
+        -ms-transform: rotateX(-360deg);
+         -o-transform: rotateX(-360deg);
+            transform: rotateX(-360deg);
+  }
