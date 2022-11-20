@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片轮播插件索引线条动画</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/htmleaf-demo.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="demo-page">
+
+        <!--main container-->
+        <div id="main-container">
+            <!-- <div id="main-container" class="vertical-version"> -->
+            <!-- images wrapper -->
+            <div id="images-wrapper">
+                <figure class="image-wrapper active">
+                    <img src="img/cat-1.jpg" alt="Cat 1">
+                </figure>
+                <figure class="image-wrapper">
+                    <img src="img/cat-2.jpg" alt="Cat 2">
+                </figure>
+                <figure class="image-wrapper">
+                    <img src="img/cat-3.jpg" alt="Cat 3">
+                </figure>
+                <figure class="image-wrapper">
+                    <img src="img/cat-4.jpg" alt="Cat 4">
+                </figure>
+                <figure class="image-wrapper">
+                    <img src="img/cat-5.jpg" alt="Cat 5">
+                </figure>
+                <figure class="image-wrapper">
+                    <img src="img/cat-6.jpg" alt="Cat 6">
+                </figure>
+            </div>
+
+            <!-- controls wrapper -->
+            <div class="controls-wrapper">
+                <div class="controls">
+
+                    <!-- circular line -->
+                    <div id="circular-line">
+                        <svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <circle id="circular-line-path" stroke-width="4" cx="19" cy="19" r="17"></circle>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <!-- straight line -->
+                    <div class="straight-line"></div>
+
+                    <div class="dot active"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script type="text/javascript" src="https://cdn.bootcss.com/gsap/1.16.1/TweenMax.min.js"></script>
+    <script src="js/interaction.js"></script>
+</body>
+</html>
+<!--下面是无用代码-->
+<a href="http://www.bootstrapmb.com" style="display:none">bootstrapmb</a>
+
