@@ -1,6 +1,11 @@
 # bootstrapmb
 做网页 · 不设计,高端HTML模板,学会偷懒,事半功倍
 
+## 你可以直接去这个网站找，看上了，提交 issues，我看见了会帮你下载的！
+
+- [http://www.bootstrapmb.com/](http://www.bootstrapmb.com/)
+- 本仓库不售卖，仅供学习交流使用
+
 ## 请我喝咖啡
 
 <img src="./README.assets/image-20221120111532262.png" alt="image-20221120111532262" style="zoom:25%;" />
