@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <!-- meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Personal Portfolio HTML Template" />
+    <meta name="keywords" content="Personal, Portfolio, Website, creative, freelancer, modern, onepage, UI, ux" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/images/icon/favicon.png" type="image/x-icon">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel='stylesheet' href='http://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- title page -->
+    <title>PortKit - Personal Portfolio HTML Template</title>
+</head>
+
+<body>
+
+
+    <!-- preloader -->
+    <div id="preloader"><img src="assets/images/icon/preloader.gif" alt="preloader"></div>
+    <!-- preloader -->
+
+
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="assets/images/icon/Logo-PortKit.png" alt="PortKit"></a>
+            <button class="navbar-toggler" id="js-nav-trigger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle">
+                <span></span>
+            </button>
+            <!-- .navbar-collapse -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">pages</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="project-details.html">Project Details</a></li>
+                            <li><a class="dropdown-item" href="comment.html">Add comment</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="https://tycoonsme.com/templates/PortKit/PortKit/index.html#about-me" data-value="about-me">about me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://tycoonsme.com/templates/PortKit/PortKit/index.html#services" data-value="services">services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html">portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact-me.html">contact me</a></li>
+                </ul>
+            </div>
+            <!-- .navbar-collapse -->
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+
+
+    <!-- start header -->
+    <header class="has-style-02">
+        <div class="container">
+
+            <div class="shape">
+                <img class="shape-10" src="assets/images/shape/shape-circle1.png" alt="shape">
+                <img class="shape-03" src="assets/images/shape/shape-03.png" alt="shape">
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb">
+                        <h2>Add Comment</h2>
+                        <ul class="d-flex">
+                            <li><a href="#">home</a></li>
+                            <li>/</li>
+                            <li>Add Comment</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <!-- end header -->
+
+
+    <!-- start comment -->
+    <section class="section comment has-style-01">
+        <div class="container">
+            <div class="row justify-content-center">
+
+                <div class="col-12 text-center">
+                    <div class="icon-top">
+                        <img src="assets/images/icon/star.png" alt="icon">
+                    </div>
+                </div>
+
+                <div class="col-lg-8 col-md-10 col-sm-12 col-12">
+                    <form class="comment-form" method="post" action="#">
+                        <!-- form message -->
+                        <div class="row">
+                           <div class="col-12">
+                              <div class="alert alert-success contact__msg" style="display: none" role="alert">
+                                 Your comment was sent successfully.
+                              </div>
+                           </div>
+                        </div>
+                        <!-- end message -->
+
+                        <!-- form element -->
+                        <div class="row">
+                            <div class="col-12 form-group text-center">
+                                <div class="rate">
+                                    <input type="radio" id="star5" name="rate" value="5" />
+                                    <label for="star5" title="5 stars">5 stars</label>
+                                    <input type="radio" id="star4" name="rate" value="4" />
+                                    <label for="star4" title="4 stars">4 stars</label>
+                                    <input type="radio" id="star3" name="rate" value="3" />
+                                    <label for="star3" title="3 stars">3 stars</label>
+                                    <input type="radio" id="star2" name="rate" value="2" />
+                                    <label for="star2" title="2 stars">2 stars</label>
+                                    <input type="radio" id="star1" name="rate" value="1" />
+                                    <label for="star1" title="1 star">1 star</label>
+                                  </div>
+                            </div>
+
+                           <div class="col-12 form-group">
+                               <i class="fi fi-rr-user"></i>
+                               <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+                           </div>
+
+                           <div class="col-12 form-group">
+                               <i class="fi fi-rr-envelope"></i>
+                               <input name="email" type="email" class="form-control" placeholder="Email Address" required>
+                           </div>
+
+                           <div class="col-12 form-group">
+                               <i class="fi fi-rr-document"></i>
+                               <textarea name="message" class="form-control" rows="3" placeholder="Message" required></textarea>
+                           </div>
+
+                           <div class="col-12"><input name="submit" type="submit" class="btn btn-generic" value="Send"></div>
+                        </div>
+                        <!-- end form element -->
+                     </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end comment -->
+    
+
+    <!-- start footer -->
+    <footer class="has-style-01">
+        <div class="shape">
+            <img class="shape-03" src="assets/images/shape/shape-03.png" alt="shape">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-7 col-12">
+                    <ul class="link-footer">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact Me</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-5 col-12">
+                    <ul class="designby">
+                        <li><a href="#"><i class="fa-solid fa-heart"></i> Created By <a href="http://www.bootstrapmb.com/">bootstrapmb</a></a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="text-center">&copy; portKit - copy right all right reserved</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+
+    <!-- start scroll up -->
+    <div class="scroll-up">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+          <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+        </svg>
+    </div>
+    <!-- end scroll up -->
+
+
+    <!-- scripts -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/mixitup.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/kursor.js"></script>
+    <script src="assets/js/ajax-form.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
