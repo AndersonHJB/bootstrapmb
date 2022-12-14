@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0 none;
+}
+
+html {
+	overflow-x: hidden;
+}
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font: 13px/1.8 Arial, sans-serif;
+	color: #4d4d4d;
+	background: #fff;
+}
+
+h1 {
+	font-size: 45px;
+	margin-bottom: -25px;
+}
+
+h2 {
+	font-size: 35px;
+	margin-bottom: -20px;
+}
+
+h3 {
+	font-size: 20px;
+	display: block;
+	border-bottom: 1px dashed #ccc;
+	margin-bottom: 15px;
+}
+
+h4 {
+	font-size: 16px;
+	margin: 20px 0 10px;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ffd71a;
+}
+
+.clear:before,
+.clear:after {
+	content: ' ';
+	display: table;
+	clear: both;
+}
+.clear {
+  *zoom: 1;
+}
+
+.note {
+	background: #0fd8da;
+	padding: 20px;
+	color: #161625;
+	margin: 10px 0;
+}
+
+.content ul {
+	margin: 10px 40px;
+}
+
+.content {
+	margin: 0 0 50px;
+}
+
+#logo a {
+	display: block;	
+	padding: 10px 0 10px 0;
+	text-align: center;
+}
+
+#sidebar {
+	width: 250px;
+	background: #f1f1f1;
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	font-weight: bold;
+	font-size: 12px;
+	z-index: 9;
+	overflow: auto;
+	text-align: center;
+}
+
+#sidebar ul a {
+	text-decoration: none;
+	color: #161625;
+	display: block;
+	height: 36px;
+	line-height: 36px;
+	padding: 0 20px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+#sidebar ul a:hover,
+#sidebar .active > a {
+	background: #848283;
+	color: #fff;
+}
+
+#sidebar ul li {
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+#sidebar ul li.current {
+	background-color: #848283;
+}
+
+#sidebar ul li.current a {
+	color: #fff;
+}
+
+#sidebar li ul a {
+	padding-left: 40px;
+}
+
+#main-content {
+	margin-left: 250px;
+	padding: 27px 45px;
+}
+
+
+
