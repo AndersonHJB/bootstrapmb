@@ -1,0 +1,21 @@
+{
+  "name": "jironis",
+  "version": "1.0.0",
+  "description": "Jironis - Vue Nuxt App Landing One Page Template",
+  "author": "Layerdrops",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "swiper": "^5.3.7",
+    "vue-awesome-swiper": "^4.1.0",
+    "vue-count-to": "^1.0.13",
+    "vue-observe-visibility": "^0.4.6"
+  },
+  "devDependencies": {}
+}
