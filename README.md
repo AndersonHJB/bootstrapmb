@@ -6,15 +6,11 @@
 - [http://www.bootstrapmb.com/](http://www.bootstrapmb.com/)
 - 本仓库不售卖，仅供学习交流使用
 
+## 点个 star 哦！
+
 ## 请我喝咖啡
 
 <img src="./README.assets/image-20221120111532262.png" alt="image-20221120111532262" style="zoom:25%;" />
-
-
-
-
-
-## 点个 star 哦！
 
 
 
@@ -34,7 +30,8 @@
 | 04       | 轻量级的个人作品网站HTML5响应式模板 - Lancer  | [Lancer](https://github.aiyc.top/bootstrapmb/muban/Lancer/Lancer) | [Lancer](https://github.aiyc.top/bootstrapmb/muban/Lancer/Lancer.rar) | Lancer是[响应式](http://www.bootstrapmb.com/tag/xiangyingshi)设计一页个人[HTML5模板](http://www.bootstrapmb.com/tag/html5moban)，使用[Bootstrap4框架](http://www.bootstrapmb.com/tag/bootstrap4kuangjia)实现的个人网站前端框架。可以用于许多目的如自由职业者,摄影师展示他们的作品等等。<br />**主要特色**<br />现代、最小、干净的设计 [Bootstrap4框架](http://www.bootstrapmb.com/tag/bootstrap4kuangjia) 100%的响应 容易定制 FontAwesome图标 很棒的独特的外观 所有文件注释 |
 | 05       | 图片展示、相册、摄影类网站模板 - FreeBird     | [FreeBird](https://github.aiyc.top/bootstrapmb/muban/FreeBird/FreeBird) | [FreeBird](https://github.aiyc.top/bootstrapmb/muban/FreeBird/FreeBird.rar) | FreeBird是一个完整的HTML5和CSS3图片类[网站模板](http://www.bootstrapmb.com/tag/wangzhanmoban)，基于流行的[Bootstrap框架](http://www.bootstrapmb.com/tag/bootstrapkuangjia)。模板适合摄影类图片展示网站。它看起来好与所有类型的设备(笔记本电脑、平板电脑和手机)。<br />**主要特色**<br />用HTML5和CSS3建造的 基于bootstrap3框架 充分响应设计 光明与黑暗的版本 超过70的HTML文件 非常灵活的 简单的可定制的 组织和注释代码 干净整洁的设计 现代的和创新的方法 [时尚](http://www.bootstrapmb.com/tag/shishang)的布局 |
 | 06       | Vue Nuxt实现的App着陆页单页模板源码 - Jironis | [Jironis](http://www.bootstrapmb.com/item/9407/preview)      | [Jironis](https://github.aiyc.top/bootstrapmb/muban/Jironis/Jironis.rar) | Jironis是一个了不起的App宣传电脑端单页模板，基于Vue Nuxt实现的无刷新滚动网页模板。您可以轻松地定制制造任何iPhone或Android /移动应用的着陆页/展示网站。 |
-|          |                                               |                                                              |                                                              |                                                              |
+| 07       | 新闻博客期刊杂志网页模板 - NewsZ              | [NewsZ](https://github.aiyc.top/bootstrapmb/muban/NewsZ/NewsZ/) | [NewsZ](https://github.aiyc.top/bootstrapmb/muban/NewsZ/NewsZ.zip) | NewsZ是通用的图文类网站前端模板，可以作为新闻门户、博客、期刊等。包含多种不同的首页样式，和20+内部页面，很容易创建独一无二的网站界面。模板使用最新的bootstrap样式构造，简单实用。 |
+| 08       | 程序员个人博客简历 html 模板                  | [程序员个人博客简历html模板](https://github.aiyc.top/bootstrapmb/muban/程序员个人博客简历html模板) | [程序员个人博客简历html模板](https://github.aiyc.top/bootstrapmb/src/05-程序员个人博客简历html模板.rar) |                                                              |
 
 ```url
 https://github.aiyc.top/bootstrapmb/
