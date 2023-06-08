@@ -31,7 +31,7 @@
 | 05       | 图片展示、相册、摄影类网站模板 - FreeBird     | [FreeBird](https://github.aiyc.top/bootstrapmb/muban/FreeBird/FreeBird) | [FreeBird](https://github.aiyc.top/bootstrapmb/muban/FreeBird/FreeBird.rar) | FreeBird是一个完整的HTML5和CSS3图片类[网站模板](http://www.bootstrapmb.com/tag/wangzhanmoban)，基于流行的[Bootstrap框架](http://www.bootstrapmb.com/tag/bootstrapkuangjia)。模板适合摄影类图片展示网站。它看起来好与所有类型的设备(笔记本电脑、平板电脑和手机)。<br />**主要特色**<br />用HTML5和CSS3建造的 基于bootstrap3框架 充分响应设计 光明与黑暗的版本 超过70的HTML文件 非常灵活的 简单的可定制的 组织和注释代码 干净整洁的设计 现代的和创新的方法 [时尚](http://www.bootstrapmb.com/tag/shishang)的布局 |
 | 06       | Vue Nuxt实现的App着陆页单页模板源码 - Jironis | [Jironis](http://www.bootstrapmb.com/item/9407/preview)      | [Jironis](https://github.aiyc.top/bootstrapmb/muban/Jironis/Jironis.rar) | Jironis是一个了不起的App宣传电脑端单页模板，基于Vue Nuxt实现的无刷新滚动网页模板。您可以轻松地定制制造任何iPhone或Android /移动应用的着陆页/展示网站。 |
 | 07       | 新闻博客期刊杂志网页模板 - NewsZ              | [NewsZ](https://github.aiyc.top/bootstrapmb/muban/NewsZ/NewsZ/) | [NewsZ](https://github.aiyc.top/bootstrapmb/muban/NewsZ/NewsZ.zip) | NewsZ是通用的图文类网站前端模板，可以作为新闻门户、博客、期刊等。包含多种不同的首页样式，和20+内部页面，很容易创建独一无二的网站界面。模板使用最新的bootstrap样式构造，简单实用。 |
-| 08       | 程序员个人博客简历 html 模板                  | [程序员个人博客简历html模板](https://github.aiyc.top/bootstrapmb/muban/程序员个人博客简历html模板) | [程序员个人博客简历html模板](https://github.aiyc.top/bootstrapmb/src/05-程序员个人博客简历html模板.rar) |                                                              |
+| 08       | 程序员个人博客简历 html 模板                  | [程序员个人博客简历html模板](https://github.aiyc.top/bootstrapmb/muban/程序员个人博客简历html模板) | [程序员个人博客简历html模板](https://github.aiyc.top/bootstrapmb/src/05-程序员个人博客简历html模板.rar) | 一款简约的程序员个人博客简历[Html模板](http://www.bootstrapmb.com/tag/htmlmoban),用代码的方式自我简介，带一些网页动画效果没有使用任何js代码。 |
 
 ```url
 https://github.aiyc.top/bootstrapmb/
