@@ -1,0 +1,514 @@
+
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	<title>Page not found &#8211; NewsZ</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel="alternate" type="application/rss+xml" title="NewsZ &raquo; Feed" href="https://newsz.mhrtheme.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="NewsZ &raquo; Comments Feed" href="https://newsz.mhrtheme.com/comments/feed/" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/newsz.mhrtheme.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){p.clearRect(0,0,i.width,i.height),p.fillText(e,0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(t,0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s("\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!s("\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!s("\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!s("\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css' href='https://newsz.mhrtheme.com/wp-includes/css/dist/block-library/style.min.css?ver=6.2' media='all' />
+<link rel='stylesheet' id='classic-theme-styles-css' href='https://newsz.mhrtheme.com/wp-includes/css/classic-themes.min.css?ver=6.2' media='all' />
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='redux-extendify-styles-css' href='https://newsz.mhrtheme.com/wp-content/plugins/redux-framework/redux-core/assets/css/extendify-utilities.css?ver=4.4.0' media='all' />
+<link rel='stylesheet' id='contact-form-7-css' href='https://newsz.mhrtheme.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.7.5.1' media='all' />
+<link rel='stylesheet' id='newsz-font-css' href='https://newsz.mhrtheme.com/wp-content/themes/newsz/assets/css/newsz-font.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='newsz-bootstrap-css' href='https://newsz.mhrtheme.com/wp-content/themes/newsz/assets/css/bootstrap.min.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='newsz-owl-theme-default-css' href='https://newsz.mhrtheme.com/wp-content/themes/newsz/assets/css/owl.theme.default.min.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='newsz-owl-carousel-css' href='https://newsz.mhrtheme.com/wp-content/themes/newsz/assets/css/owl.carousel.min.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='newsz-magnific-popup-css' href='https://newsz.mhrtheme.com/wp-content/themes/newsz/assets/css/magnific-popup.min.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='newsz-animate-css' href='https://newsz.mhrtheme.com/wp-content/themes/newsz/assets/css/animate.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='newsz-boxicons-css' href='https://newsz.mhrtheme.com/wp-content/themes/newsz/assets/css/boxicons.min.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='newsz-font-awesome-css' href='https://newsz.mhrtheme.com/wp-content/themes/newsz/assets/css/font-awesome.min.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='newsz-nice-select-css' href='https://newsz.mhrtheme.com/wp-content/themes/newsz/assets/css/nice-select.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='newsz-odometer-css' href='https://newsz.mhrtheme.com/wp-content/themes/newsz/assets/css/odometer.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='newsz-aos-css' href='https://newsz.mhrtheme.com/wp-content/themes/newsz/assets/css/aos.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='newsz-main-css' href='https://newsz.mhrtheme.com/wp-content/themes/newsz/assets/css/main.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='parent-style-css' href='https://newsz.mhrtheme.com/wp-content/themes/newsz/style.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='child-style-css' href='https://newsz.mhrtheme.com/wp-content/themes/newsz-child/style.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='newsz-responsive-css' href='https://newsz.mhrtheme.com/wp-content/themes/newsz/assets/css/responsive.css?ver=1.0.0' media='all' />
+<script src='https://newsz.mhrtheme.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.3' id='jquery-core-js'></script>
+<script src='https://newsz.mhrtheme.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0' id='jquery-migrate-js'></script>
+<link rel="https://api.w.org/" href="https://newsz.mhrtheme.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://newsz.mhrtheme.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://newsz.mhrtheme.com/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 6.2" />
+<meta name="generator" content="Redux 4.4.0" />	<style type="text/css">
+        		body {
+            background-color: ;
+            background-repeat: ;
+            background-size: ;
+            background-attachment: ;
+            background-position: ;
+            background-image: url(  );
+        }
+        :root {
+            --mainColor: #e64d25;
+            --secondaryColor: #f36c20;
+            --bgColor: #f9fafb;
+        }
+        .single-pricing-item .link-btn, .default-btn, .default-btn.active::before, .default-btn.active::after, button, input[type="button"], input[type="reset"], input[type="submit"] {
+            background: ;
+        }
+        .single-pricing-item .link-btn::before, .default-btn::before, .default-btn::after, .default-btn.active, button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
+            background: ;
+        }
+        .header.main-header {
+            background-color: ;
+        }
+        .blog-area {
+            background-color: ;
+        }
+        .error404 .page-error-area {
+            background-color: ;
+        }
+        .footer-area .footer-top {
+            background-color: ;
+        }
+        .footer-area .footer-bottom {
+            background-color: ;
+        }
+        .site-main .page .page-title-area {
+            background: ;
+            background-repeat: ;
+            background-size: ;
+            background-attachment: ;
+            background-position:  !important;
+        }
+        .site-main .post .page-title-area {
+            background: ;
+            background-repeat: ;
+            background-size: ;
+            background-attachment: ;
+            background-position:  !important;
+        }
+        .single .site-main .page-title-area {
+            background: ;
+            background-repeat: ;
+            background-size: ;
+            background-attachment: ;
+            background-position:  !important;
+        }
+        .search .site-main .page-title-area {
+            background: ;
+            background-repeat: ;
+            background-size: ;
+            background-attachment: ;
+            background-position:  !important;
+        }
+        .error404 .page-title-area {
+            background: ;
+            background-repeat: ;
+            background-size: ;
+            background-attachment: ;
+            background-position:  !important;
+        }
+                                        	</style>
+	<script type="text/javascript">
+			</script>
+
+<meta name="generator" content="Elementor 3.12.1; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+<link rel="icon" href="https://newsz.mhrtheme.com/wp-content/uploads/2023/04/icon.png" sizes="32x32" />
+<link rel="icon" href="https://newsz.mhrtheme.com/wp-content/uploads/2023/04/icon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://newsz.mhrtheme.com/wp-content/uploads/2023/04/icon.png" />
+<meta name="msapplication-TileImage" content="https://newsz.mhrtheme.com/wp-content/uploads/2023/04/icon.png" />
+<style id="newsz-dynamic-css" title="dynamic-css" class="redux-options-output">body{font-display:swap;}</style></head>
+
+<body class="error404 wp-custom-logo elementor-410 hfeed no-sidebar elementor-default elementor-kit-6">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#primary">Skip to content</a>
+    
+    	<!-- START PRELOADER AREA -->
+	<div class="preloader">
+		<div class="lds-ripple">
+			<div class="loader"></div>
+		</div>
+	</div>
+	<!-- END PRELOADER AREA -->
+
+<!-- Start Header Area -->  
+<header class="header main-header">
+    <div id="main-sticky-placeholder"></div>
+    <div class="main-mainmenu">
+        <div class="container-fluid">
+            <div class="header-navbar">
+                <div class="header-logo">
+                    					    <a href="https://newsz.mhrtheme.com/" class="custom-logo-link" rel="home"><img width="163" height="90" src="https://newsz.mhrtheme.com/wp-content/uploads/2023/04/logo.png" class="custom-logo" alt="NewsZ" decoding="async" /></a>					                </div>
+                <div class="header-main-nav">
+                    <!-- Start Mainmanu Nav -->
+                    <nav class="mainmenu-nav offcanvas" id="mobilemenu-popup">
+                        <div class="d-block d-lg-none">
+                            <div class="mobile-nav-header">
+                                <div class="mobile-nav-logo">
+                                    									    <a href="https://newsz.mhrtheme.com/" class="custom-logo-link" rel="home"><img width="163" height="90" src="https://newsz.mhrtheme.com/wp-content/uploads/2023/04/logo.png" class="custom-logo" alt="NewsZ" decoding="async" /></a>									                                </div>
+                                <button class="mobile-menu-close" data-bs-dismiss="offcanvas"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <ul id="menu-primary-menu" class="mainmenu"><li id="menu-item-416" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children dropdown menu-item-416 nav-item"><a title="Home" href="https://newsz.mhrtheme.com/" data-hover="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-416">Home</a>
+<ul class="main-submenu" aria-labelledby="menu-item-dropdown-416" role="menu">
+	<li id="menu-item-412" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-412 nav-item"><a title="Homepage Style One" href="https://newsz.mhrtheme.com/" class="dropdown-item">Homepage Style One</a></li>
+	<li id="menu-item-414" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-414 nav-item"><a title="Homepage Style Two" href="https://newsz.mhrtheme.com/homepage-style-two/" class="dropdown-item">Homepage Style Two</a></li>
+	<li id="menu-item-413" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-413 nav-item"><a title="Dark Homepage" href="https://newsz.mhrtheme.com/dark-homepage/" class="dropdown-item">Dark Homepage</a></li>
+	<li id="menu-item-415" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-415 nav-item"><a title="RTL Homepage" href="https://newsz.mhrtheme.com/rtl-homepage/" class="dropdown-item">RTL Homepage</a></li>
+</ul>
+</li>
+<li id="menu-item-446" class="mega-menu menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-446 nav-item"><a title="All Categories" href="#" data-hover="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-446">All Categories</a>
+<ul class="main-submenu" aria-labelledby="menu-item-dropdown-446" role="menu">
+	<li id="menu-item-468" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-468 nav-item"><a title="National" href="https://newsz.mhrtheme.com/category/national/" class="dropdown-item">National</a></li>
+	<li id="menu-item-467" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-467 nav-item"><a title="International" href="https://newsz.mhrtheme.com/category/international/" class="dropdown-item">International</a></li>
+	<li id="menu-item-469" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-469 nav-item"><a title="Politics" href="https://newsz.mhrtheme.com/category/politics/" class="dropdown-item">Politics</a></li>
+	<li id="menu-item-463" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-463 nav-item"><a title="Economics" href="https://newsz.mhrtheme.com/category/economics/" class="dropdown-item">Economics</a></li>
+	<li id="menu-item-473" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-473 nav-item"><a title="Sports" href="https://newsz.mhrtheme.com/category/sports/" class="dropdown-item">Sports</a></li>
+	<li id="menu-item-472" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-472 nav-item"><a title="Science" href="https://newsz.mhrtheme.com/category/science/" class="dropdown-item">Science</a></li>
+	<li id="menu-item-474" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-474 nav-item"><a title="Technology" href="https://newsz.mhrtheme.com/category/technology/" class="dropdown-item">Technology</a></li>
+	<li id="menu-item-464" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-464 nav-item"><a title="Education" href="https://newsz.mhrtheme.com/category/education/" class="dropdown-item">Education</a></li>
+	<li id="menu-item-465" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-465 nav-item"><a title="Entertainment" href="https://newsz.mhrtheme.com/category/entertainment/" class="dropdown-item">Entertainment</a></li>
+	<li id="menu-item-475" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-475 nav-item"><a title="Travel" href="https://newsz.mhrtheme.com/category/travel/" class="dropdown-item">Travel</a></li>
+	<li id="menu-item-476" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-476 nav-item"><a title="World" href="https://newsz.mhrtheme.com/category/world/" class="dropdown-item">World</a></li>
+	<li id="menu-item-462" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-462 nav-item"><a title="Business" href="https://newsz.mhrtheme.com/category/business/" class="dropdown-item">Business</a></li>
+	<li id="menu-item-471" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-471 nav-item"><a title="Religion" href="https://newsz.mhrtheme.com/category/religion/" class="dropdown-item">Religion</a></li>
+	<li id="menu-item-466" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-466 nav-item"><a title="Food" href="https://newsz.mhrtheme.com/category/food/" class="dropdown-item">Food</a></li>
+	<li id="menu-item-470" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-470 nav-item"><a title="Real Estate" href="https://newsz.mhrtheme.com/category/real-estate/" class="dropdown-item">Real Estate</a></li>
+</ul>
+</li>
+<li id="menu-item-433" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-has-children dropdown menu-item-433 nav-item"><a title="Blog" href="https://newsz.mhrtheme.com/blog/" data-hover="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-433">Blog</a>
+<ul class="main-submenu" aria-labelledby="menu-item-dropdown-433" role="menu">
+	<li id="menu-item-434" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-434 nav-item"><a title="Blog Grid" href="https://newsz.mhrtheme.com/blog-grid/" class="dropdown-item">Blog Grid</a></li>
+	<li id="menu-item-435" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-435 nav-item"><a title="Blog Grid Left Sidebar" href="https://newsz.mhrtheme.com/blog-grid-left-sidebar/" class="dropdown-item">Blog Grid Left Sidebar</a></li>
+	<li id="menu-item-436" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-436 nav-item"><a title="Blog Grid Right Sidebar" href="https://newsz.mhrtheme.com/blog-grid-right-sidebar/" class="dropdown-item">Blog Grid Right Sidebar</a></li>
+	<li id="menu-item-437" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-437 nav-item"><a title="Blog List Left Sidebar" href="https://newsz.mhrtheme.com/blog-list-left-sidebar/" class="dropdown-item">Blog List Left Sidebar</a></li>
+	<li id="menu-item-438" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-438 nav-item"><a title="Blog List Right Sidebar" href="https://newsz.mhrtheme.com/blog-list-right-sidebar/" class="dropdown-item">Blog List Right Sidebar</a></li>
+	<li id="menu-item-439" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-439 nav-item"><a title="Blog Slider" href="https://newsz.mhrtheme.com/blog-slider/" class="dropdown-item">Blog Slider</a></li>
+	<li id="menu-item-440" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-440 nav-item"><a title="Blog Details" href="#" data-hover="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-440">Blog Details</a>
+	<ul class="main-submenu" aria-labelledby="menu-item-dropdown-440" role="menu">
+		<li id="menu-item-442" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-442 nav-item"><a title="Blog Details No Sidebar" href="https://newsz.mhrtheme.com/putin-and-xi-pose-as-peacemakers-while-moscows-war-in-ukraine-rages-on/" class="dropdown-item">Blog Details No Sidebar</a></li>
+		<li id="menu-item-441" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-441 nav-item"><a title="Blog Details Left Sidebar" href="https://newsz.mhrtheme.com/netanyahu-acted-illegally-by-getting-involved-in-judicial-overhaul/" class="dropdown-item">Blog Details Left Sidebar</a></li>
+		<li id="menu-item-443" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-443 nav-item"><a title="Blog Details Right Sidebar" href="https://newsz.mhrtheme.com/trudeau-lays-out-china-approach-ahead-of-biden-meeting/" class="dropdown-item">Blog Details Right Sidebar</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-417" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-417 nav-item"><a title="Pages" href="#" data-hover="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-417">Pages</a>
+<ul class="main-submenu" aria-labelledby="menu-item-dropdown-417" role="menu">
+	<li id="menu-item-418" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-418 nav-item"><a title="About Us" href="#" data-hover="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-418">About Us</a>
+	<ul class="main-submenu" aria-labelledby="menu-item-dropdown-418" role="menu">
+		<li id="menu-item-428" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-428 nav-item"><a title="About Style One" href="https://newsz.mhrtheme.com/about-style-one/" class="dropdown-item">About Style One</a></li>
+		<li id="menu-item-429" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-429 nav-item"><a title="About Style Two" href="https://newsz.mhrtheme.com/about-style-two/" class="dropdown-item">About Style Two</a></li>
+	</ul>
+</li>
+	<li id="menu-item-419" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-419 nav-item"><a title="Team" href="#" data-hover="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-419">Team</a>
+	<ul class="main-submenu" aria-labelledby="menu-item-dropdown-419" role="menu">
+		<li id="menu-item-425" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-425 nav-item"><a title="Team Grid" href="https://newsz.mhrtheme.com/team-grid/" class="dropdown-item">Team Grid</a></li>
+		<li id="menu-item-424" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-424 nav-item"><a title="Team Slider" href="https://newsz.mhrtheme.com/team-slider/" class="dropdown-item">Team Slider</a></li>
+	</ul>
+</li>
+	<li id="menu-item-420" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-420 nav-item"><a title="Testimonial" href="#" data-hover="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-420">Testimonial</a>
+	<ul class="main-submenu" aria-labelledby="menu-item-dropdown-420" role="menu">
+		<li id="menu-item-423" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-423 nav-item"><a title="Testimonial Grid" href="https://newsz.mhrtheme.com/testimonial-grid/" class="dropdown-item">Testimonial Grid</a></li>
+		<li id="menu-item-422" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-422 nav-item"><a title="Testimonial Slider" href="https://newsz.mhrtheme.com/testimonial-slider/" class="dropdown-item">Testimonial Slider</a></li>
+	</ul>
+</li>
+	<li id="menu-item-421" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-421 nav-item"><a title="Contact" href="#" data-hover="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-421">Contact</a>
+	<ul class="main-submenu" aria-labelledby="menu-item-dropdown-421" role="menu">
+		<li id="menu-item-427" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-427 nav-item"><a title="Contact Style One" href="https://newsz.mhrtheme.com/contact-style-one/" class="dropdown-item">Contact Style One</a></li>
+		<li id="menu-item-426" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-426 nav-item"><a title="Contact Style Two" href="https://newsz.mhrtheme.com/contact-style-two/" class="dropdown-item">Contact Style Two</a></li>
+	</ul>
+</li>
+	<li id="menu-item-430" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-430 nav-item"><a title="FAQ" href="https://newsz.mhrtheme.com/faq/" class="dropdown-item">FAQ</a></li>
+	<li id="menu-item-431" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-431 nav-item"><a title="Sample Page" href="https://newsz.mhrtheme.com/sample-page/" class="dropdown-item">Sample Page</a></li>
+	<li id="menu-item-477" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-477 nav-item"><a title="Page Left Sidebar" href="https://newsz.mhrtheme.com/page-left-sidebar/" class="dropdown-item">Page Left Sidebar</a></li>
+	<li id="menu-item-478" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-478 nav-item"><a title="Page Right Sidebar" href="https://newsz.mhrtheme.com/page-right-sidebar/" class="dropdown-item">Page Right Sidebar</a></li>
+	<li id="menu-item-479" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-479 nav-item"><a title="Privacy Policy" href="https://newsz.mhrtheme.com/privacy-policy/" class="dropdown-item">Privacy Policy</a></li>
+	<li id="menu-item-432" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-432 nav-item"><a title="404 Error Page" href="https://newsz.mhrtheme.com/404-error-page" class="dropdown-item">404 Error Page</a></li>
+</ul>
+</li>
+<li id="menu-item-451" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-451 nav-item"><a title="PhotoGallery" href="https://newsz.mhrtheme.com/photogallery/" class="nav-link">PhotoGallery</a></li>
+<li id="menu-item-450" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-450 nav-item"><a title="VideoGallery" href="https://newsz.mhrtheme.com/videogallery/" class="nav-link">VideoGallery</a></li>
+<li id="menu-item-445" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-445 nav-item"><a title="Others" href="#" data-hover="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-445">Others</a>
+<ul class="main-submenu" aria-labelledby="menu-item-dropdown-445" role="menu">
+	<li id="menu-item-455" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-455 nav-item"><a title="Crime" href="https://newsz.mhrtheme.com/category/crime/" class="dropdown-item">Crime</a></li>
+	<li id="menu-item-457" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-457 nav-item"><a title="Diseases" href="https://newsz.mhrtheme.com/category/diseases/" class="dropdown-item">Diseases</a></li>
+	<li id="menu-item-458" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-458 nav-item"><a title="Health" href="https://newsz.mhrtheme.com/category/health/" class="dropdown-item">Health</a></li>
+	<li id="menu-item-461" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-461 nav-item"><a title="Lifestyle" href="https://newsz.mhrtheme.com/category/lifestyle/" class="dropdown-item">Lifestyle</a></li>
+	<li id="menu-item-460" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-460 nav-item"><a title="Law and Court" href="https://newsz.mhrtheme.com/category/law-and-court/" class="dropdown-item">Law and Court</a></li>
+	<li id="menu-item-454" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-454 nav-item"><a title="Climate" href="https://newsz.mhrtheme.com/category/climate/" class="dropdown-item">Climate</a></li>
+	<li id="menu-item-453" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-453 nav-item"><a title="Cartoon" href="https://newsz.mhrtheme.com/category/cartoon/" class="dropdown-item">Cartoon</a></li>
+	<li id="menu-item-459" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-459 nav-item"><a title="Job Corner" href="https://newsz.mhrtheme.com/category/job-corner/" class="dropdown-item">Job Corner</a></li>
+	<li id="menu-item-456" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-456 nav-item"><a title="Culture" href="https://newsz.mhrtheme.com/category/culture/" class="dropdown-item">Culture</a></li>
+	<li id="menu-item-452" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-452 nav-item"><a title="Art" href="https://newsz.mhrtheme.com/category/art/" class="dropdown-item">Art</a></li>
+</ul>
+</li>
+</ul>                    </nav>
+                    <!-- End Mainmanu Nav -->
+                </div>
+                <div class="header-action">
+                    <ul class="list-unstyled">
+                                                    <li class="header-btn">
+                                <div class="dropdown language-switcher d-inline-block">
+                                    <div class="gtranslate_wrapper" id="gt-wrapper-41920562"></div>                                </div>
+                            </li>
+                                                                            <li class="header-btn search">
+                                <div class="search-box">
+                                    <i class='bx bx-search'></i>
+                                </div>
+                            </li>
+                                                <li class="mobile-menu-btn sidemenu-btn d-lg-none d-block">
+                            <button class="btn-wrap btn-dark" data-bs-toggle="offcanvas" data-bs-target="#mobilemenu-popup">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- End Header Area -->
+
+    <!-- Search Overlay -->
+    <div class="search-overlay">
+        <div class="d-table">
+            <div class="d-table-cell">
+                <div class="search-overlay-layer"></div>
+                <div class="search-overlay-layer"></div>
+                <div class="search-overlay-layer"></div>
+                
+                <div class="search-overlay-close">
+                    <span class="search-overlay-close-line"></span>
+                    <span class="search-overlay-close-line"></span>
+                </div>
+
+                <div class="search-overlay-form">
+                    <form>
+                        <input type="text" class="input-search" placeholder="Search here...">
+                        <button type="submit"><i class='bx bx-search'></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Search Overlay -->
+
+    <!-- START PAGE TITLE AREA -->
+	<div class="page-title-area">
+		<div class="container">
+			<div class="page-title-content">
+				<h2>Page Not Found</h2>
+				<ul>
+					<li>
+						<a href="https://newsz.mhrtheme.com/">
+							Home						</a>
+					</li>
+					<li class="active">404 Error Page</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- END PAGE TITLE AREA -->
+
+	<main id="primary" class="site-main">
+
+		<!-- Start 404 Error Page -->
+		<div class="page-error-area ptb-40">
+			<div class="container-fluid">
+				<div class="page-error-content">
+						                    <img data-aos="fade-up" data-aos-duration="800" src="https://newsz.mhrtheme.com/wp-content/uploads/2023/04/error.png" alt="Image">
+	                						                    <h3 data-aos="fade-up" data-aos-duration="1000">Error 404 : Page Not Found</h3>
+	                						                    <p data-aos="fade-up" data-aos-duration="1200">The page you are looking for might have been removed had its name changed or is temporarily unavailable.</p>
+	                	                	                	                <div data-aos="fade-up" data-aos-duration="1800" class="search-form">
+						<form role="search" method="get" class="search-form" action="https://newsz.mhrtheme.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>					</div>
+					<a data-aos="fade-up" data-aos-duration="2000" href="https://newsz.mhrtheme.com/" class="default-btn icon">
+						<i class='bx bx-home-circle'></i>
+								                    Return To Home		                					</a>
+				</div>
+			</div>
+		</div>
+		<!-- End 404 Error Page -->
+
+	</main><!-- #main -->
+
+
+<!-- Start Footer Area -->
+<footer class="footer-area">
+    <div class="footer-top ptb-70">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-12 col-sm-12 pt-30">
+                			
+		<div class="single-widget">	
+			                <div class="footer-logo">
+    				<a href="https://newsz.mhrtheme.com">
+                        <img src="https://newsz.mhrtheme.com/wp-content/uploads/2023/04/footer-logo.png" />
+                    </a>
+                </div>
+		    			<div class="textwidget white-color">
+                <p>Lorem ipsum dolor sit amet, consec adipisicing elit. Quaerat molestiae corporis, magni maxime perferendis ducimus totam officiis sit exercite sed odio debitis.</p>
+            </div>
+		</div>	
+		
+                    </div>
+                <div class="col-lg-3 col-md-12 col-sm-12 pt-30">
+                	<section id="block-20" class="widget widget_block"><div class="footer-menu pl-50">
+<h3 class="footer-title">Team Member</h3>
+<ul class="site-map">
+<li>Founder - David Jon Korola</li>
+<li>CEO - Mary Baker</li>
+<li>Manager - Merris Polar</li>
+<li>Director - Shawna Griffin</li>
+<li>Marketer - Kilva Dew</li>
+</ul>
+</div></section>                </div>
+                <div class="col-lg-3 col-md-12 col-sm-12 pt-30">
+                	       
+        <div class="single-widget contact"> 
+                        <h3 class="footer-title">Contact Info</h3>
+            <ul class="address-widget">
+                                    <li>
+                        <i aria-hidden="true" class="bx bx-location-plus"></i>
+                        <div class="desc">
+                            123 Western Road Melbourne, United Kingdom.     
+                        </div>
+                    </li>
+                                    <li>
+                        <i aria-hidden="true" class="bx bx-envelope"></i>
+                        <div class="desc">
+                            hello@example.com                        </div> 
+                    </li>    
+                                    <li>
+                        <i aria-hidden="true" class="bx bx-phone-call"></i>
+                        <div class="desc">
+                            +12 345 678 999                        </div>
+                    </li>
+                                    <li>
+                        <i aria-hidden="true" class="bx bx-time"></i>
+                        <div class="desc time">
+                            Office Hours: 9 AM - 6 PM                        </div>
+                    </li>
+                            </ul>
+        </div>                           
+
+                    </div>
+                <div class="col-lg-3 col-md-12 col-sm-12 pt-30">
+                	<section id="mc4wp_form_widget-2" class="widget widget_mc4wp_form_widget"><h3 class="widget-title footer-title">Newsletter</h3><script>(function() {
+	window.mc4wp = window.mc4wp || {
+		listeners: [],
+		forms: {
+			on: function(evt, cb) {
+				window.mc4wp.listeners.push(
+					{
+						event   : evt,
+						callback: cb
+					}
+				);
+			}
+		}
+	}
+})();
+</script><!-- Mailchimp for WordPress v4.9.3 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-10" method="post" data-id="10" data-name="NewsZ Subscribe Form" ><div class="mc4wp-form-fields"><p class="widget-desc white-color">Stay up to update with our latest news and services.</p>
+<p> 
+	<input type="email" name="EMAIL" placeholder="Your email address" required />
+	<input type="submit" value="Subscribe Now" />
+</p></div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1682318882" /><input type="hidden" name="_mc4wp_form_id" value="10" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /><div class="mc4wp-response"></div></form><!-- / Mailchimp for WordPress Plugin --></section>                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container-fluid">                    
+            <div class="row y-middle">
+                <div class="col-xl-4 col-lg-6 text-lg-end text-center order-last">
+                    						<ul class="footer-social">
+							                                <li><a href="#"><i class="bx bxl-facebook"></i></a></li>
+                                                                                        <li><a href="#"><i class="bx bxl-twitter"></i></a></li>
+                                                                                        <li><a href="Youtube"><i class="bx bxl-youtube"></i></a></li>
+                                                                                        <li><a href="#"><i class="bx bxl-linkedin"></i></a></li>
+                                                                                        <li><a href="#"><i class="bx bxl-skype"></i></a></li>
+                                                                                        <li><a href="#"><i class="bx bxl-instagram"></i></a></li>
+                                                                                        <li><a href="#"><i class="bx bxl-pinterest"></i></a></li>
+                                                                                        <li><a href="#"><i class="bx bxl-google-plus"></i></a></li>
+                            						</ul>
+					                </div>
+                <div class="col-xl-8 col-lg-6">
+                    <div class="copyright text-lg-start text-center">
+                        										                    <p>© 2023 Copyright NewsZ - WPTheme. Developed by MhrTheme.</p>
+			                			                                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer Area -->
+
+<!-- START GO TOP AREA -->
+<div class="go-top">
+	<i class='bx bx-chevrons-up'></i>
+</div>
+<!-- END GO TOP AREA -->
+		
+</div><!-- #page -->
+
+<script>(function() {function maybePrefixUrlField () {
+  const value = this.value.trim()
+  if (value !== '' && value.indexOf('http') !== 0) {
+    this.value = 'http://' + value
+  }
+}
+
+const urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]')
+for (let j = 0; j < urlFields.length; j++) {
+  urlFields[j].addEventListener('blur', maybePrefixUrlField)
+}
+})();</script><script src='https://newsz.mhrtheme.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.7.5.1' id='swv-js'></script>
+<script id='contact-form-7-js-extra'>
+var wpcf7 = {"api":{"root":"https:\/\/newsz.mhrtheme.com\/wp-json\/","namespace":"contact-form-7\/v1"}};
+</script>
+<script src='https://newsz.mhrtheme.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.7.5.1' id='contact-form-7-js'></script>
+<script src='https://newsz.mhrtheme.com/wp-content/themes/newsz/assets/js/popper.min.js?ver=1.0.0' id='newsz-popper-js'></script>
+<script src='https://newsz.mhrtheme.com/wp-content/themes/newsz/assets/js/bootstrap.min.js?ver=1.0.0' id='newsz-bootstrap-js'></script>
+<script src='https://newsz.mhrtheme.com/wp-content/themes/newsz/assets/js/wow.min.js?ver=1.0.0' id='newsz-wow-js'></script>
+<script src='https://newsz.mhrtheme.com/wp-content/themes/newsz/assets/js/owl.carousel.js?ver=1.0.0' id='newsz-owl-carousel-js'></script>
+<script src='https://newsz.mhrtheme.com/wp-content/themes/newsz/assets/js/magnific-popup.min.js?ver=1.0.0' id='newsz-magnific-popup-js'></script>
+<script src='https://newsz.mhrtheme.com/wp-content/themes/newsz/assets/js/jquery.nice-select.min.js?ver=1.0.0' id='newsz-jquery-nice-select-js'></script>
+<script src='https://newsz.mhrtheme.com/wp-content/themes/newsz/assets/js/jquery.appear.js?ver=1.0.0' id='newsz-jquery-appear-js'></script>
+<script src='https://newsz.mhrtheme.com/wp-content/themes/newsz/assets/js/odometer.min.js?ver=1.0.0' id='newsz-odometer-js'></script>
+<script src='https://newsz.mhrtheme.com/wp-content/themes/newsz/assets/js/aos.js?ver=1.0.0' id='newsz-aos-js'></script>
+<script src='https://newsz.mhrtheme.com/wp-content/themes/newsz/assets/js/main.js?ver=1.0.0' id='newsz-main-js'></script>
+<script id='gt_widget_script_41920562-js-before'>
+window.gtranslateSettings = /* document.write */ window.gtranslateSettings || {};window.gtranslateSettings['41920562'] = {"default_language":"en","languages":["af","sq","ar","hy","bn","bg","ca","hr","cs","da","nl","en","eo","fr","fy","de","el","hi","ig","id","ga","it","ja","ko","la","ms","ml","mi","mr","mn","ne","fa","pt","pa","ro","ru","sr","st","sd","sk","so","es","sv","ta","te","th","tr","uk","ur","uz","vi"],"url_structure":"none","flag_style":"2d","flag_size":24,"wrapper_selector":"#gt-wrapper-41920562","alt_flags":[],"switcher_open_direction":"top","switcher_horizontal_position":"inline","switcher_text_color":"#666","switcher_arrow_color":"#666","switcher_border_color":"#ccc","switcher_background_color":"#fff","switcher_background_shadow_color":"#efefef","switcher_background_hover_color":"#fff","dropdown_text_color":"#000","dropdown_hover_color":"#fff","dropdown_background_color":"#eee","flags_location":"https:\/\/newsz.mhrtheme.com\/wp-content\/plugins\/gtranslate\/flags\/"};
+</script><script src="https://newsz.mhrtheme.com/wp-content/plugins/gtranslate/js/dwf.js?ver=6.2" data-no-minify="1" data-gt-orig-url="/wp-content/uploads/2023/04/coming-soon.jpg" data-gt-orig-domain="newsz.mhrtheme.com" data-gt-widget-id="41920562" defer></script><script defer src='https://newsz.mhrtheme.com/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.9.3' id='mc4wp-forms-api-js'></script>
+
+</body>
+</html>
