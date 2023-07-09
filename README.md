@@ -52,6 +52,6 @@ https://github.aiyc.top/bootstrapmb/src/
 
 - 网站：[https://bornforthis.cn](https://bornforthis.cn)
 
-----
+## Star History
 
-<iframe style="width:100%;height:auto;min-width:600px;min-height:400px;" src="https://star-history.com/embed?secret=Z2l0aHViX3BhdF8xMUFMUEVSSUEwZ3QwT2c1N0loU3lNX0FtdUZwNXJ1TEZIbk1KdFNZa0pLN2I3U2RMQ3ptNnhRVmZ2UHd4VVoxT2NSQVkyRTNaVWdyR1g3M1VJ#AndersonHJB/Falsk-Password-Manager&AndersonHJB/bootstrapmb&Date" frameBorder="0"></iframe>
+[![Star History Chart](https://api.star-history.com/svg?repos=AndersonHJB/Falsk-Password-Manager,AndersonHJB/bootstrapmb&type=Date)](https://star-history.com/#AndersonHJB/Falsk-Password-Manager&AndersonHJB/bootstrapmb&Date)
