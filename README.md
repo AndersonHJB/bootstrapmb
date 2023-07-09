@@ -32,6 +32,7 @@
 | 06       | Vue Nuxt实现的App着陆页单页模板源码 - Jironis | [Jironis](http://www.bootstrapmb.com/item/9407/preview)      | [Jironis](https://github.aiyc.top/bootstrapmb/muban/Jironis/Jironis.rar) | Jironis是一个了不起的App宣传电脑端单页模板，基于Vue Nuxt实现的无刷新滚动网页模板。您可以轻松地定制制造任何iPhone或Android /移动应用的着陆页/展示网站。 |
 | 07       | 新闻博客期刊杂志网页模板 - NewsZ              | [NewsZ](https://github.aiyc.top/bootstrapmb/muban/NewsZ/NewsZ/) | [NewsZ](https://github.aiyc.top/bootstrapmb/muban/NewsZ/NewsZ.zip) | NewsZ是通用的图文类网站前端模板，可以作为新闻门户、博客、期刊等。包含多种不同的首页样式，和20+内部页面，很容易创建独一无二的网站界面。模板使用最新的bootstrap样式构造，简单实用。 |
 | 08       | 程序员个人博客简历 html 模板                  | [程序员个人博客简历html模板](https://github.aiyc.top/bootstrapmb/muban/程序员个人博客简历html模板) | [程序员个人博客简历html模板](https://github.aiyc.top/bootstrapmb/src/05-程序员个人博客简历html模板.rar) | 一款简约的程序员个人博客简历[Html模板](http://www.bootstrapmb.com/tag/htmlmoban),用代码的方式自我简介，带一些网页动画效果没有使用任何js代码。 |
+|          |                                               |                                                              |                                                              |                                                              |
 
 ```url
 https://github.aiyc.top/bootstrapmb/
