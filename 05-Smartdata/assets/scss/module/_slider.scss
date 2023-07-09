@@ -1,0 +1,215 @@
+/*------------------------
+    Slider 
+--------------------------*/
+.slider {
+    padding: 0;
+
+    .slide-item {
+        height: calc(100vh - 140px);
+        min-height: 500px;
+    }
+
+    .slide__subtitle {
+        display: block;
+        font-family: $font-body;
+        font-size: 15px;
+        font-weight: 700;
+        color: $color-gray;
+        margin-bottom: 8px;
+    }
+
+    .slide__title {
+        font-size: 75px;
+        font-weight: 800;
+        line-height: 1.1;
+        color: $color-white;
+        margin-bottom: 30px;
+    }
+
+    .slide__desc {
+        font-size: 18px;
+        line-height: 1.5;
+        font-weight: 700;
+        color: $color-white;
+        max-width: 600px;
+        margin-bottom: 30px;
+    }
+
+    .slick-dots {
+        position: absolute;
+        bottom: 30px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .slick-arrow {
+        border: 0;
+
+        &:before {
+            font-size: 45px;
+        }
+
+        &.slick-next {
+            right: 25px;
+
+            &:before {
+                content: "\e905";
+            }
+        }
+
+        &.slick-prev {
+            left: 25px;
+
+            &:before {
+                content: "\e903";
+            }
+        }
+    }
+
+    .contact-panel {
+        padding: 50px;
+
+        .contact-panel__title {
+            font-size: 22px;
+        }
+
+        .form-control {
+            height: 55px;
+        }
+    }
+}
+
+.header-transparent+.slider {
+    margin-top: -100px;
+}
+
+.header-transparent+.slider .slide-item {
+    padding-top: 100px;
+    height: 100vh;
+}
+
+@media (min-width:1200px) {
+    .slider {
+        .slick-arrow.slick-next {
+            right: 30px;
+        }
+
+        .slick-arrow.slick-prev {
+            left: 30px;
+        }
+    }
+
+    .slider-layout3 {
+        .slide__title {
+            font-size: 75px;
+        }
+    }
+}
+
+@media(min-width:768px) and (max-width:1200px) {
+    .slider {
+        .slide-item {
+            padding-right: 50px;
+            padding-left: 50px;
+        }
+
+        .slick-arrow {
+            &.slick-prev {
+                left: 10px;
+            }
+
+            &.slick-next {
+                right: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width:992px) {
+    .slider .contact-panel {
+        padding: 20px;
+        margin-top: 30px;
+    }
+}
+
+/* Large Size Screens */
+@include lg-screens {
+    .slider .slide__title {
+        font-size: 65px;
+    }
+}
+
+/* Medium Size Screens */
+@include md-screens {
+    .slider {
+        .slide__title {
+            font-size: 50px;
+            line-height: 60px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+/* Mobile Phones and tablets */
+@include xs-sm-screens {
+    .header-transparent+.slider {
+        margin-top: 0;
+    }
+
+    .slider {
+        .slide-item {
+            min-height: 0;
+            padding: 100px 10px;
+            height: auto !important;
+        }
+
+        .slide__desc {
+            font-size: 15px;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+/*  Small Screens and tablets  */
+@include sm-screens {
+    .slider {
+        .slide__title {
+            font-size: 35px;
+            line-height: 45px;
+            margin-bottom: 10px;
+        }
+
+        .slick-arrow {
+            &.slick-prev {
+                left: 0;
+            }
+
+            &.slick-next {
+                right: 0;
+            }
+        }
+    }
+}
+
+/* Extra Small Devices */
+@include xs-screens {
+    .slider {
+        .slide__subtitle {
+            margin-bottom: 15px;
+        }
+
+        .slide__title {
+            font-size: 27px;
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            margin-bottom: 10px;
+        }
+
+        .slick-arrow {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,250 @@
+/*-------------------------
+    page title 
+-------------------------*/
+.header-transparent+.page-title {
+    margin-top: -100px;
+}
+
+.pagetitle__subheading {
+    font-size: 15px;
+    font-weight: 700;
+    color: $color-gray;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.pagetitle__heading {
+    color: $color-white;
+    font-size: 74px;
+    line-height: 1.1;
+
+    .text-underlined {
+        border-bottom: 4px solid $color-white;
+    }
+}
+
+.pagetitle__desc {
+    font-size: 17px;
+    font-weight: 700;
+    color: $color-gray;
+    margin-bottom: 34px;
+}
+
+.page-title {
+    padding-top: 230px;
+    padding-bottom: 150px;
+
+    .breadcrumb-item {
+
+        +.breadcrumb-item::before {
+            color: $color-white;
+        }
+
+        &.active {
+            color: $color-gray;
+        }
+
+        a {
+            position: relative;
+            color: $color-white;
+
+            &:hover {
+                color: $color-gray;
+            }
+        }
+    }
+}
+
+.page-title-layout1,
+.page-title-layout3 {
+    padding-bottom: 35px;
+
+    .breadcrumb {
+        margin-top: 90px;
+    }
+}
+
+.page-title-layout2 {
+    padding-top: 230px;
+    padding-bottom: 130px;
+
+    .pagetitle__heading {
+        font-size: 37px;
+        line-height: 1.5;
+    }
+}
+
+.page-title-layout4 {
+    .pagetitle__desc {
+        max-width: 480px;
+        margin: auto;
+    }
+}
+
+.page-title-layout5 {
+    padding-bottom: 240px;
+
+    .pagetitle__heading {
+        font-size: 37px;
+        font-weight: 700;
+        line-height: 1.5;
+    }
+
+    &+.pricing .pricing-wrapper {
+        position: relative;
+        margin-top: -93px;
+        z-index: 3;
+    }
+}
+
+.page-title-layout6 {
+    padding-top: 250px;
+}
+
+.page-title-layout8 {
+    padding-top: 240px;
+    padding-bottom: 35px;
+
+    .cta-banner {
+        max-width: 270px;
+        padding: 50px 40px;
+    }
+
+    .breadcrumb {
+        margin-top: 80px;
+    }
+}
+
+.page-title-layout9 {
+    .breadcrumb {
+        margin-top: 90px;
+    }
+
+    padding-bottom: 35px;
+}
+
+.page-title-layout10 {
+    padding-bottom: 170px;
+}
+
+.page-title-layout11 {
+    padding-top: 250px;
+
+    .pagetitle__heading {
+        font-size: 36px;
+        line-height: 1.3;
+    }
+
+    .pagetitle__subheading {
+        padding: 10px 15px;
+        border-radius: 2px;
+        color: $color-white;
+        background-color: $color-primary;
+    }
+}
+
+.page-title-layout12 {
+    padding-top: 250px;
+    padding-bottom: 160px;
+
+    .pagetitle__heading {
+        font-size: 50px;
+    }
+}
+
+.page-title-layout13 {
+    padding-top: 250px;
+    padding-bottom: 35px;
+
+    .pagetitle__desc {
+        max-width: 500px;
+        margin: auto;
+    }
+
+    .breadcrumb {
+        margin-top: 100px;
+    }
+}
+
+.page-title-layout14 {
+    padding-top: 290px;
+    padding-bottom: 190px;
+
+    .pagetitle__desc {
+        max-width: 480px;
+        margin: auto;
+    }
+}
+
+.page-title-layout15 {
+    padding-top: 35px;
+    padding-bottom: 35px;
+
+    .pagetitle__heading,
+    .breadcrumb-item a,
+    .breadcrumb-item+.breadcrumb-item:before {
+        color: $color-secondary;
+    }
+
+    .breadcrumb-item a:hover {
+        color: $color-secondary;
+    }
+
+    .pagetitle__desc,
+    .breadcrumb-item.active {
+        color: $color-body;
+    }
+}
+
+@media (min-width:320px) and (max-width:992px) {
+    .page-title-layout5 {
+        padding-bottom: 100px !important;
+
+        &+.pricing .pricing-wrapper {
+            margin-top: -54px;
+        }
+    }
+}
+
+/* Medium Size Devices */
+@include md-screens {
+    .page-title {
+        padding-top: 90px;
+        padding-bottom: 90px;
+
+        .pagetitle__heading {
+            font-size: 50px;
+        }
+    }
+}
+
+/* Mobile Phones and tablets */
+@include xs-sm-screens {
+    .page-title {
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .pagetitle__subheading {
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .pagetitle__desc {
+            font-size: 14px;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+
+        .pagetitle__heading {
+            font-size: 28px !important;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+    }
+
+    .page-title-layout15 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}

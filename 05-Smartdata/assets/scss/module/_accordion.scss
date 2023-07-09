@@ -1,0 +1,81 @@
+/*----------------------
+    Accordions
+------------------------*/
+.accordion-item {
+    border: 2px solid #e7ebef;
+    background-color: $color-white;
+    border-radius: 3px;
+    padding: 25px 30px;
+    margin-bottom: 27px;
+
+    .accordion__title {
+        font-family: $font-heading;
+        font-weight: 700;
+        font-size: 18px;
+        cursor: pointer;
+        display: block;
+        position: relative;
+        padding-right: 25px;
+        color: $color-secondary;
+
+        &:hover {
+            color: $color-primary;
+        }
+
+        &:after {
+            position: absolute;
+            right: 0;
+            top: 0;
+            content: "\f067";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            background-color: transparent;
+            color: $color-secondary;
+            font-size: 10px;
+            text-align: center;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            border-radius: 3px;
+        }
+    }
+
+    &.opened {
+        border-color: $color-primary;
+
+        .accordion__header:not(.collapsed) {
+            .accordion__title {
+                color: $color-primary;
+
+                &:after {
+                    background-color: $color-primary;
+                    color: $color-white;
+                    content: "\f068";
+                }
+            }
+        }
+    }
+
+    .accordion__body {
+        padding-top: 20px;
+
+        p {
+            margin-bottom: 0;
+        }
+    }
+}
+
+/* Mobile Phones and tablets */
+@include xs-sm-screens {
+    .accordion-item {
+        padding: 10px 15px;
+
+        .accordion__title {
+            font-size: 14px;
+        }
+
+        .accordion-item .accordion__body p {
+            font-size: 13px;
+        }
+    }
+}

@@ -1,0 +1,248 @@
+/*--------------------
+    Sidebar
+----------------------*/
+.sidebar {
+    position: relative;
+    margin-left: 20px;
+}
+
+.widget {
+    position: relative;
+    padding: 40px;
+    margin-bottom: 40px;
+    border-radius: 4px;
+    background-color: #f4f4f4;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 40px;
+        width: 30px;
+        height: 3px;
+        background-color: $color-primary;
+    }
+
+    .widget__title {
+        font-size: 21px;
+        font-weight: 600;
+        margin-bottom: 26px;
+    }
+}
+
+.widget-search .widget__form-search {
+    position: relative;
+
+    .form-control {
+        height: 60px;
+        border: 2px solid #eaeaea;
+
+        &:focus {
+            border-color: $color-primary;
+        }
+    }
+
+    .btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0;
+        min-width: 0;
+        line-height: 60px;
+        height: 60px;
+        width: 40px;
+        color: $color-secondary;
+
+        &:before {
+            display: none;
+        }
+
+        &:hover {
+            color: $color-primary;
+        }
+    }
+}
+
+.widget-categories ul li {
+    margin-bottom: 11px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    a {
+        display: flex;
+        align-items: center;
+        position: relative;
+        color: $color-secondary;
+        font-family: $font-heading;
+        font-size: 15px;
+        font-weight: 700;
+        text-transform: capitalize;
+        @include prefix(transition, all 0.3s linear, webkit moz ms o);
+
+        &:hover {
+            color: $color-primary;
+        }
+
+        .cat-count {
+            font-size: 13px;
+            font-weight: 400;
+            width: 24px;
+            height: 24px;
+            line-height: 22px;
+            border-radius: 50%;
+            text-align: center;
+            color: $color-primary;
+            margin-left: 10px;
+            border: 2px solid rgba(14, 44, 62, 0.1);
+            background-color: $color-white;
+        }
+    }
+}
+
+.widget-tags ul li a {
+    display: block;
+    font-size: 13px;
+    line-height: 1;
+    color: $color-secondary;
+    border: 1px solid $color-secondary;
+    background-color: $color-white;
+    text-transform: capitalize;
+    padding: 7px 10px;
+    margin: 0 10px 10px 0;
+    border-radius: 2px;
+    @include prefix(transition, all 0.4s ease, webkit moz ms o);
+
+    &:hover {
+        background-color: $color-secondary;
+        border-color: $color-secondary;
+        color: $color-white;
+    }
+}
+
+/*widget posts*/
+.widget-post-item {
+    margin-bottom: 25px;
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .widget-post__title {
+        font-size: 16px;
+        margin-bottom: 0;
+
+        a {
+            color: $color-secondary;
+        }
+    }
+
+    &:hover .widget-post__title a {
+        color: $color-primary;
+    }
+
+    .widget-post__img {
+        flex: 0 0 70px;
+        max-width: 70px;
+        margin-right: 15px;
+
+        img {
+            border-radius: 3px;
+        }
+    }
+
+    .widget-post__date {
+        line-height: 1;
+        font-size: 13px;
+        margin-bottom: 4px;
+    }
+}
+
+/* Widget Download */
+.widget-download .btn {
+    padding: 0 25px;
+    height: 75px;
+    text-align: left;
+
+    span {
+        display: block;
+        margin-top: 20px;
+    }
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 25px;
+        width: 22px;
+        height: 24px;
+    }
+}
+
+.widget-contact {
+    .btn {
+        &:hover {
+            color: $color-secondary;
+        }
+
+        &:before {
+            background-color: $color-white !important;
+        }
+    }
+}
+
+.widget-contact__info {
+    .widget-contact__title {
+        color: $color-white;
+        font-size: 17px;
+        margin-bottom: 12px;
+    }
+
+    .widget-contact__list {
+        margin-bottom: 30px;
+
+        li {
+            color: $color-white;
+            font-size: 14px;
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 992px) {
+    .sidebar {
+        margin-left: 0;
+    }
+
+    .widget {
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+/* Mobile Phones and tablets */
+@include xs-sm-screens {
+    .widget {
+        padding: 15px;
+
+        .widget__title {
+            margin-bottom: 20px;
+        }
+    }
+
+    .widget-categories ul {
+        padding: 0;
+
+        li a {
+            font-size: 13px;
+            padding: 10px;
+        }
+    }
+
+    .widget-download .btn {
+        height: 60px;
+    }
+}

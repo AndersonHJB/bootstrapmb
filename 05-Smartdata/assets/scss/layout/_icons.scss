@@ -1,0 +1,38 @@
+/*------------------- 
+    Icons
+------------------*/
+.social-icons {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+
+    li {
+        margin-right: 20px;
+
+        a {
+            display: block;
+            color: $color-body;
+            @include prefix(transition, all 0.4s linear, webkit moz o);
+
+            &:hover {
+                color: $color-primary;
+            }
+        }
+
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }
+
+    &-primary {
+        li a {
+            color: $color-primary;
+        }
+    }
+}
+
+.icon-arrow-right {
+    font-size: 65%;
+}

@@ -1,0 +1,42 @@
+/*----------------------
+    Pagination
+-----------------------*/
+.pagination li {
+    margin-right: 10px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    a {
+        font-size: 20px;
+        font-weight: 700;
+        display: block;
+        width: 50px;
+        height: 50px;
+        line-height: 48px;
+        background-color: $color-white;
+        color: $color-secondary;
+        text-align: center;
+        border: 2px solid $color-secondary;
+        border-radius: 3px;
+        @include prefix(transition, all 0.3s linear, webkit moz ms o);
+    }
+
+    a:hover,
+    a.current {
+        color: $color-white;
+        border-color: $color-primary;
+        background-color: $color-primary;
+    }
+}
+
+/* Mobile Phones and tablets */
+@include xs-sm-screens {
+    .pagination li a {
+        font-size: 16px;
+        width: 35px;
+        height: 35px;
+        line-height: 33px;
+    }
+}

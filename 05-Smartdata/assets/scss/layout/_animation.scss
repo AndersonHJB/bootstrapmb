@@ -1,0 +1,52 @@
+/*------------------------
+    Animations
+-----------------------*/
+/* Header Animation */
+@include keyframes(headerAnimation) {
+    from {
+        @include prefix(transform, translateY(-100%), webkit moz ms o);
+    }
+
+    to {
+        @include prefix(transform, translateY(0), webkit moz ms o);
+    }
+}
+
+@include keyframes(pulsing) {
+    0% {
+        opacity: 0;
+        @include prefix(transform, scale(1), webkit moz ms o);
+    }
+
+    20% {
+        opacity: 1;
+        @include prefix(transform, scale(1.25), webkit moz ms o);
+    }
+
+    100% {
+        opacity: 0;
+        @include prefix(transform, scale(2), webkit moz ms o);
+    }
+}
+
+@include keyframes(slideTopDown) {
+    0% {
+        @include prefix(transform, translateY(0), webkit moz ms o);
+    }
+
+    100% {
+        @include prefix(transform, translateY(-6px), webkit moz ms o);
+    }
+}
+
+@include keyframes(headerAnimation) {
+    0% {
+        opacity: 0;
+        @include prefix(transform, translateY(-100%), webkit moz ms o);
+    }
+
+    100% {
+        opacity: 1;
+        @include prefix(transform, translateY(0), webkit moz ms o);
+    }
+}

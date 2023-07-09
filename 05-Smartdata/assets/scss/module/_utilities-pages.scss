@@ -1,0 +1,88 @@
+/*----------------------
+    Page 404
+-----------------------*/
+.page-404,
+.coming-soon {
+    .error-code {
+        color: $color-white;
+        font-size: 175px;
+        font-weight: 500;
+        line-height: 1;
+    }
+
+    .error__title {
+        color: $color-white;
+        font-size: 50px;
+        font-weight: 800;
+    }
+
+    .error__desc {
+        color: $color-white;
+        font-size: 17px;
+        font-weight: 700;
+        margin-bottom: 32px;
+    }
+}
+
+.coming-soon {
+    .error__title {
+        font-size: 70px;
+    }
+
+    .subscribe__form {
+        position: relative;
+
+        .form-control {
+            color: $color-body;
+            background-color: $color-white;
+
+
+            &::-webkit-input-placeholder {
+                color: $color-body;
+            }
+
+            &:-moz-placeholder {
+                color: $color-body;
+            }
+
+            &::-moz-placeholder {
+                color: $color-body;
+            }
+
+            &:-ms-input-placeholder {
+                color: $color-body;
+            }
+        }
+    }
+}
+
+@media (min-width:1200px) {
+    .page-404 .error-wrapper {
+        max-width: 440px;
+        margin: auto;
+    }
+}
+
+/* Mobile Phones and tablets */
+@include xs-sm-screens {
+
+    .page-404,
+    .coming-soon {
+        margin-top: 0;
+
+        .error-code {
+            font-size: 90px;
+            margin-bottom: 20px;
+        }
+
+        .error__title {
+            font-size: 30px;
+        }
+
+        .error__desc {
+            font-size: 15px;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+    }
+}

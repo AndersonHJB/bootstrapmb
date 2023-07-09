@@ -1,0 +1,73 @@
+/*-----------------------
+     fancybox 
+------------------------*/
+.fancybox-item {
+    position: relative;
+    margin-bottom: 40px;
+
+    .fancybox__icon {
+        font-size: 65px;
+        line-height: 1;
+        color: $color-primary;
+        margin-bottom: 25px;
+    }
+
+    .fancybox__title {
+        font-size: 20px;
+        font-weight: 600;
+        @include prefix(transition, all 0.3s ease, webkit moz ms o);
+    }
+
+    .fancybox__desc {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    &:hover .fancybox__icon {
+        @include animation("slideTopDown 1s infinite alternate");
+    }
+
+    &:hover .fancybox__title {
+        color: $color-primary;
+    }
+}
+
+.fancybox-light .fancybox-item {
+
+    .fancybox__icon,
+    .fancybox__title,
+    &:hover .fancybox__title {
+        color: $color-white;
+    }
+
+    .fancybox__desc {
+        color: #8097a1;
+        color: #f4f4f4;
+    }
+}
+
+/* Medium Size Screens */
+@include md-screens {
+    .fancybox-item {
+        .fancybox__title {
+            margin-bottom: 12px;
+        }
+    }
+}
+
+/* Mobile Phones and tablets */
+@include xs-sm-screens {
+    .fancybox-item {
+        margin-bottom: 30px;
+
+        .fancybox__icon {
+            font-size: 40px;
+            margin-bottom: 5px;
+        }
+
+        .fancybox__title {
+            font-size: 15px;
+            margin-bottom: 5px;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+/*---------------------------
+    Client
+---------------------------*/
+.clients {
+	.client {
+		position: relative;
+		overflow: hidden;
+
+		img {
+			padding: 10px;
+			@include prefix(transition, transform .5s ease, webkit moz ms o);
+
+			&:first-of-type {
+				opacity: 0.6;
+			}
+
+			&:last-of-type {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				@include prefix(transform, translate(-50%, -150%), webkit moz ms o);
+			}
+		}
+
+		&:hover img {
+			&:first-of-type {
+				@include prefix(transform, translateY(150%), webkit moz ms o);
+			}
+
+			&:last-of-type {
+				@include prefix(transform, translate(-50%, -50%), webkit moz ms o);
+			}
+		}
+	}
+}

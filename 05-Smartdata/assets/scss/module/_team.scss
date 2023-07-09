@@ -1,0 +1,114 @@
+/*--------------------
+     Team
+---------------------*/
+.member {
+    position: relative;
+    margin-bottom: 50px;
+    @include prefix(transition, all .5s linear, webkit moz ms o);
+
+    .member__img {
+        position: relative;
+        border-radius: 4px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .member__info {
+        padding: 26px 0;
+        background-color: $color-white;
+
+        .member__name {
+            font-size: 21px;
+            margin-bottom: 7px;
+        }
+
+        .member__desc {
+            margin-bottom: 0;
+        }
+    }
+
+    .member__hover {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 4px;
+        @include prefix(transition, all .5s linear, webkit moz ms o);
+    }
+
+    .member__content-inner {
+        position: absolute;
+        left: 0;
+        bottom: 10px;
+        width: 100%;
+        opacity: 0;
+        width: auto;
+        width: 150px;
+        left: 50%;
+        border-radius: 4px;
+        background-color: $color-primary;
+        @include prefix(transform, translateX(-50%), webkit moz ms o);
+        @include prefix(transition, all .5s linear, webkit moz ms o);
+    }
+
+    .social-icons li {
+        margin-right: 0;
+
+        a {
+            color: $color-white;
+            opacity: 0;
+            padding: 15px;
+            @include prefix(transition, all .3s linear, webkit moz ms o);
+
+            &:hover {
+                color: $color-secondary;
+            }
+        }
+    }
+
+    &:hover {
+        box-shadow: 0px 5px 83px 0px rgba(40, 40, 40, 0.12);
+
+        .member__img {
+            border-radius: 4px 4px 0 0;
+        }
+
+        .member__hover {
+            opacity: 1;
+        }
+
+        .member__content-inner {
+            opacity: 1;
+            bottom: 30px;
+        }
+
+        .social-icons li a {
+            opacity: 1;
+        }
+    }
+}
+
+/* Mobile Phones and tablets */
+@include xs-sm-screens {
+    .member {
+        max-width: 400px;
+        margin: 0 auto 30px;
+
+        .member__info {
+            padding-top: 15px;
+
+            .member__name {
+                font-size: 17px;
+                margin-bottom: 0;
+            }
+        }
+    }
+}

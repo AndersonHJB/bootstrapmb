@@ -1,0 +1,104 @@
+/*-------------------
+    lists
+-------------------*/
+.contact-list {
+    li {
+        font-size: 14px;
+        margin-bottom: 5px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        a {
+            color: $color-body;
+        }
+    }
+}
+
+.list-items li {
+    position: relative;
+    padding-left: 27px;
+    font-size: 15px;
+    font-weight: 700;
+    color: $color-tertiary;
+    margin-bottom: 9px;
+
+    &:before {
+        content: "\f00c";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        font-size: 11px;
+        width: 22px;
+        height: 22px;
+        line-height: 22px;
+        text-align: center;
+        border-radius: 50%;
+        color: $color-primary;
+        @include prefix(transform, translateY(-50%), webkit moz ms o);
+    }
+}
+
+.list-items-layout2 {
+    li {
+        padding-left: 33px;
+        color: $color-secondary;
+
+        &:before {
+            color: $color-white;
+            background-color: $color-primary;
+        }
+    }
+
+    &.list-items-light li:before {
+        color: $color-primary;
+        background-color: $color-white;
+    }
+}
+
+.list-items-light li {
+    color: $color-white;
+
+    &:before {
+        color: $color-white;
+    }
+}
+
+.list-horizontal li {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.borderd-box {
+    padding: 27px;
+    border-radius: 4px;
+    border: 1px solid #e7ebef;
+}
+
+@media (max-width:992px) {
+    .list-items-layout2 {
+        -ms-flex-direction: column;
+        flex-direction: column;
+
+        li {
+            -ms-flex: 0 0 100% !important;
+            flex: 0 0 100% !important;
+            max-width: 100% !important;
+        }
+    }
+}
+
+/* Extra Small Devices */
+@include xs-sm-screens {
+    .list-items li {
+        font-size: 14px;
+    }
+
+    .list-horizontal li {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

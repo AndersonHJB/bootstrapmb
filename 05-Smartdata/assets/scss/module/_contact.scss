@@ -1,0 +1,215 @@
+/*----------------------------
+    Contact
+----------------------------*/
+.contact-block {
+    margin-bottom: 30px;
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+
+    &-light {
+
+        .contact-block__title,
+        .contact-block__list li,
+        .contact-block__list li a {
+            color: $color-white
+        }
+    }
+
+    .contact-block__title {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+
+    .contact-block__list {
+        margin-bottom: 0;
+
+        li {
+            font-size: 14px;
+        }
+    }
+}
+
+.contact-info-box {
+    margin-bottom: 30px;
+
+    .contact__info-box-title {
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+
+    .contact__info-list {
+        margin-bottom: 0;
+
+        li {
+            font-size: 14px;
+            margin-bottom: 7px;
+
+            a {
+                color: $color-body;
+            }
+        }
+    }
+}
+
+.contact-panel {
+    position: relative;
+    z-index: 2;
+    padding: 60px;
+    border-radius: 4px;
+    background-color: $color-white;
+    box-shadow: 0px 5px 83px 0px rgba(40, 40, 40, 0.12);
+}
+
+.contact-panel__title {
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+.contact-panel__desc {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.contact-layout1 {
+    .contact-form {
+        padding: 60px;
+        border-radius: 5px;
+        background-color: #f4f4f4;
+
+        textarea.form-control {
+            min-height: 120px;
+        }
+    }
+
+    .contact-info {
+        overflow: hidden;
+        border-radius: 3px;
+        padding: 50px;
+        height: 100%;
+
+        .contact-info__title {
+            color: $color-white;
+            font-size: 34px;
+            font-weight: 600;
+            margin-bottom: 25px;
+        }
+
+        .contact-info__desc {
+            color: $color-white;
+            margin-bottom: 26px;
+        }
+
+        .contact-block__title {
+            color: $color-white;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .contact-block__list {
+            margin-bottom: 30px;
+
+            li {
+                color: $color-white;
+                font-size: 14px;
+                line-height: 24px;
+            }
+        }
+
+        .btn {
+            margin-top: 50px;
+        }
+    }
+}
+
+.contact-layout2 {
+    .contact-panel {
+        padding: 0;
+    }
+
+    .contact-panel__banner {
+        padding: 55px;
+        flex: 0 0 43%;
+        max-width: 43%;
+
+        .btn {
+            height: 70px;
+            line-height: 70px;
+            min-width: 180px;
+        }
+    }
+
+    .contact-panel__form {
+        padding: 55px;
+        flex: 0 0 57%;
+        max-width: 57%;
+    }
+}
+
+.google-map .contact-info-box {
+    padding: 50px;
+    max-width: 300px;
+    border-radius: 4px;
+    position: relative;
+    z-index: 3;
+    background-color: $color-white;
+    box-shadow: 0px 5px 83px 0px rgba(40, 40, 40, 0.12);
+
+    .contact__info-box-title {
+        font-size: 22px;
+        margin-bottom: 26px;
+    }
+}
+
+@media (min-width:992px) {
+    .contact-layout1 .contact-panel__info {
+        margin-left: 50px;
+    }
+
+    .google-map .contact-info-box {
+        margin-top: -420px;
+    }
+}
+
+/* Mobile Phones & tablets and Small Screens */
+@media (max-width:992px) {
+    .contact-panel {
+        padding: 20px;
+
+        .contact-panel__title {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .contact-panel__desc {
+            font-size: 13px;
+            line-height: 23px;
+        }
+    }
+
+    .contact-layout1 {
+
+        .contact-form,
+        .contact-info {
+            padding: 20px;
+        }
+    }
+
+    .contact-layout2 {
+
+        .contact-panel__banner,
+        .contact-panel__form {
+            padding: 20px;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+}
+
+/* Mobile Phones and tablets */
+@include xs-sm-screens {
+    .contact-info-box .contact__info-box-title {
+        margin-bottom: 10px;
+    }
+}

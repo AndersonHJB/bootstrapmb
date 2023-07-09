@@ -1,0 +1,215 @@
+/*-----------------------
+    Features
+------------------------*/
+.feature-item {
+    position: relative;
+    border-radius: 4px;
+    margin-bottom: 30px;
+
+    &:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+        width: 0;
+        height: 100%;
+        border-radius: 4px;
+        background-color: $color-white;
+        @include prefix(transform-origin, left, webkit moz ms o);
+        @include prefix(transition, all 0.3s linear, webkit moz ms o);
+    }
+
+    .feature__icon {
+        font-size: 65px;
+        line-height: 1;
+        color: $color-primary;
+        margin-bottom: 23px;
+        @include prefix(transition, all 0.3s linear, webkit moz ms o);
+    }
+
+    .feature__title {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 25px;
+        @include prefix(transition, all 0.3s linear, webkit moz ms o);
+    }
+
+    .feature__desc {
+        font-size: 14px;
+        line-height: 1.7;
+        @include prefix(transition, all 0.3s linear, webkit moz ms o);
+    }
+
+    .btn__link {
+        height: 32px;
+        line-height: 32px;
+
+        i {
+            width: 22px;
+            height: 22px;
+            line-height: 22px;
+            border-radius: 50%;
+            display: inline-block;
+            text-align: center;
+            color: $color-secondary;
+            background-color: $color-white;
+            @include prefix(transition, all 0.3s linear, webkit moz ms o);
+        }
+    }
+
+    &:hover {
+        &:before {
+            opacity: 1;
+            left: 0;
+            right: auto;
+            width: 100%;
+            @include prefix(transform-origin, right, webkit moz ms o);
+        }
+
+        .feature__icon {
+            color: $color-primary;
+        }
+
+        .btn__link {
+            i {
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                color: $color-white;
+                background-color: $color-primary;
+            }
+        }
+    }
+}
+
+.features-layout1 {
+    .features-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: calc(100% - 230px);
+        z-index: -1;
+    }
+
+    .divider {
+        width: 270px;
+    }
+
+    .feature__icon {
+        color: $color-white;
+    }
+
+    .feature__title {
+        color: $color-white;
+    }
+
+    .feature__desc {
+        color: #f4f4f4;
+    }
+
+    .feature-item {
+        padding: 50px 40px;
+        border: 1px solid rgba($color-white, .15);
+
+        &:hover {
+            .feature__title {
+                color: $color-secondary;
+            }
+
+            .feature__desc {
+                color: $color-body;
+            }
+        }
+    }
+}
+
+.features-layout2 {
+    .feature-item {
+        margin-bottom: 0;
+
+        &:before {
+            display: none;
+        }
+
+        .btn__link {
+            display: block;
+            margin-bottom: 15px;
+
+            i {
+                color: $color-white;
+                background-color: $color-secondary;
+            }
+        }
+
+        &:hover {
+            .feature__icon {
+                @include animation("slideTopDown 1s infinite alternate");
+            }
+        }
+    }
+
+    .feature__upper {
+        padding: 40px;
+        border-radius: 4px;
+        background-color: $color-white;
+    }
+
+    .feature__lower {
+        margin-top: -15px;
+        padding: 0 40px 40px 40px;
+    }
+
+    .feature__title {
+        margin-bottom: 0;
+    }
+
+    .feature__desc {
+        color: $color-gray;
+    }
+}
+
+@media (min-width:1200px) {
+    .features-layout2 .features-wrapper {
+        position: relative;
+        z-index: 3;
+        margin-top: -60px;
+    }
+}
+
+@media (max-width:992px) {
+    .features-layout1 {
+
+        .sub__desc,
+        .list-items li {
+            color: $color-gray;
+        }
+    }
+}
+
+/* Mobile Phones and tablets  */
+@include xs-sm-screens {
+    .feature-item {
+        .feature__title {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .feature__desc {
+            font-size: 13px;
+            margin-bottom: 10px;
+        }
+
+        .feature__icon {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .features-layout1 {
+        .feature-item {
+            padding: 20px;
+        }
+    }
+}

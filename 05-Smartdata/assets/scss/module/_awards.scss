@@ -1,0 +1,100 @@
+/*-------------------------
+   Awards
+-------------------------*/
+.awards {
+    .fancybox-item {
+        border-radius: 5px;
+        text-align: center;
+        padding: 48px 35px 37px;
+        background-color: $color-white;
+        transition: all .3s ease;
+        box-shadow: 0px 5px 83px 0px rgba(40, 40, 40, 0.05);
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 110px;
+            left: 110px;
+            opacity: 0;
+            height: 3px;
+            border-radius: 2px;
+            background-color: $color-primary;
+            @include prefix(transition, all .4s ease, webkit moz ms o);
+        }
+
+        .fancybox__icon-img {
+            height: 70px;
+            line-height: 70px;
+            margin-bottom: 26px;
+
+            img {
+                transition: all .4s linear;
+            }
+        }
+
+        .fancybox__title {
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .fancybox__desc {
+            font-size: 14px;
+            margin-bottom: 0;
+        }
+
+        &:hover {
+            box-shadow: 0px 5px 83px 0px rgba(40, 40, 40, .12);
+
+            &:before {
+                opacity: 1;
+                left: 30px;
+                right: 30px;
+            }
+
+            .fancybox__icon-img img {
+                transform: rotateY(360deg);
+            }
+
+            .fancybox__title {
+                color: $color-primary;
+            }
+        }
+    }
+
+    .btn__primary.btn__link {
+        .icon-outlined {
+            color: $color-secondary;
+        }
+
+        &:hover {
+            .icon-outlined {
+                color: $color-white;
+                border-color: $color-secondary;
+                background-color: $color-secondary;
+            }
+        }
+    }
+}
+
+/* Mobile Phones & tablets and Small Screens */
+@media screen and (max-width: 992px) {
+    .awards {
+        .fancybox-item {
+            padding: 28px 20px 27px;
+            margin-bottom: 20px;
+
+            .fancybox__icon-img {
+                margin-bottom: 15px;
+            }
+        }
+
+        .pinned-ribbon {
+            right: 20px;
+        }
+
+        .awards-wrapper>[class*="col"]:nth-of-type(even) .fancybox-item {
+            margin-top: 0;
+        }
+    }
+}
