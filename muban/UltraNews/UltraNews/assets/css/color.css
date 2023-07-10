@@ -1,0 +1,107 @@
+/*PRIMARY COLOR #ef3f48, #1a1a1a*/
+
+/*Color*/
+.boxed-btn,
+.contact-section .nav-tabs .nav-link.active,
+.main-header .main-menu ul li.current-menu-item > a
+.footer-area .footer-form form input,
+.footer-area .info.error,
+.recent-articles .slick-arrow,
+.main-header .main-menu ul li:hover>a,
+.main-header .main-menu ul ul.sub-menu>li>a:hover,
+.slicknav_menu .slicknav_nav a:hover,
+.trending-area .trending-main .trending-bottom .single-bottom .trend-bottom-cap h4 a:hover,
+.trending-area .trending-main .trand-right-single .trand-right-cap h4 a:hover,
+.weekly2-news-area .weekly2-wrapper .weekly2-single .weekly2-caption h4 a:hover,
+.weekly-news-area .weekly-wrapper .weekly-single .weekly-caption h4 a:hover,
+.contact-section .whats-news-caption .single-what-news .what-cap h4 a:hover,
+.recent-articles .single-recent .what-cap h4 a:hover,
+.footer-area .footer-tittle ul li a:hover,
+.footer-area .footer-social a i:hover,
+.pagination-area .page-link:hover,
+.pagination-area .page-item.active .page-link:hover,
+.main-header a:hover,
+#userMenuDropdow.dropdown-menu a:hover,
+.footer-bottom-area .footer-copy-right p a,
+a.active{color:#ef3f48;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{color:#152035;}
+
+/*Background*/
+.primary-bg,
+.boxed-btn:hover,
+.trending-tittle strong,
+.blog_right_sidebar .tag_cloud_widget ul li a:hover,
+#scrollUp,
+.slicknav_menu .slicknav_icon-bar,
+.hero-caption span::before,
+.blog_item_img .blog_item_date,
+a.read-more:hover,
+.slick-dots li.slick-active button,
+.top-right-icon,
+.mobile_menu .slicknav_menu .slicknav_icon-bar,
+.widget-taber a.nav-link.active::before,
+.blog_right_sidebar .search_widget .input-group button{background:#ef3f48;}
+
+/*Border*/
+.main-header .main-menu ul ul.sub-menu,
+.boxed-btn,
+.boxed-btn:hover,
+a.read-more,
+.slick-dots li.slick-active button,
+.featured-slider-2-nav .slick-active img{border-color:#ef3f48;}
+.border-color-1{border-color:#e0dede;}
+
+/*Secondary color*/
+.tab-nav.style-1 .nav-link.active,
+.tab-nav.style-1 .nav-link:hover{background:#152035;}
+
+/*Gradient*/
+.blog_area a:hover{background:-webkit-linear-gradient(131deg,#ef3f48 0%,#ef3f48 99%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-decoration:none;transition:.4s}
+
+/*OTHER COLORS*/
+
+/*text*/
+p,
+button.search-icon,
+.user-account,
+ul.header-social-network li a{color:#506172;}
+button.subscribe{border-color:#1d55c1;color:#1d55c1;}
+button.subscribe:hover{background:#1d55c1;color:#fff;}
+.color1{color:#ff2d55;}
+.color2{color:#007aff;}
+.color3{color:#4cd964;}
+.color4{color:#5856d6;}
+.color5{color:#ffcc00;}
+.background1{background:#ff2d55;}
+.background2{background:#007aff;}
+.background3{background:#4cd964;}
+.background4{background:#5856d6;}
+.background5{background:#ffcc00;}
+.background6{background:#d4f4f9;}
+.background7{background:#4e6788;}
+.background8{background:#d5262b;}
+.background9{background:#752279;}
+.background10{background:#379499;}
+.background11{background:#010f22;}
+.background12{background:#f4f5f9;}
+.color-white{color:#ffffff!important;}
+.color-grey{color:#889097;}
+.background-white{background:#ffffff;}
+.color-black{color:#000000;}
+.facebook-icon:hover{color:#3b5998;}
+.twitter-icon:hover{color:#55acee;}
+.pinterest-icon:hover{color:#bd081c;}
+.instagram-icon:hover{color:#3f729b;}
+.follow-us a.follow-us-facebook,
+.single-social-share a.facebook-icon{background:#305c99;}
+.follow-us a.follow-us-twitter,
+.single-social-share a.twitter-icon{background:#00cdff;}
+.follow-us a.follow-us-instagram,
+.single-social-share a.instagram-icon{background:#3f729b;}
+.follow-us a.follow-us-youtube,
+.single-social-share a.pinterest-icon{background:#e22b26;}
