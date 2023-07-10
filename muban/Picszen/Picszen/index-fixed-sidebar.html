@@ -1,0 +1,698 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PicsZen - Portfolio HTML Template</title>
+    <link rel="icon" href="assets/images/icons/logo-icon.svg" type="image/gif" sizes="20x20">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/boxicons.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.css">
+    <link rel="stylesheet" href="assets/css/odometer.css">
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="tt-magic-cursor">
+    <div class="preloader">
+        <div class="counter">0</div>
+    </div>
+    <div id="magic-cursor">
+        <div id="ball"></div>
+    </div>
+    <div class="main-page-wrapper">
+        <div class=" fixed-sidebar main-nav-js">
+            <div class="menu-close-btn d-lg-none d-flex"><i class="bi bi-x-lg"></i></div>
+            <div class="mobile-logo-area d-flex justify-content-start align-items-center">
+                <div class="header-logo">
+                    <a href="index.html"><img alt="image" class="img-fluid" src="assets/images/bg/header-logo.svg"></a>
+                </div>
+            </div>
+            <div class="sidebar-menu-area">
+                <ul class="menu-list">
+                    <li class="menu-item-has-children menu-item">
+                        <a href="#" class="drop-down"> Home</a><i class="bi bi-plus"></i>
+                        <ul class="sub-menu">
+                            <li><a href="index.html">Home One</a></li>
+                            <li><a href="index2.html">Home Two</a></li>
+                            <li><a href="index-pagination-slider.html">Home Pagination Slider</a></li>
+                            <li><a href="index-masonary.html">Home Masonary</a></li>
+                            <li><a href="index-carousel.html">Home Carousel</a></li>
+                            <li><a href="index-portfolio.html">Home Portfolio</a></li>
+                            <li><a href="index-video.html">Home Video</a></li>
+                            <li><a href="index-center-slider.html">Home Center Slide</a></li>
+                            <li><a href="index-bg-image.html">Home Image Background</a></li>
+                            <li><a href="index-fixed-sidebar.html">Home Fixed Sidebar</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children menu-item">
+                        <a href="#" class="drop-down"> About</a><i class="bi bi-plus"></i>
+                        <ul class="sub-menu">
+                            <li><a href="about-me.html">About Me</a></li>
+                            <li><a href="about-us.html">About Us</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children menu-item">
+                        <a href="portfolio-column-four.html"> Portfolio</a><i class="bi bi-plus"></i>
+                        <ul class="sub-menu">
+                            <li><a href="portfolio-column-two.html">Portfolio Grid 02</a></li>
+                            <li><a href="portfolio-column-three.html">Portfolio Grid 03</a></li>
+                            <li><a href="portfolio-column-four.html">Portfolio Grid 04</a></li>
+                            <li><a href="portfolio-text-down.html">Portfolio Text Down</a></li>
+                            <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children menu-item">
+                        <a href="#" class="drop-down"> Pages</a><i class="bi bi-plus"></i>
+                        <ul class="sub-menu">
+                            <li><a href="gallery-column-four.html">Gallery Column Four</a></li>
+                            <li><a href="gallery-fullwidth.html">Gallery Full Width</a></li>
+                            <li><a href="gallery-parallax.html">Gallery Parallax</a></li>
+                            <li><a href="pricing.html">Pricing</a></li>
+                            <li><a href="client.html">Client</a></li>
+                            <li><a href="service-one.html">Services</a></li>
+                            <li><a href="team-one.html">Team One</a></li>
+                            <li><a href="team-two.html">Team Two</a></li>
+                            <li><a href="faq.html">Faq</a></li>
+                            <li><a href="testimonial.html">Testimonial</a></li>
+                            <li><a href="booking.html">Booking</a></li>
+                            <li><a href="error.html">Error</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children menu-item">
+                        <a href="blog-grid-one.html">Blog</a><i class="bi bi-plus"></i>
+                        <ul class="sub-menu">
+                            <li><a href="blog-grid-one.html">Blog Grid One</a></li>
+                            <li><a href="blog-standard-one.html">Blog Standard 01</a></li>
+                            <li><a href="blog-standard-two.html">Blog Standard 02</a></li>
+                            <li><a href="blog-standard-three.html">Blog Standard 03</a></li>
+                            <li><a href="blog-details.html">Blog Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children menu-item">
+                        <a href="#" class="drop-down"> Contact</a><i class="bi bi-plus"></i>
+                        <ul class="sub-menu">
+                            <li><a href="contact-me.html">Contact Me</a></li>
+                            <li><a href="contact-us.html">Contact Us</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebar-address">
+                <div class="sidebar-address-block">
+                    <h6>Email :</h6>
+                    <a href="/cdn-cgi/l/email-protection#fe8d8b8e8e918c8abe9b869f938e929bd09d9193" class="mb-4"><span class="__cf_email__" data-cfemail="b4c7c1c4c4dbc6c0f4d1ccd5d9c4d8d19ad7dbd9">[email&#160;protected]</span></a>
+                    <h6>Phone :</h6>
+                    <a href="tel:+012-3456-789102">+012-3456-789102</a>
+                </div>
+                <div class="sidebar-social d-flex justify-content-start gap-5 pt-3">
+                    <a href="https://www.instagram.com/"><img src="assets/images/icons/instagram.svg" alt="image"></a>
+                    <a href="https://www.dribbble.com/"><img src="assets/images/icons/dribbble.svg" alt="image"></a>
+                    <a href="https://www.pinterest.com/"><img src="assets/images/icons/pinterest.svg" alt="image"></a>
+                    <a href="https://www.twitter.com/"><img src="assets/images/icons/Twitter.svg" alt="image"></a>
+                </div>
+            </div>
+        </div>
+        <div class="page-content-two">
+
+            <header class="header-area style-1 d-lg-none d-block">
+                <div class="container-fluid d-flex justify-content-between align-items-center">
+                    <div class="header-logo">
+                        <img src="assets/images/bg/header-logo.svg" alt="image">
+                    </div>
+                    <div class="sidebar-button mobile-menu-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </header>
+            <div class="section-common sibling-two banner-section-one d-flex flex-column">
+                <div class="row g-4 align-items-center justify-content-center">
+                    <div class="col-xl-7 col-lg-7 col-md-10">
+                        <div class="banner-one-content">
+                            <span class="subtitle">Photographer</span>
+                            <h2 class="title text2">Johom Dainok</h2>
+                            <p class="description">Phasellus scelerisque turpis sed eros tristique, eu fringilla eros placerat. Pellentesque at maximus sapien, a dictum lectus.</p>
+                            <a href="portfolio-column-two.html" class="eg-btn btn--primary btn--lg">View My Profile</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-5 col-md-10">
+                        <div class="banner-image">
+                            <img src="assets/images/banner/banner-center-1.png" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-common sibling-two about-me-section">
+                <div class="container-fluid">
+                    <div class="about-me-content-1">
+                        <span>The Studio</span>
+                        <h2>Hello my name is Johnal Dainok. I’m editorial photographer.</h2>
+                        <p>My name is Johnal Dainok. I live in Ohio, USA. I’ve been a photographer for over 15 years now. I started getting on into photography when my family moved from Nevada to Ohio. Onar Switching places from such a young age tou made it possible for me to see many different andr places besides my hometown.</p>
+                    </div>
+                    <div class="row align-items-end">
+                        <div class="col-lg-6">
+                            <div class="experience-block style-two">
+                                <h2>Experience</h2>
+                                <p>
+                                    My name is Johnal Dainok. I live in Ohio, USA. I’ve been a photographer for over 15 years
+                                    now. I started getting on into photography when my family moved from.
+                                </p>
+                                <ul class="skills-bar-container">
+                                    <li>
+                                        <div class="progressbar-title">
+                                            <h6>Photography</h6>
+                                            <span class="percent" id="html-pourcent"></span>
+                                        </div>
+                                        <div class="bar-container">
+                                            <span class="progressbar" id="progress-html"></span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="progressbar-title">
+                                            <h6>Video Graphy</h6>
+                                            <span class="percent" id="css-pourcent"></span>
+                                        </div>
+                                        <div class="bar-container">
+                                            <span class="progressbar" id="progress-css"></span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="progressbar-title">
+                                            <h6>Portrait</h6>
+                                            <span class="percent" id="javascript-pourcent"></span>
+                                        </div>
+                                        <div class="bar-container">
+                                            <span class="progressbar" id="progress-javascript"></span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 offset-lg-1">
+                            <div class="counter-box row justify-content-center g-4">
+                                <div class="col-lg-6 col-md-4 col-sm-4 col-6">
+                                    <div class="counter-single">
+                                        <div class="coundown d-flex flex-column">
+                                            <h2 class="odometer" data-odometer-final="15">00</h2>
+                                            <p class="mb-0">Years Of Experience</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-4 col-sm-4 col-6">
+                                    <div class="counter-single">
+                                        <div class="coundown d-flex flex-column">
+                                            <h2 class="odometer" data-odometer-final="12">00</h2>
+                                            <p class="mb-0">Awards Win</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-4 col-sm-4 col-6">
+                                    <div class="counter-single add-k">
+                                        <div class="coundown d-flex flex-column">
+                                            <h2 class="odometer" data-odometer-final="10">00</h2>
+                                            <p class="mb-0">Awesome Photos</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-4 col-sm-4 col-6">
+                                    <div class="counter-single add-k">
+                                        <div class="coundown d-flex flex-column">
+                                            <h2 class="odometer" data-odometer-final="44">00</h2>
+                                            <p class="mb-0">Awesome Videos</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-common sibling-two portfolio-section pt-120">
+                <div class="row">
+                    <div class="section-title-three text-center">
+                        <div class="water-text">Portfolio</div>
+                        <h2>Portfolio</h2>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 col-sm-10 grid-item wedding">
+                        <div class="portfolio-single-one style-three magnetic-item">
+                            <img class="img-fluid" src="assets/images/portfolio/portfolio2-1.png" alt="image">
+                            <div class="overlay">
+                                <div class="content">
+                                    <h3><a data-cursor="View<br>Details" href="portfolio-details.html">Wedding Photography.</a></h3>
+                                    <span>Photographer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-10 grid-item Wedding Fashion">
+                        <div class="portfolio-single-one style-three magnetic-item">
+                            <img class="img-fluid" src="assets/images/portfolio/portfolio2-3.png" alt="image">
+                            <div class="overlay">
+                                <div class="content">
+                                    <h3><a data-cursor="View<br>Details" href="portfolio-details.html">Wedding Photography.</a></h3>
+                                    <span>Photographer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-10 grid-item Lifestyle">
+                        <div class="portfolio-single-one style-three magnetic-item">
+                            <img class="img-fluid" src="assets/images/portfolio/portfolio2-4.png" alt="image">
+                            <div class="overlay">
+                                <div class="content">
+                                    <h3><a data-cursor="View<br>Details" href="portfolio-details.html">Wedding Photography.</a></h3>
+                                    <span>Photographer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-10 grid-item Lifestyle Nature Wedding">
+                        <div class="portfolio-single-one style-three magnetic-item">
+                            <img class="img-fluid" src="assets/images/portfolio/portfolio2-1.png" alt="image">
+                            <div class="overlay">
+                                <div class="content">
+                                    <h3><a data-cursor="View<br>Details" href="portfolio-details.html">Wedding Photography.</a></h3>
+                                    <span>Photographer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-10 grid-item Lifestyle">
+                        <div class="portfolio-single-one style-three magnetic-item">
+                            <img class="img-fluid" src="assets/images/portfolio/portfolio2-2.png" alt="image">
+                            <div class="overlay">
+                                <div class="content">
+                                    <h3><a data-cursor="View<br>Details" href="portfolio-details.html">Wedding Photography.</a></h3>
+                                    <span>Photographer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-10 grid-item Wedding Nature">
+                        <div class="portfolio-single-one style-three magnetic-item">
+                            <img class="img-fluid" src="assets/images/portfolio/portfolio2-5.png" alt="image">
+                            <div class="overlay">
+                                <div class="content">
+                                    <h3><a data-cursor="View<br>Details" href="portfolio-details.html">Wedding Photography.</a></h3>
+                                    <span>Photographer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-common sibling-two package-section pt-120">
+                <div class="row">
+                    <div class="section-title-three text-center">
+                        <div class="water-text">What I Do</div>
+                        <h2>What I Do</h2>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="package-single">
+                            <div class="packge-feature">
+                                <h3>Photography</h3>
+                                <ul class="feature-list">
+                                    <li><img src="assets/images/icons/list-circle-arrow.svg" alt="image">200 Personal Photograph.</li>
+                                    <li><img src="assets/images/icons/list-circle-arrow.svg" alt="image">5 Hour To 8 Hour Duration.</li>
+                                </ul>
+                            </div>
+                            <a href="booking.html" class="eg-btn btn--primary btn--lg">Book Now</a>
+                            <div class="package-price">
+                                <h6>Start Form</h6>
+                                <span>$200</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="package-single">
+                            <div class="packge-feature">
+                                <h3>Photography</h3>
+                                <ul class="feature-list">
+                                    <li><img src="assets/images/icons/list-circle-arrow.svg" alt="image">200 Personal Photograph.</li>
+                                    <li><img src="assets/images/icons/list-circle-arrow.svg" alt="image">5 Hour To 8 Hour Duration.</li>
+                                </ul>
+                            </div>
+                            <a href="booking.html" class="eg-btn btn--primary btn--lg">Book Now</a>
+                            <div class="package-price">
+                                <h6>Start Form</h6>
+                                <span>$200</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="package-single">
+                            <div class="packge-feature">
+                                <h3>Photo Editing</h3>
+                                <ul class="feature-list">
+                                    <li><img src="assets/images/icons/list-circle-arrow.svg" alt="image">200 Personal Photograph.</li>
+                                    <li><img src="assets/images/icons/list-circle-arrow.svg" alt="image">5 Hour To 8 Hour Duration.</li>
+                                </ul>
+                            </div>
+                            <a href="booking.html" class="eg-btn btn--primary btn--lg">Book Now</a>
+                            <div class="package-price">
+                                <h6>Start Form</h6>
+                                <span>$200</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="package-single">
+                            <div class="packge-feature">
+                                <h3>Videography</h3>
+                                <ul class="feature-list">
+                                    <li><img src="assets/images/icons/list-circle-arrow.svg" alt="image">200 Personal Photograph.</li>
+                                    <li><img src="assets/images/icons/list-circle-arrow.svg" alt="image">5 Hour To 8 Hour Duration.</li>
+                                </ul>
+                            </div>
+                            <a href="booking.html" class="eg-btn btn--primary btn--lg">Book Now</a>
+                            <div class="package-price">
+                                <h6>Start Form</h6>
+                                <span>$200</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-common sibling-two testimonial-three-section pt-120">
+                <div class="row">
+                    <div class="section-title-three text-center">
+                        <div class="water-text">Testimonial</div>
+                        <h2>Testimonial</h2>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-sm-12 order-lg-1 order-2">
+                        <div class="swiper testi-image-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="assets/images/testimonial/testi1-1.png" alt="image">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="assets/images/testimonial/testi1-2.png" alt="image">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="assets/images/testimonial/testi1-3.png" alt="image">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="assets/images/testimonial/testi1-4.png" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 position-relative order-lg-2 order-1">
+                        <div class="slider-arrows arrows-style-1 text-center d-lg-flex d-none flex-row justify-content-lg-end justify-content-center align-items-center w-100 gap-3 mb-50">
+                            <div class="testi1-prev swiper-prev-arrow" tabindex="0" role="button" aria-label="Previous slide">
+                                <i class="bi bi-chevron-left"></i>
+                            </div>
+                            <div class="testi1-next swiper-next-arrow" tabindex="0" role="button" aria-label="Next slide">
+                                <i class="bi bi-chevron-right"></i>
+                            </div>
+                        </div>
+                        <div class="swiper testi-content-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="testi-single-one">
+                                        <div class="testi-header">
+                                            <div class="designation">
+                                                <h3>Savannah Nguyen</h3>
+                                                <span>Executive CEO</span>
+                                            </div>
+                                            <div class="review-area">
+                                                <ul class="review-list">
+                                                    <li><i class="bi bi-star-fill"></i></li>
+                                                    <li><i class="bi bi-star-fill"></i></li>
+                                                    <li><i class="bi bi-star-fill"></i></li>
+                                                    <li><i class="bi bi-star-fill"></i></li>
+                                                    <li><i class="bi bi-star-fill"></i></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="testi-body">
+                                            <p>
+                                                Quisque magna lorem, mattis a auctor eu, commodo vitae ligulaMo
+                                                ante id vulputate ultrices, eros est lacinia quam, vel finibus nibh nisls
+                                                Nulla ut dolor arcu.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testi-single-one">
+                                        <div class="testi-header">
+                                            <div class="designation">
+                                                <h3>Anjelina Lira</h3>
+                                                <span>Executive Manager</span>
+                                            </div>
+                                            <div class="review-area">
+                                                <ul class="review-list">
+                                                    <li><i class="bi bi-star-fill"></i></li>
+                                                    <li><i class="bi bi-star-fill"></i></li>
+                                                    <li><i class="bi bi-star-fill"></i></li>
+                                                    <li><i class="bi bi-star-fill"></i></li>
+                                                    <li><i class="bi bi-star-fill"></i></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="testi-body">
+                                            <p>
+                                                Quisque magna lorem, mattis a auctor eu, commodo vitae ligulaMo
+                                                ante id vulputate ultrices, eros est lacinia quam, vel finibus nibh nisls
+                                                Nulla ut dolor arcu. commodo vehicula.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testi-single-one">
+                                        <div class="testi-header">
+                                            <div class="designation">
+                                                <h3>Emma Watson</h3>
+                                                <span>Area Manager</span>
+                                            </div>
+                                            <div class="review-area">
+                                                <ul class="review-list">
+                                                    <li><i class="bi bi-star-fill"></i></li>
+                                                    <li><i class="bi bi-star-fill"></i></li>
+                                                    <li><i class="bi bi-star-fill"></i></li>
+                                                    <li><i class="bi bi-star-fill"></i></li>
+                                                    <li><i class="bi bi-star-fill"></i></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="testi-body">
+                                            <p>
+                                                Ante id vulputate ultrices, eros est lacinia quam, vel finibus nibh nisls
+                                                Nulla ut dolor arcu. Praesent vel justo at quam semper lobortis in rutrum justo vehicula a ex.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testi-single-one">
+                                        <div class="testi-header">
+                                            <div class="designation">
+                                                <h3>Savannah Nguyen</h3>
+                                                <span>Executive CEO</span>
+                                            </div>
+                                            <div class="review-area">
+                                                <ul class="review-list">
+                                                    <li><i class="bi bi-star-fill"></i></li>
+                                                    <li><i class="bi bi-star-fill"></i></li>
+                                                    <li><i class="bi bi-star-fill"></i></li>
+                                                    <li><i class="bi bi-star-fill"></i></li>
+                                                    <li><i class="bi bi-star-fill"></i></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="testi-body">
+                                            <p>
+                                                Eros est lacinia quam, vel finibus nibh auctor eu, commodo vitae ligulaMo
+                                                ante id vulputate ultrices, nisls
+                                                Nulla ut dolor arcu. Praesent vel justo at in.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-common sibling-two blog-section pt-120">
+                <div class="row">
+                    <div class="section-title-three text-center">
+                        <div class="water-text">Blog Article</div>
+                        <h2>Blog Article</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="swiper blog-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="blog-grid-single magnetic-item">
+                                        <div class="blog-image">
+                                            <img src="assets/images/blog/blog-slider1.png" alt="image">
+                                        </div>
+                                        <div class="blog-content">
+                                            <div class="blog-date">June 21, 2022</div>
+                                            <h4><a href="blog-details.html" data-cursor="View<br>Details">veryes elementum sesuren thei aucan vestibu Toldan.</a></h4>
+                                            <div class="author-readmore-area">
+                                                <div class="author">
+                                                    <span class="author-name">By, Admin</span><span class="category">Photo</span>
+                                                </div>
+                                                <div class="read-more-btn">
+                                                    <a href="blog-details.html">Read More <img src="assets/images/icons/button-arrow.svg" alt="image"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="blog-grid-single magnetic-item">
+                                        <div class="blog-image">
+                                            <img src="assets/images/blog/blog-slider2.png" alt="image">
+                                        </div>
+                                        <div class="blog-content">
+                                            <div class="blog-date">June 21, 2022</div>
+                                            <h4><a href="blog-details.html" data-cursor="View<br>Details">Nam varius non sem egeta open accumsan Ut sit amet.</a></h4>
+                                            <div class="author-readmore-area">
+                                                <div class="author">
+                                                    <span class="author-name">By, Admin</span><span class="category">Photo</span>
+                                                </div>
+                                                <div class="read-more-btn">
+                                                    <a href="blog-details.html">Read More <img src="assets/images/icons/button-arrow.svg" alt="image"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="blog-grid-single magnetic-item">
+                                        <div class="blog-image">
+                                            <img src="assets/images/blog/blog-slider3.png" alt="image">
+                                        </div>
+                                        <div class="blog-content">
+                                            <div class="blog-date">June 21, 2022</div>
+                                            <h4><a href="blog-details.html" data-cursor="View<br>Details">Pellentesque in lacinia ligula atl laoreet est Vestibulum vel.</a></h4>
+                                            <div class="author-readmore-area">
+                                                <div class="author">
+                                                    <span class="author-name">By, Admin</span><span class="category">Photo</span>
+                                                </div>
+                                                <div class="read-more-btn">
+                                                    <a href="blog-details.html">Read More <img src="assets/images/icons/button-arrow.svg" alt="image"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-40 align-items-center">
+                    <div class="col-lg-6 text-lg-start text-center">
+                        <div class="slider-arrows arrows-style-2 text-center d-xl-flex d-none  justify-content-start gap-4">
+                            <div class="blog-prev1 swiper-prev-arrow" tabindex="0" role="button" aria-label="Previous slide" data-bs-toggle="tooltip" data-bs-placement="top" title="Previous">
+                                <i class="bi bi-chevron-left"></i>
+                            </div>
+                            <div class="blog-next1 swiper-next-arrow" tabindex="0" role="button" aria-label="Next slide" data-bs-toggle="tooltip" data-bs-placement="top" title="Next">
+                                <i class="bi bi-chevron-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-lg-end text-center">
+                        <a href="blog-grid-one.html" class="eg-btn btn--primary btn--lg">View All Article</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-common sibling-two contact-section pt-120 pb-120 mb-44">
+                <div class="row">
+                    <div class="section-title-three text-center">
+                        <div class="water-text">Get In Touch</div>
+                        <h2>Get In Touch</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-xl-10 col-lg-10">
+                        <form class="contact-me-form">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-inner">
+                                        <input type="text" placeholder="Enter your name">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-inner">
+                                        <input type="text" placeholder="Enter your email">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-inner">
+                                        <input type="text" placeholder="Querry">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-inner">
+<textarea rows="6" placeholder="Write Your message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="eg-btn btn--primary btn--lg">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer-style-two">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <div class="copyright">
+                                © 2022 <a href="#">PicsZen</a> is Proudly Powered by <a href="Http://www.bootstrapmb.com">bootstrapMB</a>.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/circletype.min.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/viewport.jquery.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/SmoothScroll.js"></script>
+    <script src="assets/js/sidebar.js"></script>
+    <script src="assets/js/masonry.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/cursor.js"></script>
+    <script src="assets/js/jquery.marquee.min.js"></script>
+    <script src="assets/js/TweenMax.min.js"></script>
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
