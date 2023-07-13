@@ -56,4 +56,4 @@ https://github.aiyc.top/bootstrapmb/src/
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=AndersonHJB/Falsk-Password-Manager,AndersonHJB/bootstrapmb&type=Date)](https://star-history.com/#AndersonHJB/Falsk-Password-Manager&AndersonHJB/bootstrapmb&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=AndersonHJB/bootstrapmb&type=Date)](https://star-history.com/#AndersonHJB/bootstrapmb&Date)
