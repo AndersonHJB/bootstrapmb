@@ -7,6 +7,14 @@
 - 本仓库不售卖，仅供学习交流使用
 - 更新日期：2023-07-18 10:23:08
 - 已解决 issues: [https://github.com/AndersonHJB/bootstrapmb/issues?q=is%3Aissue+is%3Aclosed](https://github.com/AndersonHJB/bootstrapmb/issues?q=is%3Aissue+is%3Aclosed)
+- 自己搭建了一个 VPN，长期低价售卖。
+- VPN 价格：
+    -  ￥19.00 - 31天
+    - ￥45.00 - 92天
+    -  ￥90.00 - 180天
+    - ￥180.00 - 365天
+
+- 全部客户端都可以使用；「非诚勿扰」微信：Jiabcdefh
 
 ## 点个 star 哦！
 
