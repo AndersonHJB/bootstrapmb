@@ -1,0 +1,24 @@
+//-------------------- Font Families --------------------//
+
+$body-font:                     'Karla', ;
+$heading-font:                  'Roboto', ;
+$secondary-font:                'Raleway', sans-serif;
+$font-code: Menlo, monaco, Consolas, Lucida Console, monospace;
+$font-pre: "Courier 10 Pitch", Courier, monospace;
+
+//-------------------- Font Sizes --------------------//
+
+$font-size-base: 15px;
+$font-size-h1: 55px;
+$font-size-h2: 40px;
+$font-size-h3: 35px;
+$font-size-h4: 30px;
+$font-size-h5: $font-size-base;
+$font-size-h6: 18px;
+$menu-size: 12px;
+
+
+//-------------------- Line Height Variables --------------------//
+
+$line-height-base: 1.2;
+$line-height-content: 1.6;

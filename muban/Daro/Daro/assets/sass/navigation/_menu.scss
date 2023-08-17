@@ -1,0 +1,78 @@
+@mixin showTextMenu() {
+  @include text-var-show();
+}
+
+.font-heading {
+  font-family: $heading-font;
+}
+
+.text-transform-upper {
+  text-transform: uppercase;
+}
+
+.site-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 22px 50px;
+  z-index: 9000;
+  pointer-events: none;
+
+  @include media_768 {
+    padding: 22px 30px;
+  }
+
+  @include media_575 {
+    padding: 22px 15px;
+
+  }
+
+  .menu-cover-title {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 20vw;
+    font-weight: 600;
+    line-height: 1.15;
+    transform: translateY(-50%);
+    opacity: 0.05;
+  }
+  
+  .inner-header .main-logo {
+    width: 96px;
+    pointer-events: all;
+
+    img {
+      height: 40px;
+    }
+
+    .dark-logo {
+      display: none;
+    }
+
+
+    // @include v-light {
+    //   .dark-logo {
+    //     display: block;
+    //   }
+    //   .light-logo {
+    //     display: none;
+    //   }
+    // }
+
+  }
+
+  .main-navigation{
+    pointer-events: all;
+  }
+
+
+  @import "menu/hamburger";
+
+
+  .classic-menu & {
+    @import "menu/classic";
+  }
+
+
+}

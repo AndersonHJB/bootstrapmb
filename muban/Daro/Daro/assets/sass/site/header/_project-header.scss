@@ -1,0 +1,179 @@
+.intro-project-details {
+  overflow: hidden;
+  flex-wrap: wrap;
+  width: max-content;
+
+  .descrption-item {
+    padding-top: 30px;
+    padding-right: 50px;
+
+    @include media_991 {
+      width: 33.333%;
+      padding-top: 30px;
+      padding-right: 15px;
+    }
+
+    &:last-of-type {
+      padding-right: 0;
+    }
+
+    h5 {
+      position: relative;
+      font-size: 16px;
+      letter-spacing: 2px;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+[data-dsn-header="project"],
+[data-dsn-header="personal"] {
+  @include v-light {
+    background-color: $bg-dark;
+
+    .link-custom {
+      color: $heading-color;
+
+      .link-text {
+        color: $heading-color;
+      }
+
+      .link-circle {
+        background: #fff;
+        color: $heading-color-light;
+
+        i {
+          color: $heading-color-light;
+        }
+      }
+    }
+
+    .scroll-d {
+      img {
+        filter: none;
+      }
+    }
+  }
+}
+
+.header-project {
+  .intro-project {
+    width: 60%;
+
+    @extend .pl-container;
+
+    @include media_991 {
+      width: 100%;
+    }
+
+    .title {
+      @include v-light {
+        color: $heading-color;
+      }
+    }
+
+    #dsn-hero-description {
+      @include v-light {
+        color: $body-color;
+      }
+    }
+  }
+
+  .description {
+    margin-top: 25px;
+    max-width: 570px  ;
+  }
+
+  .desc-personal {
+    margin-top: 25px;
+  }
+
+  #dsn-hero-desc-items {
+    margin-top: 25px;
+  }
+
+  .link-vist {
+    @extend .container;
+    @include media_991 {
+      left: 0;
+    }
+  }
+
+  .v-middle-horizontal .intro-project {
+    width: 100%;
+  }
+
+  &.justify-content-center,
+  &.text-center {
+    .intro-project {
+      width: 100%;
+    }
+  }
+
+  .intro-project-details {
+    padding: 0 30px 30px;
+    margin-top: 30px;
+    background-color: rgba($assistant-dark, 0.7);
+
+    @include media_575 {
+      padding: 0 15px 30px;
+    }
+
+    h5 {
+      @include v-light {
+        color: $heading-color;
+      }
+
+      &:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 20px;
+        height: 1px;
+        background-color: $theme-color;
+
+        @include v-light {
+          background-color: $theme-light;
+        }
+      }
+    }
+
+    p {
+      @include v-light {
+        color: $body-color;
+      }
+    }
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  from {
+    transform: rotate(-360deg);
+  }
+}
+
+.icon-sound {
+  width: 25px;
+  height: 25px;
+
+  svg {
+    fill: #fff;
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    stroke-linejoin: round;
+    stroke-miterlimit: 1.5;
+    transform: translateX(4px);
+
+    .wave-line {
+      fill: none;
+      stroke: $theme-color;
+      stroke-width: 4px;
+      opacity: 0;
+    }
+  }
+}

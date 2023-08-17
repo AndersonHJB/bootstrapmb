@@ -1,0 +1,406 @@
+/* -------------------------------------------------------
+                     mixins
+-------------------------------------------------------- */
+
+@mixin push--auto {
+  margin: {
+    left: auto;
+    right: auto;
+  }
+}
+
+
+
+
+@mixin transition($transition...) {
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -ms-transition: $transition;
+  -o-transition: $transition;
+  transition: $transition;
+}
+
+
+
+
+@mixin transform($transform...) {
+  -webkit-transform: $transform;
+  -moz-transform: $transform;
+  -ms-transform: $transform;
+  -o-transform: $transform;
+  transform: $transform;
+}
+
+
+
+
+@mixin transition-delay($transition-delay...) {
+  -webkit-transition-delay: $transition-delay;
+  -moz-transition-delay: $transition-delay;
+  -o-transition-delay: $transition-delay;
+  transition-delay: $transition-delay;
+}
+
+
+
+
+@mixin border-radius($radius...) {
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+}
+
+
+
+
+@mixin box-shadow($box-shadow...) {
+  -webkit-box-shadow: $box-shadow;
+  -moz-box-shadow: $box-shadow;
+  -ms-box-shadow: $box-shadow;
+  box-shadow: $box-shadow;
+}
+
+
+
+
+@mixin not-selection($not-selection...) {
+  -webkit-user-select: $not-selection;
+  -moz-user-select: $not-selection;
+  -ms-user-select: $not-selection;
+  user-select: $not-selection;
+}
+
+
+
+
+@mixin transform_icon($rotate , $x , $y) {
+  -webkit-transform: rotate(#{$rotate}deg);
+  -ms-transform: rotate(#{$rotate}deg);
+  transform: translate(#{$x}px, #{$y}px) rotate(#{$rotate}deg);
+  width: 17px;
+}
+
+
+
+
+@mixin rotations($from , $to) {
+  from {
+    transform: rotate(#{$from}deg);
+  }
+  to {
+    transform: rotate(#{$to}deg);
+  }
+}
+
+
+
+
+@mixin animationRotate($name , $s) {
+  -webkit-animation: #{$name} #{$s}s linear infinite;
+  -moz-animation: #{$name} #{$s}s linear infinite;
+  -ms-animation: #{$name} #{$s}s linear infinite;
+  -o-animation: #{$name} #{$s}s linear infinite;
+  animation: #{$name} #{$s}s linear infinite;
+}
+
+
+
+
+@mixin widthCalc($var) {
+  width: calc(#{$var});
+}
+
+
+
+
+@mixin col-layout($type, $space) {
+
+  .post-full-content,
+  .widget_text {
+
+    &.single-#{$type} > *:not(.gallery),
+    &.single-#{$type} > *:not(.wp-block-quote) > p {
+      margin-bottom: #{$space}px;
+
+
+      &.justified-gallery {
+        margin-bottom: #{$space - 15}px;
+      }
+
+
+      &:last-child {
+        margin-bottom: 0;
+
+
+        &.justified-gallery {
+          margin-bottom: -30px;
+        }
+
+
+        &.wp-block-gallery {
+          margin-bottom: -15px;
+        }
+      }
+
+
+      &.section-padding {
+        padding-top: $space;
+        padding-bottom: $space;
+        margin: 0;
+
+
+        &.dsn-normalize-block {
+          padding-top: 0;
+          padding-bottom: 0;
+          margin: $space 0;
+        }
+
+
+        &:not(.dsn-normalize-block) {
+          padding-top: 0;
+        }
+
+      }
+
+
+      &:first-child.section-padding {
+        padding-top: 0;
+        background-color: inherit;
+      }
+
+
+      &.wp-block-gallery {
+        margin-bottom: #{$space - 16 }px;
+
+
+        .blocks-gallery-image:last-child,
+        .blocks-gallery-item:last-child {
+          margin-bottom: 16px;
+        }
+      }
+
+
+      > *:first-child,
+      &:first-child {
+        margin-top: 0;
+      }
+
+
+      > *:last-child,
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+
+      @content
+    }
+
+  }
+}
+
+
+
+
+//@include col-layout(post, 30);
+//@include col-layout(project, 110);
+
+
+//-------------------- overlay --------------------//
+
+@mixin overlays($count: 0) {
+  [data-overlay]:before {
+    content: '';
+    position: absolute;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+
+  @for $i from 0 through $count {
+    [data-overlay="#{$i}"]:before {
+      opacity: $i / 10;
+    }
+  }
+}
+
+@include overlays(10);
+
+
+
+
+
+
+//-------------------- background img cover --------------------//
+
+@mixin background-img-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+
+
+
+.cover-bg {
+  @include background-img-cover;
+}
+
+
+
+
+//-------------------- Vertical Middle --------------------//
+
+@mixin middle($horizontal: true, $vertical: true) {
+  position: absolute;
+
+  @if ($horizontal and $vertical) {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } @else if ($horizontal) {
+    left: 50%;
+    transform: translate(-50%, 0);
+  } @else if ($vertical) {
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+}
+
+
+
+
+.v-middle {
+  @include middle;
+}
+
+
+
+
+.v-middle-horizontal {
+  @include middle(true, false);
+}
+
+
+
+
+.v-middle-vertical {
+  @include middle(false);
+}
+
+
+
+
+
+@mixin keyframes($name) {
+
+  @-webkit-keyframes #{$name}{
+    @content
+  }
+
+  @-moz-keyframes #{$name}{
+    @content
+  }
+
+  @keyframes #{$name}{
+    @content
+  }
+
+}
+
+
+
+
+@mixin text-var-hide($delay: 1ms ,$char : true ,$parent : '.dsn-word-wrapper' , $sub : '.dsn-chars-wrapper' ,  $transition : $easeInOutBack
+) {
+
+  #{$parent} {
+    overflow: hidden;
+    will-change: transform;
+  }
+
+  #{$sub} {
+    opacity: 0;
+    visibility: hidden;
+    will-change: transform;
+    transform: translateY(50%) rotate(15deg) scale(0.8);
+    transform-origin: top left;
+    transition: transform 0.4s $transition, opacity .3s $transition, visibility .3s;
+    @if ($char) {
+      transition-delay: calc(30ms * var(--char-dsn-index) + #{$delay});
+    } @else {
+      transition-delay: calc(50ms * var(--word-dsn-index) + #{$delay});
+    }
+
+  }
+}
+
+
+
+
+@mixin text-var-show($sub : '.dsn-chars-wrapper' ) {
+  #{$sub} {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) rotate(0deg) scale(1);
+  }
+}
+
+
+
+
+
+
+
+@mixin admin-sticky-fix( $offset: 0  , $isHeight : false , $height:100% ) {
+  $narrow-offset: 46px;
+  $wide-offset: 32px;
+  @if $offset != 0 and type-of($offset) == 'number' {
+    $narrow-offset: $narrow-offset + $offset;
+    $wide-offset: $wide-offset + $offset;
+  }
+  .admin-bar & {
+    top: $narrow-offset;
+    @if ($isHeight) {
+      height: calc(#{$height} - #{$narrow-offset});
+    }
+
+    @media screen and (min-width: 783px) {
+      top: $wide-offset;
+      @if ($isHeight) {
+        height: calc(#{$height} - #{$wide-offset});
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@mixin v-light($isMenu : false) {
+  @if ($isMenu == true) {
+    .v-light.menu-light & {
+      @content;
+    }
+  } @else {
+    .v-light:not(.no-light) & {
+      @content;
+    }
+  }
+
+}

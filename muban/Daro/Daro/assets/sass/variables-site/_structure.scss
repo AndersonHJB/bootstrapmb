@@ -1,0 +1,26 @@
+// Responsive widths.
+
+$size__spacing-unit: 1rem;
+$size__site-main: 100%;
+$size__site-sidebar: 25%;
+$size__site-margins: calc(10% + 60px);
+$size__site-tablet-content: calc(8 * (100vw / 12) - 28px);
+$size__site-desktop-content: calc(6 * (100vw / 12) - 28px);
+
+// Responsive widths.
+
+$tablet_width_v: 992px;
+$tablet_width_h: 768px;
+
+$mobile_width_v: 575px;
+$mobile_width_h: 400px;
+
+$desktop_width: 991px;
+$wide_width: 1379px;
+
+
+$easeInOutBack: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+$easeOutBack : cubic-bezier(0.34, 1.56, 0.64, 1);
+$easeInBack : cubic-bezier(0.36, 0, 0.66, -0.56);
+
+

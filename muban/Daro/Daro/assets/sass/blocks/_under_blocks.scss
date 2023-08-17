@@ -1,0 +1,24 @@
+.bg-color-global {
+  background-color: $bg-dark;
+  @include v-light() {
+    background-color: $bg-light;
+  }
+}
+
+
+.wrapper > *:first-child {
+
+  @media only screen and (min-width: 992px) {
+    &.dsn-under-header {
+      position: relative;
+      margin-top: -80px;
+      z-index: 2;
+
+      .section-title , .section-title-2 {
+        display: none;
+      }
+
+    }
+  }
+
+}

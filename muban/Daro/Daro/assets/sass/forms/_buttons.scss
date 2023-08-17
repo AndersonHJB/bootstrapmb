@@ -1,0 +1,212 @@
+.button,
+button:not([data-filter]):not(.mfp-arrow),
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+}
+
+.btn {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  padding: 20px 40px;
+  text-transform: uppercase;
+  word-spacing: 5px;
+  font-family: $heading-font;
+  text-align: center;
+
+  @include media_991 {
+    padding: 15px 25px;
+
+  }
+
+  @include v-light {
+    color: $heading-color-light;
+    color: #fff;
+
+    &::before {
+      background-color: $bg-dark;
+    }
+
+    &:hover {
+      color: $heading-color;
+    }
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    transform: scaleX(0);
+    transform-origin: 100% 50%;
+    transition: transform 0.35s, -webkit-transform 0.35s;
+  }
+
+  span {
+    position: relative;
+    z-index: 2;
+    transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    
+  }
+
+  &:hover {
+    span {
+      color: $heading-color-light;
+    }
+    @include v-light {
+      color: $heading-color-light;
+      
+      span {
+        color: $heading-color;
+      }
+    }
+    
+    &:before {
+      transform: scaleX(1);
+      transform-origin: 0 50%;
+    }
+  }
+}
+
+.btn-form {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 48px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  border: 1.5px solid $theme-color;
+  cursor: pointer;
+  margin: auto;
+  transition: all 0.4s ease-in-out;
+
+  @include v-light {
+    border-color: $theme-light;
+    color: $heading-color-light;
+  }
+
+  .label {
+    font-weight: bold;
+    min-width: 150px;
+    padding-left: 30px;
+    padding-right: 10px;
+    text-align: center;
+  }
+
+  .icon-c {
+    width: 12px;
+    height: 12px;
+    background-color: $theme-color;
+    border-radius: 50%;
+    margin-right: 30px;
+    transition: all 0.2s ease-in-out;
+
+    @include v-light {
+      background-color: $theme-light;
+    }
+  }
+
+  &:hover {
+    background-color: $theme-color;
+
+    @include v-light {
+      background-color: $theme-light;
+      color: $heading-color;
+    }
+
+    .icon-c {
+      background-color: $bg-dark;
+    }
+  }
+}
+
+.link-custom {
+  border-radius: 30px;
+  height: 48px;
+  padding-right: 40px;
+  color: $heading-color;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  z-index: 2;
+  transition: all 0.3s ease-in-out;
+
+  .link-text {
+    font-size: 13px;
+    font-weight: 600;
+    transition: transform 0.2s;
+    z-index: 2;
+
+    @include v-light {
+      color: $heading-color-light;
+    }
+  }
+
+  .link-circle {
+    transition: width 200ms;
+    top: 0;
+    right: 0;
+    text-align: center;
+    background: #fff;
+    mix-blend-mode: exclusion;
+    color: $heading-color-light;
+    width: 48px;
+    height: 48px;
+    border-radius: 30px;
+    z-index: 2;
+
+    @include v-light {
+      background-color: $bg-light-2;
+      z-index: 0;
+    }
+
+    i {
+      position: absolute;
+      right: 20px;
+      top: 17px;
+      font-size: 12px;
+      transition: transform 0.2s;
+
+    }
+  }
+
+  &:hover {
+    padding-left: 40px;
+
+    .link-text {
+      transform: translateX(-9px);
+    }
+
+    .link-circle {
+      width: 100%;
+
+      i {
+        transform: translateX(-9px);
+      }
+    }
+  }
+
+  &.scroll-down {
+    i {
+      transform: rotate(90deg);
+    }
+
+    &:hover {
+      .link-text {
+        transform: translateX(-9px);
+      }
+
+      .link-circle {
+        i {
+          transform: translateX(-9px) translateY(2px) rotate(90deg);
+        }
+      }
+    }
+  }
+}

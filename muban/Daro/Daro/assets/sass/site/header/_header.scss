@@ -1,0 +1,42 @@
+/* -------------------------------------------------------
+                   Header
+-------------------------------------------------------- */
+
+@import "project-header";
+@import "header-pages";
+@import "header-post";
+
+
+header .header-master.header-half {
+  height: 80vh;
+
+
+  .social-network-box {
+    width: 80vh;
+  }
+}
+
+
+.hero-personal[data-dsn-header="personal"].dsn-end-animate {
+  @include mediaUpSize(991px) {
+    .header-project .intro-project {
+      left: 40%;
+      transform: none;
+    }
+
+
+    #dsn-hero-parallax-img {
+      width: 40%;
+    }
+  }
+
+
+}
+
+
+[data-dsn-header="project"].dsn-end-animate #dsn-hero-parallax-img {
+  @include mediaUpSize(991px) {
+    left: 60%;
+    width: 40%;
+  }
+}

@@ -1,0 +1,77 @@
+/* -------------------------------------------------------
+                  contact
+-------------------------------------------------------- */
+.form-box {
+  position: relative;
+
+  .form-group {
+    width: 100%;
+
+    .help-block {
+      color: red;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    li {
+      list-style: none;
+    }
+  }
+}
+
+.entry {
+  width: 100%;
+  margin-bottom: 30px;
+
+  input,
+  textarea {
+    font-family: $heading-font;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1.5px solid $theme-color;
+    padding-bottom: 20px;
+    color: #eee;
+    margin-top: 10px;
+    margin-bottom: 0;
+    letter-spacing: -0.5px;
+
+    @include v-light {
+      border-color: $theme-light;
+      color: $body-color-light;
+    }
+
+    &::placeholder {
+      font-weight: 700;
+      font-size: 16px;
+      letter-spacing: -0.5px;
+    }
+  }
+}
+
+.entry input {
+  height: 100%;
+}
+
+label {
+  color: $theme-color;
+  font-size: 15px;
+  font-weight: 600;
+
+  @include v-light {
+    color: $theme-light;
+  }
+}
+
+#map {
+  .gm-fullscreen-control,
+  .gm-bundled-control,
+  .gm-bundled-control-on-bottom,
+  .gmnoprint,
+  .gm-style-cc {
+    display: none !important;
+  }
+}
+

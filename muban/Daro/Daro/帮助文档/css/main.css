@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:500,400,300,700");
+
+html,
+body {
+	height: 100%;
+}
+body {
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+a:hover,
+a:active,
+a:focus {
+	outline: none;
+	text-decoration: none;
+}
+/* Sidebar */
+.sidebar {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1000;
+	display: block;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: #f5f5f5;
+}
+.sidebar ul {
+	list-style: none;
+	padding: 0;
+	margin-top: 20px;
+}
+.sidebar ul li a {
+	display: block;
+	line-height: 36px;
+	padding: 0 20px;
+	font-size: 18px;
+	color: #aaa;
+}
+.sidebar ul li a:hover,
+.sidebar ul li.active a {
+	color: #333;
+	background-color: #eee;
+}
+/* Title */
+.title {
+	background-color: #f5f5f5;
+	padding: 30px 50px;
+}
+.title h1 {
+	font-size: 52px;
+	line-height: 100%;
+	font-weight: 400;
+	color: rgba(0,0,0,.75);
+}
+.title p {
+	font-size: 18px;
+	color: #aaa;
+	font-weight: 300;
+	border-bottom: 1px solid #eee;
+	padding: 20px 0 10px;
+	margin-bottom: 30px;
+}
+.title span {
+	display: block;
+}
+h2 {
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+p,
+li {
+	font-size: 16px;
+}
+img {
+	margin-bottom: 10px;
+}
+.content div {
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #eee;
+}
+.started ul {
+	list-style: decimal;
+}
+.credits ul {
+	list-style: decimal;
+}
+pre {
+	padding: 20px;
+}
+@media only screen and (max-width: 767px) {
+	.sidebar {
+		height: 150px;
+	}
+	.content {
+		margin-top: 160px;
+	}
+}

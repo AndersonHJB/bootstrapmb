@@ -1,0 +1,59 @@
+/* -------------------------------------------------------
+                   
+-------------------------------------------------------- */
+.header-single-post {
+  position: relative;
+  height: 80vh; }
+  .page-template-page-works .header-single-post {
+    margin-bottom: 120px; }
+  .header-single-post .inner-box {
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    z-index: 2; }
+    .header-single-post .inner-box .title {
+      letter-spacing: 0;
+      font-weight: 500;
+      color: #fff; }
+    .header-single-post .inner-box .post-info {
+      margin-bottom: 12px; }
+      .header-single-post .inner-box .post-info .dsn-link {
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 1.2px;
+        word-spacing: 2px; }
+      .header-single-post .inner-box .post-info .blog-post-date {
+        padding-right: 20px;
+        padding-bottom: 8px;
+        color: #fff; }
+    .header-single-post .inner-box .blog-post-cat {
+      margin-top: 20px; }
+      .header-single-post .inner-box .blog-post-cat a {
+        position: relative;
+        text-transform: lowercase;
+        margin-right: 5px;
+        padding-bottom: 8px;
+        color: #fff;
+        font-weight: 600; }
+        .header-single-post .inner-box .blog-post-cat a::after {
+          content: ','; }
+        .header-single-post .inner-box .blog-post-cat a:last-of-type {
+          margin-right: 0; }
+          .header-single-post .inner-box .blog-post-cat a:last-of-type::after {
+            display: none; }
+  .header-single-post .post-parallax-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center; }
+    .header-single-post .post-parallax-wrapper:before {
+      z-index: 1; }
+    .header-single-post .post-parallax-wrapper img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+      object-fit: cover; }

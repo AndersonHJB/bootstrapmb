@@ -1,0 +1,32 @@
+input,
+textarea,
+.form-control,
+.form-box input,
+.form-box textarea {
+
+  &::placeholder {
+    color: #eee;
+
+    @include v-light {
+      color: $body-color-light;
+    }
+  }
+
+  &:focus {
+
+  }
+}
+
+textarea,
+.form-control,
+.form-box textarea {
+}
+
+
+input[type="search"] {
+  &::-webkit-search-decoration {
+    display: none;
+  }
+}
+
+select {}

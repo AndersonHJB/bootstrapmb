@@ -1,0 +1,62 @@
+/*-----------------------------------------------------------
+
+  Template Name: Droow - Ajax Portfolio Showcase HTML Template
+  Template URI: http://theme.dsngrid.com/droow
+  Description: Droow Ajax Portfolio Showcase HTML Template
+  Author: design_grid
+  Author URI: https://themeforest.net/user/design_grid
+  Version: 1.0.0
+
+-------------------------------------------------------------*/
+/*-----------------------------------------------------------
+
+    1.  Variables
+    2.  Mixins
+      - Mixins Master
+      - Utilities
+    3.  Normalize
+    4.  Helpers
+    5. Typography
+      - Copy
+	  - Headings
+	6. Core
+    7. Navigation
+      - Links
+      - Menus
+	  - Next & Previous
+    8. Content
+      - pages
+      - Comments
+      - Archives
+      - Footer
+    9.Forms
+      - Button
+      - Fields
+    10.Blocks
+    11.Media
+      - captions
+    12.Version Light
+
+-------------------------------------------------------------*/
+// elements
+@import "mixins/_mixins-master.scss";
+@import "mixins/_utilities.scss";
+@import "variables-site/_variables-site.scss";
+@import "_normalize.scss";
+@import "typography/_typography.scss";
+// Content
+@import "_core.scss";
+@import "_global.scss";
+@import "forms/_forms.scss";
+@import "navigation/_navigation.scss";
+@import "blocks/blocks";
+@import "site/_site.scss";
+@import "media/_dsn-captions.scss";
+
+.section-dsn-color *{
+  color: inherit !important;
+}
+
+.work-inner.work-masonry .work-item .item-info{
+  width: max-content;
+}

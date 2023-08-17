@@ -1,0 +1,55 @@
+// Backgrounds & Text & Links & Borders
+
+$theme-color: #a56433;
+$theme-light: #d90a2c;
+$bg-dark: #000;
+$assistant-dark: #090909;
+$body-color: rgba(255, 255, 255, 0.69);
+$heading-color: #fff;
+$bg-light: #f9f9f9;
+$bg-light-2: #e6e6e6;
+$body-color-light: #0009;
+$border-color: #0e0e0d;
+$heading-color-light: #000;
+$border-color-light: #bebebe;
+
+.background-main {
+    background-color: $bg-dark;
+
+    @include v-light {
+        background-color: $bg-light;
+    }
+}
+
+.background-section {
+    background-color: $assistant-dark;
+
+    @include v-light {
+        background-color: $bg-light-2;
+    }
+}
+
+.background-theme {
+    background-color: $theme-color;
+    transition-property: background-color, color;
+
+    @include v-light {
+        background-color: $theme-light;
+    }
+}
+
+.theme-color {
+    color: $theme-color;
+}
+
+.fb {
+    color: #3b5999;
+}
+
+.tw {
+    color: #55acee;
+}
+
+.linked {
+    color: #0077b5;
+}
