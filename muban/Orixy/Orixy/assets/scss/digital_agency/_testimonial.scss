@@ -1,0 +1,31 @@
+.ori-testimonial-section-3 {
+	overflow: hidden;
+	padding: 190px 0px;
+	background-color: rgba(23, 23, 23, 1);
+	.ori-vector-bg {
+		right: 0;
+		left: -15px;
+		top: 115px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.ori-testimonial-title h3 {
+		font-weight: 700;
+		font-family: var(--heading-1);
+	}
+	.ori-testimonial-item-1 p {
+		margin: 0 auto;
+		max-width: 820px;
+		font-weight: 300;
+		line-height: 43px;
+		color: rgba(255, 255, 255, 1);
+		font-family: var(--heading-2);
+	}
+	.ori-testimonial-item-1 .ori-testimonial-author h4 {
+		color: #fff;
+		font-family: var(--heading-1);
+	}
+	.ori-testimonial-item-1 .ori-testimonial-author span {
+		color: var(--base-color-2);
+	}
+}

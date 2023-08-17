@@ -1,0 +1,33 @@
+.ori-dm-servcie-section {
+	padding: 115px 0px 50px;
+}
+.ori-dm-service-text-area {
+	max-width: 490px;
+}
+.ori-dm-servcie-item {
+	margin-bottom: 80px;
+	.service-icon {
+		margin-bottom: 35px;
+	}
+	.service-text {
+		h3 {
+			color: #0D0D0D;
+			font-size: 24px;
+			font-weight: 700;
+			padding-bottom: 20px;
+			font-family: var(--heading-1);
+			&:hover {
+				color: #423EF3;
+			}
+		}
+		p {
+			font-size: 18px;
+			line-height: 30px;
+		}
+	}
+	&:hover {
+		.service-icon {
+			animation: icon-bounce .8s ease-out infinite;
+		}
+	}
+}

@@ -1,0 +1,34 @@
+.ori-fun-fact-section {
+	padding: 100px 0px 95px;
+	background-color: #00AC83;
+}
+.ori-fun-fact-item {
+	.ori-fun-fact-icon {
+		margin-bottom: 30px;
+		i {
+			color: #fff;
+			font-size: 40px;
+			transition: 0.6s cubic-bezier(0.24, 0.74, 0.58, 1);
+		}
+	}
+	.ori-fun-fact-text {
+		h3 {
+			color: #fff;
+			font-size: 30px;
+			font-weight: 700;
+			padding-bottom: 25px;
+		}
+		p {
+			color: #CCEBE4;
+			font-size: 18px;
+			max-width: 200px;
+		}
+	}
+	&:hover {
+		.ori-fun-fact-icon {
+			i {
+				transform: rotateY(360deg);
+			}
+		}
+	}
+}

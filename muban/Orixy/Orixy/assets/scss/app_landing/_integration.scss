@@ -1,0 +1,37 @@
+.ori-integration-section {
+	z-index: 1;
+	overflow: hidden;
+	padding: 150px 0px 170px;
+	.ori-section-title-2 {
+		h2 {
+			font-size: 57px;
+		}
+	}
+}
+.ori-integration-content {
+	padding-top: 90px;
+}
+.integration-item {
+	display: inline-block;
+	.integration-img {
+		display: flex;
+		margin: 0px 45px;
+		text-align: center;
+		align-items: center;
+		border-radius: 30px;
+		justify-content: center;
+		background-color: #292F3F;
+	}
+	&:nth-child(odd) {
+		.integration-img {
+			width: 185px;
+			height: 155px;
+		}
+	}
+	&:nth-child(even) {
+		.integration-img {
+			width: 255px; 
+			height: 210px;
+		}
+	}
+}

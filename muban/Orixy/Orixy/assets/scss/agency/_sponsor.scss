@@ -1,0 +1,19 @@
+
+.ori-agency-sponsor-section {
+	padding: 60px 0px;
+	overflow: hidden;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 3.047px 24.814px 40px 0px rgba(255, 200, 1, 0.15);
+}
+.ori-agency-sponsor-slide {
+	.ori-sponsor-item {
+		.ori-sponsor-img {
+			height: 50px;
+			display: flex;
+			align-items: center;
+			img {
+				margin: 0 auto;
+			}
+		}
+	}
+}

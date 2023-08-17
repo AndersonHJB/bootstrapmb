@@ -1,0 +1,96 @@
+.ori-service-section-5 {
+	padding-bottom: 225px;
+}
+.ori-service-content-5 {
+	padding-top: 70px;
+}
+.ori-service-inner-item-5 {
+	margin-bottom: 30px;
+	border-radius: 20px;
+	background-color: #fff;
+	padding: 50px 50px 45px;
+	transition: 500ms all ease;
+	box-shadow: 0px 4px 4px 0px rgb(232 235 238 / 6%);
+	.service-icon {
+		width: 80px;
+		height: 80px;
+		margin-bottom: 40px;
+		border-radius: 100%;
+		transition: 500ms all ease;
+		background-color: rgba(20, 163, 235, .15);
+		i {
+			color: var(--base-color-5);
+			font-size: 32px;
+			transition: 500ms all ease;
+		}
+	}
+	.service-text {
+		h3 {
+			color: #0B1C2A;
+			font-size: 26px;
+			font-weight: 500;
+			line-height: 32px;
+			padding-bottom: 25px;
+		}
+		p {
+			font-size: 18px;
+			line-height: 30px;
+		}
+	}
+	.read-more {
+		margin-top: 25px;
+		position: relative;
+		display: inline-block;
+		span {
+			left: 20px;
+			opacity: 0;
+			color: #000;
+			width: 100px;
+			font-weight: 500;
+			position: absolute;
+			display: inline-block;
+			transition: 500ms all ease;
+			font-family: var(--heading-3);
+		}
+		&:hover {
+			padding-left: 100px;
+			span {
+				left: 0;
+				opacity: 1;
+			}
+		}
+	}
+	.more-service-btn-area {
+		padding: 122px 0px;
+		.more-service-btn {
+			font-size: 14px;
+			font-weight: 700;
+			padding: 25px 40px;
+			border-radius: 5px;
+			display: inline-block;
+			letter-spacing: 0.14em;
+			border: 1px solid #14A3EB;
+			color: var(--base-color-5);
+			background-color: rgba(20, 163, 235, .15);
+			&:hover {
+				color: #fff;
+				background-color: var(--base-color-5);
+			}
+		}
+	}
+	&:hover {
+		box-shadow: 0px 38px 35px 0px rgb(232 235 238 / 62%);
+		.service-icon {
+			background-color: rgba(20, 163, 235, 1);
+			i {
+				color: #fff;
+			}
+		}
+	}
+}
+.ori-service-section-6 {
+	padding: 120px 0px 100px;
+}
+.ori-service-content-6 {
+	padding-top: 55px;
+}

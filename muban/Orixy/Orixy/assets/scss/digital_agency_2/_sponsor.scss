@@ -1,0 +1,28 @@
+.ori-sponsor-content-7 {
+	top: -110px;
+	padding: 50px 70px;
+	border-radius: 10px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 11px 46px 0px rgba(6, 6, 6, 0.07);
+	h3 {
+		color: #0b1c2b;
+		font-size: 36px;        
+		font-weight: 700;
+		text-align: center;
+		padding-bottom: 40px;
+		span {
+			color: var(--base-color-7);
+		}
+	}
+}
+.ori-sponsor-slider-7 {
+	.ori-sponsor-img {
+		.inner-img {
+			height: 60px;
+			width: 160px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+}

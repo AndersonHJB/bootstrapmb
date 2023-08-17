@@ -1,0 +1,35 @@
+.ori-text-scroll-section-1 {
+	z-index: 1;
+	overflow: hidden;
+	padding: 65px 0px;
+	border-top: 1px solid #1C1C1C;
+	border-bottom: 1px solid #1C1C1C;
+}
+.ori-text-scroll-section-2 {
+	z-index: 1;
+	overflow: hidden;
+	padding: 65px 0px;
+	border-top: 1px solid #1C1C1C;
+	border-bottom: 1px solid #1C1C1C;
+}
+.ori-team-content-1 {
+	padding-top: 70px;
+}
+.ori-text-scroll-content {
+	h3 {
+		font-size: 90px;
+		font-weight: 700;
+		line-height: 90px;
+		display: inline-block;
+		span {
+			-webkit-text-fill-color: transparent;
+			-webkit-text-stroke-width: 1px;
+			-webkit-text-stroke-color: #fff;
+		}
+	}
+	.ori-text-scroll-icon {
+		font-size: 75px;
+		margin: 0px 25px;
+		color: var(--base-color-1);
+	}
+}

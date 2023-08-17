@@ -1,0 +1,80 @@
+.ori-team-section-1 {
+	z-index: 1;
+	overflow: hidden;
+	padding-top: 130px;
+}
+.ori-team-content-area {
+	margin: 0px 100px;
+	padding: 120px 0px 90px;
+	background-color: #171717;
+}
+.ori-team-inner-item {
+	overflow: hidden;
+	max-width: 410px;
+	margin-bottom: 40px;
+	border-radius: 20px;
+	.ori-team-text {
+		width: 100%;
+		bottom: 80px;
+		h3 {
+			opacity: 0;
+			color: #fff;
+			font-size: 24px;
+			font-weight: 700;
+			padding-bottom: 8px;
+			transform: translateY(20px);
+			transition: 500ms all ease;
+		}
+		span {
+			opacity: 0;
+			font-size: 12px;
+			letter-spacing: 0.1em;
+			display: inline-block;
+			color: var(--base-color-1);
+			transform: translateY(20px);
+			transition: 500ms all ease;
+			transition-delay: .2s;
+		}
+	}
+	.ori-team-social {
+		width: 100%;
+		display: flex;
+		bottom: -80px;
+		text-align: center;
+		padding: 10px 50px;
+		transition: 500ms all ease;
+		justify-content: space-between;
+		background-color: var(--base-color-1);
+		a {
+			font-size: 22px;
+			transform: translateY(20px);
+			&:nth-child(2) {
+				transition-delay: .2s;
+			}
+			&:nth-child(3) {
+				transition-delay: .3s;
+			}
+			&:nth-child(4) {
+				transition-delay: .4s;
+			}
+		}
+	}
+	&:hover {
+		.ori-team-social {
+			bottom: 0;
+			a {
+				transform: translateY(0px);
+			}
+		}
+		.ori-team-text {
+			h3,span {
+				opacity: 1;
+				transform: translateY(0px);
+			}
+		}
+	}
+}
+.ori-team-post-feed-section {
+	overflow: hidden;
+	padding: 120px 0px 0px;
+}

@@ -1,0 +1,56 @@
+.ori-banner-section-3 {
+	overflow: hidden;
+}
+.ori-banner-text-content-3 {
+	z-index: 1;
+	position: relative;
+	padding: 305px 0px 165px;
+	.banner-text-area {
+		max-width: 650px;
+		h1 {
+			color: #fff;
+			font-size: 70px;
+			font-weight: 500;
+			line-height: 84px;
+			padding-bottom: 55px;
+			text-transform: uppercase;
+			span {
+				font-weight: 200;
+			}
+		}
+		p {
+			color: #ACACAC;
+			font-size: 18px;
+			max-width: 585px;
+			line-height: 29px;
+		}
+		.ori-banenr-btn-3 {
+			margin-top: 50px;
+			a {
+				color: #1D1A26;
+				font-size: 14px;
+				font-weight: 700;
+				padding: 25px 40px;
+				display: inline-block;
+				letter-spacing: 0.14em;
+				text-transform: uppercase;
+				background-color: var(--base-color-2);
+				&:hover {
+					background-color: #fff;
+				}
+			}
+		}
+	}
+}
+.ori-banner-content-3 {
+	.ori-banner-img-3 {
+		right: 0;
+		top: 250px;
+	}
+	.ori-banner-shape {
+		left: 0;
+		right: 0;
+		top: -120px;
+		text-align: center;
+	}
+}

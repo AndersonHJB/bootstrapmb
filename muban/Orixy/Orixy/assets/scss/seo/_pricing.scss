@@ -1,0 +1,129 @@
+.ori-pricing-section {
+	z-index: 1;
+	padding: 100px 0px 130px;
+	.ori-pricing-shape {
+		left: 0;
+		right: 0;
+		top: -115px;
+		z-index: -1;
+		width: 100%;
+	}
+}
+.ori-price-tab-btn {
+	padding: 40px 0px 100px;
+	.nav {
+		margin: 0 auto;
+		max-width: 220px;
+		border-radius: 40px;
+		justify-content: center;
+		background-color: #fff;
+	}
+	.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+		background-color: #7486E5;
+		box-shadow: 0px 5px 7px 0px #5243C23B;
+	}
+	.nav-pills .nav-link {
+		font-size: 10px;
+		font-weight: 700;
+		padding: 15px 30px;
+		border-radius: 40px;
+		text-transform: uppercase;
+		transition: 500ms all ease;
+	}
+}
+.ori-pricing-plan-item-area {
+	padding: 40px;
+	border-radius: 25px;
+	background-color: #fff;
+	box-shadow: 0px 7px 7px 0px #C3CBDA2E;
+}
+.ori-price-plan-item {
+	.ori-plan-price {
+		padding-bottom: 20px;
+		h3 {
+			color: #0B1C2A;
+			font-size: 36px;
+			font-weight: 600;
+			sub {
+				bottom: 0;
+				color: #606573;
+				font-size: 17px;
+				font-weight: 400;
+				font-family: var(--heading-1);
+			}
+		}
+	}
+	.ori-price-plan-title {
+		padding-bottom: 18px;
+		h3 {
+			color: #0B1C2A;
+			font-size: 28px;
+			font-weight: 600;
+			padding-bottom: 8px;
+		}
+	}
+	.ori-price-feature {
+		li {
+			padding-left: 30px;
+			position: relative;
+			margin-bottom: 10px;
+			&:before {
+				top: 0;
+				left: 0;
+				color: #5243C2;
+				font-size: 18px;
+				font-weight: 900;
+				content: '\f058';
+				position: absolute;
+				font-family: 'Font Awesome 5 Pro';
+			}
+		}
+	}
+	.ori-price-btn {
+		margin-top: 30px;
+		a {
+			color: #63DAD9;
+			font-size: 15px;
+			font-weight: 700;
+			padding: 13px 55px;
+			border-radius: 30px;
+			white-space: nowrap;
+			display: inline-block;
+			background-color: #F6F8FC;
+			&:hover {
+				color: #fff;
+				background-color: #63DAD9;
+			}
+		}
+	}
+	&.popular-item {
+		overflow: hidden;
+		padding: 50px 30px;
+		border-radius: 25px;
+		margin-bottom: -100px;
+		transform: translateY(-100px);
+		.tag-label {
+			top: 15px;
+			right: 15px;
+			color: #fff;
+			font-size: 10px;
+			font-weight: 700;
+			padding: 7px 15px;
+			border-radius: 30px;
+			background-color: #FF507A;
+		}
+		.ori-plan-price h3,
+		.ori-plan-price sub,
+		.ori-price-plan-title h3,
+		.ori-price-plan-title  p,
+		.ori-price-feature li,
+		.ori-price-feature li:before {
+			color: #fff;
+		}
+		 .ori-price-btn a {
+		 	color: #fff;
+		 	width: 100%;
+		 	background-color: #63DAD9;
+		 }
+	}
+}

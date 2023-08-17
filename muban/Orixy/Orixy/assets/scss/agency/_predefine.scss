@@ -1,0 +1,72 @@
+.ori-agency-2 {
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+	font-size: 16px;
+	line-height: 1.5;;
+	position: relative;
+	overflow-x: hidden;
+	color: #666666;
+	font-family: var(--body-font);     
+	-moz-osx-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased; 
+	h1,
+	h2,
+	h3, 
+	h4, 
+	h5,
+	h6 {
+		margin: 0;
+		font-weight: 400;
+		font-family: var(--heading);
+	}
+	.container {
+		max-width: 1200px;
+	}
+}
+.ori-agency-section-title {
+	.sub-title {
+		font-size: 20px;
+		position: relative;
+		margin-bottom: 15px;
+		display: inline-block;
+		color: var(--base-color);
+		&:after,
+		&:before {
+			content: '';
+			height: 2px;
+			width: 90px;
+			bottom: 10px;
+			right: -100px;
+			position: absolute;
+			background-color: var(--base-color);
+		}
+		&:before {
+			right: auto;
+			left: -100px;
+			display: none;
+		}
+	}
+	&.text-center {
+		margin: 0 auto;
+		max-width: 850px;
+		.sub-title {
+			&:before {
+				display: block;
+			}
+		}
+		p {
+			margin: 0 auto;
+			max-width: 650px;
+			padding-top: 15px;
+		}
+	}
+	h2 {
+		color: #010030;
+		font-size: 38px;
+		font-weight: 700;
+	}
+	p {
+		padding-top: 25px;
+	}
+}

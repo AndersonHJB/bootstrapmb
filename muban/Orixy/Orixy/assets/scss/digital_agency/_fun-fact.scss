@@ -1,0 +1,33 @@
+.ori-fan-fact-section-2 {
+	z-index: 1;
+	overflow: hidden;
+	padding: 130px 0px 115px;
+	.ori-shape-bg {
+		left: 0;
+		top: -95px;
+		z-index: -1;
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+}
+.ori-fun-fact-item-2 {
+	.fun-fact-icon {
+		margin-bottom: 22px;
+	}
+	.fun-fact-text {
+		h3 {
+			color: #fff;
+			font-size: 55px;
+			font-weight: 200;
+			padding-bottom: 22px;
+			span {
+				font-weight: 500;
+			}
+		}
+		p {
+			font-size: 18px;
+			color: rgba(172, 172, 172, 1);	
+		}
+	}
+}

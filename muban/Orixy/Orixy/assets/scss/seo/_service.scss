@@ -1,0 +1,116 @@
+.ori-service-section-4 {
+	z-index: 2;
+	padding: 140px 0px 0px;
+}
+.ori-service-item-4 {
+	padding: 50px;
+	margin-bottom: 30px;
+	border-radius: 20px;
+	background-color: #FFFFFF;
+	transition: 500ms all ease;
+	box-shadow: 0px 4px 4px 0px #646D980F;
+	.ori-service-icon {
+		width: 80px;	
+		height: 80px;
+		margin-bottom: 28px;
+		border-radius: 100%;
+		background-color: rgba(143, 213, 231, .15);
+		transition: 0.6s cubic-bezier(0.24, 0.74, 0.58, 1);
+	}
+	.ori-service-text {
+		h3 {
+			color: #0B1C2A;
+			font-size: 30px;
+			font-weight: 500;
+			padding-bottom: 25px;
+			&:hover {
+				color: var(--base-color-4);
+			}
+		}
+		p {
+			font-size: 18px;
+			line-height: 30px;
+		}
+	}
+	&:hover {
+		box-shadow: 0px 15px 25px 0px rgb(157 159 202 / 21%);
+		.ori-service-icon {
+			transform: rotateY(360deg);
+		}
+	}
+}
+.ori-serviec-content-4 {
+	padding-top: 60px;
+	.col-lg-4 {
+		&:nth-child(2) {
+			.ori-service-item-4 {
+				.ori-service-icon {
+					background-color: rgba(255, 133, 34, .15);
+				}
+			}
+			.ori-service-text { 
+				h3 {
+					&:hover {
+						color: rgba(255, 133, 34, 1);
+					}
+				}
+			}
+		}
+		&:nth-child(3) {
+			.ori-service-item-4 {
+				.ori-service-icon {
+					background-color: rgba(255, 223, 115, .15)
+				}
+				.ori-service-text { 
+					h3 {
+						&:hover {
+							color: rgba(255, 223, 115, 1);
+						}
+					}
+				}
+			}
+		}
+		&:nth-child(4) {
+			.ori-service-item-4 {
+				.ori-service-icon {
+					background-color: rgba(116, 134, 229, .15);
+				}
+				.ori-service-text { 
+					h3 {
+						&:hover {
+							color: rgba(116, 134, 229, 1);
+						}
+					}
+				}
+			}
+		}
+		&:nth-child(5) {
+			.ori-service-item-4 {
+				.ori-service-icon {
+					background-color: rgba(255, 80, 122, .15);
+				}
+				.ori-service-text { 
+					h3 {
+						&:hover {
+							color: rgba(255, 80, 122, 1);
+						}
+					}
+				}
+			}
+		}
+		&:nth-child(6) {
+			.ori-service-item-4 {
+				.ori-service-icon {
+					background-color: rgba(48, 236, 191, .15);
+				}
+				.ori-service-text { 
+					h3 {
+						&:hover {
+							color: rgba(48, 236, 191, 1);
+						}
+					}
+				}
+			}
+		}
+	}
+}

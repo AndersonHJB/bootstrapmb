@@ -1,0 +1,41 @@
+.ori-feature-section-2 {
+	z-index: 1;
+	overflow: hidden;
+}
+.ori-feature-section-2 {
+	.ori-section-title-2 {
+		max-width: 450px;
+	}
+}
+.ori-feature-top-text-2 {
+	font-size: 18px;
+	font-size: 18px;
+	max-width: 585px;
+	line-height: 30px;
+}
+.ori-feature-content-2 {
+	padding-top: 90px;
+}
+.ori-feature-item-2 {
+	.ori-feature-icon-2 {
+		margin-bottom: 30px;
+	}
+	.ori-feature-text-2 {
+		h3 {
+			color: #fff;
+			font-size: 26px;
+			font-weight: 700;
+			padding-bottom: 18px;
+		}
+		p {
+			font-size: 18px;
+			max-width: 280px;
+			line-height: 28px;
+		}
+	}
+	&:hover {
+		.ori-feature-icon-2 {
+			animation: icon-bounce 0.8s ease-out infinite;
+		}
+	}
+}

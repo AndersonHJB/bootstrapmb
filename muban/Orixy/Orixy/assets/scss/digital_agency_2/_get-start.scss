@@ -1,0 +1,35 @@
+.ori-get-started-section {
+	padding-bottom: 120px;
+}
+.ori-get-started-content {
+	padding: 50px;
+	border-radius: 10px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: -2.072px 16.873px 18px 0px rgba(6, 6, 6, 0.05);
+	h3 {
+		color: #0b1c2b;
+		font-size: 24px;
+		font-weight: 700;
+		text-align: center;
+	}
+	.ori-get-started-step {
+		padding-top: 40px;
+	}
+}
+.ori-get-started-item {
+	.get-start-icon {
+		margin-right: 15px;
+		i {
+			font-size: 30px;
+			border-radius: 100%;
+			color: var(--base-color-7);
+			box-shadow: -2.072px 16.873px 18px 0px rgba(116, 137, 247, 0.44);
+		}
+	}
+	.get-start-text {
+		color: #0b1c2b;
+		font-size: 18px;
+		font-weight: 700;
+		max-width: 175px;
+	}
+}

@@ -1,0 +1,82 @@
+.ori-agency-contact-section {
+	padding: 120px 0px 70px;
+}
+.ori-agency-contact-title {
+	padding-bottom: 70px;
+	h3 {
+		color: #000000;
+		font-size: 35px;
+		font-weight: 700;
+		padding-left: 75px;
+		position: relative;
+		&:before {
+			left: 0;
+			top: 20px;
+			height: 3px;
+			width: 50px;
+			content: '';
+			position: absolute;
+			background-color: var(--base-color);
+		}
+	}
+}
+.ori-agency-contact-info {
+	.info-item-area {
+		margin-bottom: 50px;
+		.inner-icon {
+			width: 60px;
+			color: #fff;
+			height: 60px;
+			font-size: 24px;
+			margin-right: 25px;
+			background-color: #000000;
+		}
+		.inner-text {
+			h3 {
+				color: #000000;
+				font-size: 24px;
+				font-weight: 700;
+				padding-bottom: 10px;
+			}
+			span {
+				display: block;
+				max-width: 300px;
+			}
+		}
+	}
+}
+.ori-agency-contact-form {
+	label {
+		display: block;
+		color: #000000;
+		margin-bottom: 5px;
+		i {
+			margin-right: 8px;
+		}
+	}
+	input,textarea {
+		width: 100%;
+		height: 50px;
+		padding: 20px;
+		border-radius: 8px;
+		margin-bottom: 20px;
+		border: 1px solid #dadada;
+	}
+	textarea {
+		height: 120px;
+	}
+	button {
+		color: #fff;
+		width: 100%;
+		border: none;
+		padding: 15px;
+		font-weight: 600;
+		border-radius: 40px;
+		background-color: var(--base-color);
+		transition: 500ms all ease;
+		&:hover {
+			color: #fff;
+			background-color: #000;
+		}
+	}
+}

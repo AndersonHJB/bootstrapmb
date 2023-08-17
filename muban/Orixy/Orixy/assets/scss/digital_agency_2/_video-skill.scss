@@ -1,0 +1,92 @@
+.ori-video-play-7 {
+	width: 50%;
+	&:before {
+		top: 0;
+		left: 0;
+		content: '';
+		width: 100%;
+		height: 100%;
+		opacity: 0.769;
+		position: absolute;
+		background-image: linear-gradient( -62deg, rgb(0,238,235) 1%, rgb(32,166,243) 53%, rgb(63,93,251) 100%);
+	}
+	.ori-play-video-play {
+		left: 0;
+		right: 0;
+		top: 50%;
+		text-align: center;
+		transform: translateY(-50%);
+		a {
+			color: #fff;
+			width: 160px;
+			height: 160px;
+			margin: 0 auto;
+			font-size: 35px;
+			border-radius: 100%;
+			background-color: rgba(255, 255, 255, 0.4);
+		}
+	}
+}
+.ori-skill-content-7 {
+	width: 50%;
+	padding: 120px 0px;
+	background-color: #ecf7ff;
+}
+.ori-skill-content-progress {
+	max-width: 530px;
+	padding-left: 55px;
+}
+.ori-skill-text-progress-bar {
+	padding-top: 35px;
+}
+.ori-skill-progress-7 {
+	.skill-progress-bar {
+		padding-top: 15px;
+		.skill-set-percent {
+			margin-bottom: 28px;
+			h4 {
+				color: #0b1c2b;
+				font-size: 16px;
+				font-weight: 700;
+				padding-bottom: 10px;
+			}
+			.progress {
+				height: 8px;
+				border-radius: 0;
+				position: relative;
+				overflow: visible;
+				background-color: #e8e8e8;
+				span {
+					right: 0;
+					top: -30px;
+					color: #0b1c2b;
+					font-weight: 700;
+					position: absolute;
+				}
+			}
+			.progress-bar {
+				width: 0;
+				float: left;
+				height: 100%;
+				position: relative;
+				transition:  1s all ease-in-out;
+				background-image: linear-gradient( -106deg, rgb(0,238,235) 1%, rgb(32,166,243) 53%, rgb(63,93,251) 100%);
+			}
+		}
+	}
+}
+.ori-skill-client-more {
+	margin-top: 45px;
+	.inner-img-list {
+		@extend%client_img;
+	}
+	.more-btn {
+		color: #0b1c2b;
+		margin-left: 18px;
+		a {
+			margin-left: 10px;
+			color: var(--base-color-7);
+			font-weight: 700;
+		}	
+	}
+}

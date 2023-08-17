@@ -1,0 +1,79 @@
+.ori-project-slider-item-7 {
+	.ori-project-text {
+		left: -105px;
+		width: 80%;
+		opacity: 0;
+		bottom: 50px;
+		padding: 15px 30px;
+		position: absolute;
+		transition: 500ms all ease;
+		transition-delay: .3s;
+		background: linear-gradient( -180deg, rgba(0,238,235, 0.75) 1%, rgba(32,166,243, 0.75) 53%, rgba(63,93,251, 0.75) 100%);
+		h3 {
+			color: #fff;
+			font-size: 24px;
+			font-weight: 700;
+			padding-bottom: 8px;
+		}
+		span {
+			color: #fff;
+		}
+		.ori-project-btn {
+			top: 25px;
+			right: 25px;
+			width: 40px;
+			color: #000;
+			height: 40px;
+			border-radius: 100%;
+			background-color: #fff;
+		}
+	}
+}
+.ori-project-slider-7 {
+	.slick-list {
+		overflow: visible;
+	}
+	.slick-slide {
+		-webkit-transition: .3s cubic-bezier(.24,.74,.58,1);
+		-khtml-transition: .3s cubic-bezier(.24,.74,.58,1);
+		-moz-transition: .3s cubic-bezier(.24,.74,.58,1);
+		-ms-transition: .3s cubic-bezier(.24,.74,.58,1);
+		-o-transition: .3s cubic-bezier(.24,.74,.58,1);
+		transition: .3s cubic-bezier(.24,.74,.58,1);
+		opacity: 0;
+	}
+	.slick-slide.slick-active {
+		opacity: 1;
+		transform: scale(.70);
+		&.slick-current {
+			transform: scale(1.0);
+		}
+	}
+	.ori-project-slider-item-7 {
+		&.slick-current {
+			.ori-project-text {
+				opacity: 1;
+				left: -145px;
+			}
+		}
+	}
+}
+.ori-seven-project-carousel {
+    bottom: 40px;
+	right: -185px;
+	position: absolute;
+	button {
+		width: 40px;
+		height: 40px;
+		border: none;
+		margin-right: 15px;
+		border-radius: 100%;
+		background-color: #fff;
+		transition: 500ms all ease;
+		box-shadow: 0px 0px 8px 0px rgba(6, 6, 6, 0.16);
+		&:hover {
+			color: #fff;
+			background-color: #7489f7;
+		}
+	}
+}

@@ -1,0 +1,43 @@
+.ori-app-landing {
+	color: #BAC1D4;
+	background-color: #1c2029;
+	h1,
+	h2,
+	h3, 
+	h4, 
+	h5,
+	h6 {
+		margin: 0;
+		font-weight: 400;
+		font-family: var(--heading-1);
+	}
+	.scrollup {
+		height: auto;
+		color: #fff;
+		line-height: 1;
+		position: inherit !important;
+		background-color: transparent;
+		i {
+			margin-left: 8px;
+		}
+	}
+}
+.ori-section-title-2 {
+	.sub-title {
+		font-size: 14px;
+		letter-spacing: 0.3em;
+	}
+	h2 {
+		color: #fff;
+		font-size: 47px;
+		font-weight: 700;
+		padding-top: 8px;
+		span {
+			color: #00AC83;
+		}
+	}
+	p {
+		font-size: 18px;
+		padding-top: 15px;
+	}
+}

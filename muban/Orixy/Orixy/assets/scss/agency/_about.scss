@@ -1,0 +1,33 @@
+.ori-ageny-about-section {
+	padding: 130px 0px;
+	background-color: #f7f6fb;
+}
+.ori-agency-about-counter {
+	margin-top: 40px;
+	background-color: #fff;
+	box-shadow: 0px 7px 7px 0px rgb(195 203 218 / 18%);
+	&:before {
+		top: 0;
+		left: 0;
+		content: '';
+		width: 5px;
+		height: 100%;
+		position: absolute;
+		background-color: var(--base-color);
+	}
+}
+.ori-agency-counter-item {
+	padding: 40px 35px 40px 50px;
+	h3 {
+		font-size: 30px;
+		font-weight: 700;
+		padding-bottom: 5px;
+		color: var(--base-color);
+	}
+	p {
+		color: #a0a0a2;
+	}
+}
+.ori-agency-about-img {
+	padding-left: 20px;
+}

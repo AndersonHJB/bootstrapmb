@@ -1,0 +1,36 @@
+.ori-app-overview-section {
+	z-index: 1;
+	overflow: hidden;
+	padding: 165px 0px 160px;
+	.ori-section-title-2 {
+		margin: 0 auto;
+		max-width: 650px;
+		padding-bottom: 40px;
+	}
+	.overview-shape1 {
+		bottom: 0;
+		top: 120px;
+	}
+	.overview-shape2  {
+		right: 0;
+		top: 120px;
+	}
+}
+.overview-text-btn {
+	p {
+		color: #fff;
+		padding-bottom: 40px;
+	}
+	a {
+		color: #fff;
+		font-weight: 700;
+		padding: 20px 60px;
+		border-radius: 40px;
+		display: inline-block;
+		letter-spacing: 0.14em;
+		background-color: var(--base-color-1);
+		&:hover {
+			background-color: #00AC83;
+		}
+	}
+}

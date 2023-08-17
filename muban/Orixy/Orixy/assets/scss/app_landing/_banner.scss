@@ -1,0 +1,35 @@
+.ori-banner-section-1 {
+	overflow: hidden;
+	.cirle-shape1,
+	.cirle-shape2 {
+		width: 18px;
+		height: 18px;
+		top: 50%;
+		border-radius: 100%;
+		border: 2px solid #00AC83;
+	}
+	.cirle-shape1 {
+		top: auto;
+		left: 150px;
+		bottom: 100px;
+		animation: Ori_animation_4 20s infinite linear alternate;
+	}
+	.cirle-shape2 {
+		right: 150px;
+		animation: Ori_animation_5 20s infinite linear alternate;
+	}
+}
+.ori-screenshots-section {
+	z-index: 1;
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+.swiper-wrapper{
+	width: 440px;
+	height: 955px;
+	cursor: url(../img/logo/cr.png), auto;
+}
+.swiper-slide {
+	background-size: 100% 100%;
+}
+

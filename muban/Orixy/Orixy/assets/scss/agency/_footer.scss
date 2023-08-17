@@ -1,0 +1,215 @@
+.ori-agency-footer-section-3 {
+	background-color: #000018;
+	border-top: 5px solid var(--base-color);
+	.ori-agency-newslatter-section-3 {
+		padding: 70px 0px 0px;
+		background-color: #000018;
+		.ori-agency-newslatter-text {
+			color: #fff;
+			h3 {
+				font-size: 30px;
+				font-weight: 700;
+				padding-bottom: 10px;
+			}
+			p {
+				color: #c9c8c8;
+				font-size: 17px;
+			}
+		}
+		.ori-agency-newslatter-btn {
+			a {
+				color: #fff;
+				width: 200px;
+				height: 50px;
+				font-size: 14px;
+				font-weight: 700;
+				border-radius: 30px;
+				background-color: var(--base-color);
+				&:hover {
+					color: #000;
+					background-color: #fff;
+				}
+			}
+		}
+	}
+}
+.ori-agency-footer-content-wrap-3 {
+	padding-top: 80px;
+	.ori-agency-footer-widget {
+		.widget-title {
+			color: #fff;
+			font-size: 24px;
+			font-weight: 700;
+			position: relative;
+			margin-bottom: 35px;
+			&:before {
+				left: 0;
+				height: 3px;
+				width: 30px;
+				content: '';
+				bottom:  -10px;
+				position: absolute;
+				background-color: var(--base-color);
+			}
+		}
+		.ori-agency-footer-logo-widget {
+			.ori-agency-footer-logo {
+				padding-bottom: 18px;
+			}
+			p {
+				color: #9d9d9d;
+				padding-bottom: 35px;
+			}
+			.footer-logo-btn {
+				color: #fff;
+				height: 40px;
+				width: 130px;
+				font-size: 14px;
+				font-weight: 700;
+				overflow: hidden;
+				line-height: 40px;
+				display: inline-block;
+				border-radius: 30px;
+				background-color: var(--base-color);
+				transition: .3s all ease-in-out;
+				&:after {
+					background-color: #fff;
+				}
+				&:hover {
+					color: #000;
+					background-color: #fff;
+				}
+			}
+		}
+		.ori-agency-footer-newslatter-widget {
+			p {
+				color: #9d9d9d;
+			}
+			form {
+				margin-top: 30px;
+				position: relative;
+			}
+			input {
+				height: 45px;
+				width: 100%;
+				padding-left: 20px;
+				border-radius: 15px;
+				border: 2px solid #313131;
+				background-color: transparent;
+				&::placeholder {
+					color: #fff;
+					font-size: 14px;
+				}
+			}
+			button {
+				top: 0;
+				right: 0;
+				width: 60px;
+				padding: 0;
+				color: #fff;
+				height: 45px;
+				border: none;
+				border-radius: 15px;
+				position: absolute;
+				background-color: var(--base-color);
+				transition: .3s all ease-in-out;
+				&:hover {
+					background-color: #fff;
+					color: #000;
+				}
+			}
+			.ori-agency-footer-social {
+				margin-top: 22px;
+				li {
+					margin-right: 15px;
+					a {
+						color: #494949;
+						transition: .3s all ease-in-out;
+						&:hover {
+							color: var(--base-color);
+						}
+					}
+				}
+			}
+		}
+		.ori-agency-footer-info-widget {
+			padding-left: 20px;
+			i {
+				float: left;
+				font-size: 14px;
+				margin-top: 5px;
+				color: var(--base-color);
+				margin-right: 10px;
+			}
+			a {
+				color: #9d9d9d;
+				display: block;
+				font-size: 14px;
+				overflow: hidden;
+				max-width: 170px;
+			}
+			.office-open-hour {
+				margin-top: 10px;
+				span {
+					color: #fff;
+					font-size: 14px;
+					display: block;
+					margin-bottom: 10px;
+					font-weight: 700;
+					text-decoration: underline;
+				}
+				p {
+					font-size: 14px;
+					color: #9d9d9d;
+					max-width: 180px;
+				}
+			}
+		}
+		.gallery-widget {
+			li {
+				float: left;
+				width: 75px;
+				height: 75px;
+				overflow: hidden;
+				margin-right: 10px;
+				margin-bottom: 7px;
+				position: relative;
+				background-color: #000;
+				transition: 0.3s all ease-in-out;
+			}
+			li:before {
+				top: 0;
+				opacity: 0;
+				content: "";
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				background-color: #000;
+				transition: 0.3s all ease-in-out;
+			}
+			li i {
+				left: 0;
+				top: 50%;
+				right: 0;
+				opacity: 0;
+				color: #fff;
+				position: absolute;
+				text-align: center;
+				transform: translateY(-50%);
+				transition: 0.3s all ease-in-out;
+			}
+			li:hover:before {
+				opacity: 0.7;
+			}
+			li:hover i {
+				opacity: 1;
+			}
+		}
+	}
+	.ori-agency-footer-copyright {
+		color: #fff;
+		margin-top: 80px;
+		padding: 25px 0px;
+		border-top: 1px solid #15152e;
+	}
+}

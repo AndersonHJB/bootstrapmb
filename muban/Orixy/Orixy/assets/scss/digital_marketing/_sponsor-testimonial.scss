@@ -1,0 +1,18 @@
+.ori-dm-sponsor-testimonial-section {
+	padding: 130px 0px 80px;
+	background-color: #f8f8f8;
+	&:before {
+		top: 0;
+		left: 0;
+		width: 100%;
+		content: '';
+		z-index: -1;
+		height: 585px;
+		position: absolute;
+		background-repeat: no-repeat;
+		background-image: url(../img/slider/dm-banner.png);
+	}
+}
+.ori-dm-testimonial-content {
+	padding-top: 130px;
+}

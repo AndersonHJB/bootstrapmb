@@ -1,0 +1,45 @@
+.digital-marketing {
+	color: #717171;
+	background-color: #fff;
+	h1,
+	h2,
+	h3, 
+	h4, 
+	h5,
+	h6 {
+		margin: 0;
+		font-weight: 400;
+		font-family: var(--heading-4);
+	}
+}
+.ori-section-title-6 {
+	h2 {
+		color: #0D0D0D;
+		font-size: 50px;
+		font-weight: 600;
+		line-height: 66px;
+		span {
+			font-weight: 300;
+		}
+	}
+	p {
+		font-size: 18px;
+		line-height: 30px;
+		padding: 45px 0px 50px;
+	}
+}
+.ori-btn-5 {
+	a {
+		color: #1D1A26;
+		font-size: 14px;
+		font-weight: 700;
+		padding: 25px 45px;
+		display: inline-block;
+		letter-spacing: 0.14em;
+		background-color: var(--base-color-2);
+		&:hover {
+			color: #fff;
+			background-color: #423EF3;
+		}
+	}
+}

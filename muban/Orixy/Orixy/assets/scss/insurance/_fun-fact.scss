@@ -1,0 +1,41 @@
+.ori-ins-fan-fact-section {
+	padding: 110px 0px 0px;
+}
+.ori-ins-fun-fact-content {
+	padding-bottom: 55px;
+	.ori-ins-fun-fact-img {
+		bottom: 0;
+		left: -150px;
+	}
+}
+.ori-ins-fun-fact-item-area {
+	max-width: 780px;
+}
+.ori-ins-fun-fact-item {
+	width: 50%;
+	padding-bottom: 65px;
+	.ori-ins-fun-fact-icon {
+		width: 80px;
+		height: 80px;
+		margin-right: 25px;
+		border-radius: 100%;
+		background-color: #fff;
+		box-shadow: 0px 15px 25px 0px #E8E8E89E;
+		i {
+			color: #b3b3b3;
+			font-size: 30px;
+		}
+	}
+	.ori-ins-fun-fact-text {
+		h3 {
+			color: #0B1C2A;
+			font-size: 24px;
+			font-weight: 500;
+			max-width: 240px;
+			line-height: 34px;
+			span {
+				color: var(--base-color-5);
+			}
+		}
+	}
+}

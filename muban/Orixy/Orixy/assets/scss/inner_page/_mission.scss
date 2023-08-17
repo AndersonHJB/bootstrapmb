@@ -1,0 +1,100 @@
+.ori-mission-section {
+	overflow: hidden;
+	padding: 125px 0px;
+}
+.ori-mission-title-text {
+	max-width: 560px;
+	.ori-inner-section-title {
+		padding-bottom: 35px;
+		p {
+			color: #BAC1D4;
+			font-size: 18px;
+			max-width: 495px;
+			line-height: 30px;
+			padding-top: 35px;
+		}
+	}
+}
+.ori-mission-accordion {
+	margin-top: 60px;
+	&:before {
+		left: 0;
+		top: 7px;
+		height: 90%;
+		content: '';
+		width: 1px;
+		position: absolute;
+		background-color: var(--base-color-1);
+	}
+	.accordion-item,
+	.accordion-button:not(.collapsed),
+	.accordion-button {
+		background-color: transparent;
+	}
+	.accordion-item {
+		border:  none;
+		position: relative;
+		padding-left: 40px;
+		margin-bottom: 40px;
+		&:before {
+			top: 5px;
+			left: -7px;
+			width: 15px;
+			content: '';
+			height: 15px;
+			position: absolute;
+			border-radius: 100%;
+			background-color: var(--base-color-1);
+		}
+	}
+	.accordion-button {
+		padding: 0;
+		color: #fff;
+		font-size: 24px;
+		font-weight: 700;
+	}
+	.accordion-button:focus {
+		border: none;
+		box-shadow: none;
+	}
+	.accordion-body {
+		color: #BAC1D4;
+		font-size: 18px;
+		line-height: 30px;
+		padding: 25px 0px 0px;
+	}
+	.accordion-button::after {
+		content: '\f062';
+		font-weight: 300;
+		background-image: none;
+		font-family: 'Font Awesome 5 Pro';
+	}
+	.accordion-button:not(.collapsed)::after {
+		color: var(--base-color-1);
+	}
+}
+.ori-vission-more-btn {
+	margin-top: 35px;
+	a {
+		font-size: 15px;
+		font-weight: 700;
+		letter-spacing: 0.14em;
+		color: var(--base-color-1);
+		i {
+			margin-left: 15px;
+			transition: 500ms all ease;
+		}
+		&:hover {
+			letter-spacing: 0.18em;
+			i {
+				margin-left: 20px;
+			}
+		}
+	}
+}
+.ori-vission-section {
+	overflow: hidden;
+	.ori-service-why-choose-text {
+		padding-left: 0;
+	}
+}

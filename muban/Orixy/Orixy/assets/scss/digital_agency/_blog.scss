@@ -1,0 +1,109 @@
+.ori-blog-section-2 {
+	overflow: hidden;
+	padding: 125px 0px 135px;
+}
+.ori-blog-top-content-2 {
+	.ori-blog-slider-nav {
+		button {
+			border: none;
+			margin-left: 20px;
+			background-color: transparent;
+		}
+	}
+}
+.ori-blog-inner-item-2 {
+	padding-right: 40px;
+}
+.ori-blog-item-2 {
+	width: 625px;
+	padding: 40px;
+	border-radius: 20px;
+	background-color: rgba(23, 23, 23, 1);
+	.ori-blog-img {
+		z-index: 1;
+		overflow: hidden;
+		margin-bottom: 35px;
+		border-radius: 20px;
+		position: relative;
+		&:before {
+			top: 0;
+			left: 0;
+			right: 0;
+			z-index: 1;
+			height: 0%;
+			width: 100%;
+			content: '';
+			position: absolute;
+			border-radius: 20px;
+			transition: 500ms all ease;
+			background-color: rgba(255, 228, 59, 0.5);
+		}
+		img {
+			transform: scale(1);
+			transition: 500ms all ease;
+		}
+	}
+	.ori-blog-text {
+		.blog-category {
+			font-weight: 700;
+			font-size: 14px;
+			border-radius: 5px;
+			padding: 12px 30px;
+			display: inline-block;
+			color: rgba(13, 13, 13, 1);
+			background-color: var(--base-color-2);
+		}
+		h3 {
+			color: #fff;
+			font-size: 32px;
+			max-width: 485px;
+			line-height: 40px;
+			padding: 20px 0px;
+			a {
+				width: 100%;
+				display: inline !important;
+				background-position-y: -2px;
+				background-repeat: no-repeat;
+				background-size: 0 100%;
+				backface-visibility: hidden;
+				-webkit-backface-visibility: hidden;
+				background-image: linear-gradient(transparent calc(100% - 2px), currentColor 1px);
+				transition: 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+				&:hover {
+					color: inherit;
+					background-size: 100% 100%;
+				}
+			}
+		}
+		p {
+			font-size: 18px;
+			line-height: 30px;
+		}
+	}
+	&:hover {
+		.ori-blog-img {
+			img {
+				transform: scale(1.05);
+			}
+			&:before {
+				height: 100%;
+			}
+		}
+	}
+}
+.ori-blog-slider {
+	.slick-list {
+		overflow: visible;
+	}
+	.slick-slide {
+		-webkit-transition: 0.3s cubic-bezier(0.24, 0.74, 0.58, 1);
+		transition: 0.3s cubic-bezier(0.24, 0.74, 0.58, 1);
+		opacity: 0;
+	}
+	.slick-slide.slick-active {
+		opacity: 1;
+	}
+}
+.ori-blog-slider-area-2 {
+	padding-top: 75px;
+}

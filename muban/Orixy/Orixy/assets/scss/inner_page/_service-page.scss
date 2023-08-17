@@ -1,0 +1,169 @@
+.ori-service-page-service-section {
+	overflow: hidden;
+	padding: 115px 0px;
+	background-color: #171717;
+}
+.ori-service-page-service-inner-item {
+	margin: 15px 0px;
+	padding: 60px 40px;
+	background-color: #0D0D0D;
+	.service-icon {
+		margin-bottom: 30px;;
+		i {
+			font-size: 34px;
+			transition: 500ms all ease;
+		}
+	}
+	.service-text {
+		h3 {
+			font-size: 18px;
+			font-weight: 700;
+			padding-bottom: 18px;
+		}
+		p {
+			font-size: 18px;
+			color: #BAC1D4;
+			max-width: 240px;
+			line-height: 28px;
+		}
+	}
+	&:hover {
+		.service-icon { 
+			i {
+				color: var(--base-color-1);
+			}
+		}
+	}
+}
+.ori-service-inner-section {
+	overflow: hidden;
+	padding: 130px 0px;
+	.ori-service-content-1 {
+		padding-top: 0;
+		.ori-service-inner-item:before {
+			background-color: #171717;
+		}
+	}
+}
+.ori-service-why-choose {
+	padding-top: 130px;
+}
+.ori-service-why-choose-text {
+	padding-left: 40px;
+	.ori-service-why-choose-list-item {
+		padding-top: 40px;
+		ul {
+			li {
+				font-size: 24px;
+				font-weight: 700;
+				padding-left: 45px;
+				padding-bottom: 38px;
+				position: relative;
+				&:before {
+					left: 0;
+					top: 10px;
+					content: '';
+					width: 15px;
+					height: 15px;
+					position: absolute;
+					border-radius: 100%;
+					background-color: #FF7425;
+				}
+				&:after {
+					top: 10px;
+					left: 7px;
+					width: 1px;
+					content: '';
+					height: 100%;
+					position: absolute;
+					background-color: var(--base-color-1);
+				}
+				&:last-child {
+					padding-bottom: 0;
+					&:after {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
+.ori-achivement-history-section {
+	overflow: hidden;
+	padding-bottom: 120px;
+}
+.ori-achivement-history-item-wrapper {
+	margin: 0 auto;
+	max-width: 800px;
+}
+.ori-achivement-history-item {
+	max-width: 250px;
+	text-align: right;
+	.achive-year {
+		right: -220px;
+		font-size: 22px;
+		line-height: 50px;
+		background-color: #242424;
+		padding: 0px 40px 0px 20px;
+		border-radius: 0px 7px 7px 0px;
+		&:after {
+			top: 0;
+			left: -35px;
+			content: '';
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-top: 25px solid transparent;
+			border-right: 35px solid #242424;
+			border-bottom: 25px solid transparent;
+		}
+	}
+	h3 {
+		font-size: 24px;
+		font-weight: 700;
+		padding-bottom: 15px;
+	}
+	p {
+		color: #BAC1D4;
+		font-size: 18px;
+	}
+	.achivement-text {
+		margin-bottom: 30px;
+	}
+}
+.ori-achivement-history-content {
+	padding-top: 70px; 
+}
+.ori-achivement-history-item-wrapper {
+	&:before {
+		left: 0;
+		right: 0;
+		top: -35px;
+		width: 1px;
+		content: '';
+		height: 90%;
+		margin: 0 auto;
+		position: absolute;
+		background-color: var(--base-color-1);
+	}
+	.ori-achivement-history-item-area {
+		width: 100%;
+		display: inline-block;
+		&:nth-child(even) {
+			.ori-achivement-history-item {
+				float: right;
+				text-align: left;
+				.achive-year {
+					right: auto;
+					left: -240px;
+					border-radius: 7px 0px 0px 7px;
+					&:after {
+						left: auto;
+						right: -35px;
+						transform: rotate(180deg);
+					}
+				}
+			}
+		}
+	}
+}

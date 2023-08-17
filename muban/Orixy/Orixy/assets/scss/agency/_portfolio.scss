@@ -1,0 +1,113 @@
+.ori-agency-portfolio-section {
+	overflow: hidden;
+	padding: 125px 0px;
+	background-color: #000000;
+	.ori-port-shape {
+		right: 0;
+		top: -80px;
+	}
+	.ori-agency-section-title {
+		h2 {
+			color: #fff;
+		}
+	}
+}
+.ori-agency-portfolio-content {
+	padding-top: 60px;
+}
+.ori-agency-portfolio-item-wrap {
+	padding: 0px 15px;
+	.ori-agency-portfolio-item {
+		&:before,
+		&:after {
+			left: 0;
+			right: 0;
+			bottom: 0;
+			height: 85%;
+			content: '';
+			position: absolute;
+			-webkit-transition: .3s cubic-bezier(.24,.74,.58,1);
+			-khtml-transition: .3s cubic-bezier(.24,.74,.58,1);
+			-moz-transition: .3s cubic-bezier(.24,.74,.58,1);
+			-ms-transition: .3s cubic-bezier(.24,.74,.58,1);
+			-o-transition: .3s cubic-bezier(.24,.74,.58,1);
+			transition: .3s cubic-bezier(.24,.74,.58,1);
+			background-image: linear-gradient(to bottom,rgba(27,27,27,0),#1b1b1b);
+		}
+		&:after {
+			opacity: 0;
+			background-image: linear-gradient(to bottom,rgba(255, 200, 1, 0),#f8c40e);
+		}
+		.inner-text {
+			z-index: 1;
+			left: 55px;
+			bottom: 35px;
+			span {
+				color: #fff;
+				font-size: 15px;
+			}
+			h3 {
+				color: #fff;
+				font-size: 24px;	
+				font-weight: 700;
+				padding-top: 10px;
+			}
+		}
+		&:hover {
+			&:after {
+				opacity: 1;
+			}
+		}
+	}
+}
+.ori-agency-portfolio-carousel-area {
+	margin: 0 auto;
+	max-width: 1170px;
+	margin-top: 60px;
+	.carousel_nav {
+		button {
+			color: #fff;
+			width: 45px;
+			border: none;
+			height: 45px;
+			border-radius: 100%;
+			transition: 500ms all ease;
+			background-color: #333333;
+			&:hover {
+				background-color: var(--base-color);
+			}
+		}
+	}
+}
+.ori-agency-portfolio-slider {
+	.slick-dots {
+		height: 3px;
+		display: flex !important;
+		bottom: -80px;
+		margin: 0 auto;
+		position: relative;
+		flex-wrap: nowrap;
+		max-width: 970px;
+		background-color: #343435;
+		li {
+			margin: 0;
+			height: 3px;
+			display: flex;
+			width: 100%;
+			line-height: 1;
+			button {
+				width: 100%;
+				height: 3px;
+				padding: 0;
+			}
+			&.slick-active {
+				button {
+					height: 3px;
+					width: 100%;
+					border:  none;
+					background-color: var(--base-color);
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,143 @@
+.ori-team-details-section {
+	overflow: hidden;
+	padding: 130px 0px;
+}
+.ori-team-details-content {
+	margin: 0 auto;
+	max-width: 810px;
+}
+.ori-team-details-info {
+	padding-bottom: 80px;
+}
+.ori-team-details-info-text {
+	padding: 20px 0px 0px 30px;
+	.ori-team-details-info-title {
+		margin-bottom: 20px;
+		h3 {
+			color: #fff;
+			font-size: 35px;
+			font-weight: 700;
+			padding-bottom: 20px;
+		}
+		span {
+			color: #BAC1D4;
+			font-size: 18px;
+		}
+	}
+	.ori-team-details-info-list {
+		li {
+			color: #fff;
+			font-weight: 700;
+			margin-bottom: 25px;
+			text-transform: uppercase;
+			span {
+				color: #BAC1D4;
+				font-weight: 400;
+				text-transform: capitalize;
+			}
+		}
+	}
+	.ori-team-details-social {
+		padding-top: 30px;
+		h4 {
+			color: #fff;
+			font-size: 20px;
+			font-weight: 700;
+			padding-bottom: 25px;
+		}
+		a {
+			color: #fff;
+			width: 55px;
+			height: 55px;
+			line-height: 55px;
+			text-align: center;
+			margin-right: 10px;
+			border-radius: 100%;
+			display: inline-block;
+			background-color: #202020;
+			&:hover {
+				background-color: var(--base-color-1);
+			}
+		}
+	}
+}
+.ori-team-personal-info {
+	margin-bottom: 95px;
+	h3 {
+		color: #fff;
+		font-size: 30px;
+		font-weight: 700;
+	}
+	p {
+		color: #BAC1D4;
+		font-size: 18px;
+		line-height: 30px;
+		padding-top: 30px;
+	}
+}
+.ori-team-professional-skill {
+	margin-top: 45px;
+	.ori-about-circle-progress-item {
+		margin-right: 180px;
+	}
+}
+.ori-single-comment-form {
+	padding: 40px;
+	border-radius: 20px;
+	background-color: #171717;
+	h3 {
+		color: #fff;
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 40px;
+		padding-bottom: 20px;
+	}
+	p {
+		color: #BAC1D4;
+		font-size: 14px;
+	}
+	form {
+		margin-top: 50px;
+		label {
+			color: #fff;
+			display: block;
+			font-size: 20px;
+			font-weight: 700;
+			margin-bottom: 12px;
+		}
+		input,textarea {
+			color: #fff;
+			width: 100%;
+			height: 50px;
+			padding-left: 20px;
+			margin-bottom: 35px;
+			border: 1px solid #393939;
+			background-color: transparent;
+			&::placeholder {
+				color: #BAC1D4;
+			}
+			&:focus {
+				color: #fff;
+				border: 1px solid #fff;
+			}
+		}
+		textarea {
+			height: 120px;
+			padding-top: 15px;
+		}
+		button {
+			color: #fff;
+			border: none;
+			font-size: 14px;
+			font-weight: 700;
+			border-radius: 3px;
+			padding: 15px 40px;
+			text-transform: uppercase;
+			transition: 500ms all ease;
+			background-color: var(--base-color-1);
+			&:hover {
+				background-color: #ab592a;
+			}
+		}
+	}
+}

@@ -1,0 +1,56 @@
+.ori-dm-banner-section {
+	z-index: 1;
+	&:before {
+		top: 0;
+		left: 0;
+		width: 100%;
+		content: '';
+		z-index: -1;
+		height: 805px;
+		position: absolute;
+		background-repeat: no-repeat;
+		background-image: url(../img/slider/dm-banner.png);
+	}
+	.ori-dm-banner-shape1 {
+		left: 0;
+		bottom: 245px;
+	}
+	.ori-dm-banner-shape2 {
+		right: 0;
+		bottom: 245px;
+	}
+}
+.ori-dm-banner-content {
+	padding-top: 205px;
+	.ori-dm-banner-img {
+		padding-top: 85px;
+	}
+}
+.ori-dm-banner-text-play-btn {
+	.ori-dm-banner-text {
+		max-width: 680px;
+		h1 {
+			color: #fff;
+			font-weight: 6;
+			font-size: 70px;
+			font-weight: 600;
+			line-height: 78.5px;
+			span {
+				font-weight: 300;
+			}
+		}
+	}
+	.ori-dm-banner-btn {
+		a {
+			width: 122px;
+			height: 122px;
+			color: #0D0D0D;
+			font-size: 25px;
+			border-radius: 100%;
+			background-color: var(--base-color-2);
+			&:hover {
+				background-color: #fff;
+			}
+		}
+	}
+}

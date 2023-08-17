@@ -1,0 +1,35 @@
+.ori-footer-cta-section-7 {
+	padding: 130px 0px 125px;
+	background-color: #12162d;
+	.container {
+		max-width: 1470px;
+	}
+}
+.ori-footer-cta-text-7 {
+	h3 {
+		color: #fff;
+		font-size: 36px;
+		font-weight: 700;
+		padding-bottom: 45px;
+	}
+	.ori-btn-7 {
+		a {
+			i {
+				margin-left: 10px;
+			}
+		}
+	}
+}
+.ori-footer-content-7 {
+	&:before {
+		top: 0;
+		left: 0;
+		right: 0;
+		content: '';
+		width: 1px;
+		height: 100%;
+		margin: 0 auto;
+		position: absolute;
+		background-color: #262a3b; 
+	}
+}

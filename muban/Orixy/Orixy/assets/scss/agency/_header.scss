@@ -1,0 +1,64 @@
+/*Header Style One*/
+/*----------------------------------------------------*/
+.ori-header-section {
+	&.agency-header {
+		padding: 0;
+		color: #000000;
+		background-color: #fff;
+		.ori-agency-header-top {
+			padding: 20px 0px 15px;
+			border-bottom: 1px solid #c7c2c2;
+			.header-slug {
+				span {
+					color: var(--base-color);
+				}
+			}
+			.header-time {
+				i {
+					margin-right: 5px;
+				}
+			}
+		}
+		.ori-main-navigation li a {
+			color: #000000;
+			font-size: 18px;
+			letter-spacing: 0;
+			text-transform: capitalize;
+		}
+		.ori-main-navigation li {
+			margin: 0px 20px;
+		}
+		.ori-agency-search-cta {
+			.ori-hd-search {
+				button {
+					border: none;
+					background-color: transparent;
+				}
+			}
+			.ori-hd-cta {
+				margin-left: 20px;
+				.inner-icon {
+					width: 40px;
+					height: 40px;
+					margin-right: 15px;
+					background-color: var(--base-color);
+				}
+				.inner-text {
+					span {
+						display: block;
+					}
+				}
+			}
+		}
+		.ori-agency-header-main-menu-wrap {
+			padding: 20px 0px;
+			border-bottom: 1px solid #c7c2c2;
+		}
+		.ori-megamenu .dropdown-menu {
+			top: 100%;
+		}
+	}
+	&.sticky-on .ori-agency-header-top {
+		display: none;
+	}
+}

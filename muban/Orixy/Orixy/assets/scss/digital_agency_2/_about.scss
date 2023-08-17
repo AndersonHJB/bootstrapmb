@@ -1,0 +1,31 @@
+.ori-about-section-7 {
+	overflow: hidden;
+}
+.ori-about-img-item-wrap {
+	z-index: 1;
+	.ori-about-inner-img1,
+	.ori-about-inner-img2 {
+		overflow: hidden;
+		border-radius: 50px;
+	}
+	.ori-about-shape-circle {
+		left: 115px;
+		z-index: -1;
+		bottom: -200px;
+		position: absolute;
+	}
+	.ori-about-inner-img2 {
+		right: -280px;
+		bottom: -195px;
+		position: absolute;
+	}
+}
+.ori-about-text-wrap-7 {
+	padding-top: 40px;
+	transform: translateX(315px);
+	p {
+		line-height: 1.5;
+		max-width: 315px;
+		padding-bottom: 30px;
+	}
+}

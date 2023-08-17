@@ -1,0 +1,162 @@
+@media screen and (max-width: 1024px) { 
+	.ori-agency-footer-content-wrap-3 .ori-agency-footer-widget .gallery-widget li {
+		height: 60px;
+		width: 60px;
+	}
+	.ori-header-section.agency-header .ori-main-navigation li {
+		margin: 0px 15px;
+	}
+	.ori-header-section.agency-header .ori-agency-search-cta .ori-hd-cta .inner-icon {
+		display: none !important;
+	}
+}
+@media screen and (max-width: 991px) { 
+	.ori-header-section.agency-header .brand-logo {
+		margin: 0;
+		position: static;
+		transform: translateY(0);
+	}
+	.ori-header-section.agency-header.sticky-on {
+		padding: 0;
+	}
+	.ori-main-navigation-area {
+		display: none;
+	}
+	.ori-agency-search-cta {
+		display: none !important;
+	}
+	.ori-header-section.agency-header .ori-agency-header-top {
+		display: none !important;
+	}
+	.ori-header-section.agency-header {
+		.mobile_menu_button {
+			top: -60px;
+			left: auto;
+			right: 15px;
+			color: #000;
+			display: block;
+		}
+	}
+	.ori-agency-about-img {
+		margin-top: 60px;
+		text-align: center;
+	}
+	.ori-agency-service-item {
+		margin: 0 auto;
+		max-width: 370px;
+		margin-bottom: 30px;
+	}
+	.ori-agency-team-item {
+		margin: 0 auto;
+		max-width: 270px;
+		margin-bottom: 30px;
+	}
+	.ori-agency-portfolio-slider .slick-dots {
+		max-width: 78%;
+	}
+	.ori-agency-portfolio-carousel-area {
+		padding: 0px 15px;
+	}
+	.ori-agency-pricing-item .inner-icon {
+		top: 0;
+		margin-bottom: 30px;
+	}
+	.ori-agency-pricing-item {
+		margin-bottom: 60px;
+	}
+	.ori-agency-contact-text,
+	.ori-agency-contact-form-area {
+		max-width: 570px;
+		margin: 0 auto;
+	}
+	.ori-agency-team-top-content {
+		flex-wrap: wrap;
+	}
+	.ori-agency-team-btn a {
+		margin-top: 30px;
+	}
+	.ori-agency-team-filter-btn li {
+		margin-bottom: 10px;
+	}
+	.ori-agency-about-img {
+		padding-left: 0;
+	}
+	.ori-agency-newslatter-content-3 {
+		flex-wrap: wrap;
+	}
+	.ori-agency-newslatter-btn {
+		margin-top: 20px;
+	}
+	.ori-agency-footer-content-wrap-3 .ori-agency-footer-widget .ori-agency-footer-info-widget {
+		padding-left: 0;
+	}
+	.ori-agency-footer-content-wrap-3 .ori-agency-footer-widget {
+		margin-bottom: 40px;
+	}
+}
+@media screen and (max-width: 680px) {  
+	.ori-agency-portfolio-slider .slick-dots {
+		width: 70%;
+	}
+	.ori-agency-about-counter {
+		flex-wrap: wrap;
+	}
+}
+@media screen and (max-width: 480px) {  
+	.ori-header-section.agency-header .ori-agency-header-main-menu-wrap {
+		padding: 10px 0px;
+	}
+	.ori-header-section.agency-header .brand-logo {
+		width: 120px;
+	}
+	.ori-header-section.agency-header .mobile_menu_button {
+		top: -48px;
+	}
+	.ori-ageny-about-section,
+	.ori-agency-service-section {
+		padding: 75px 0px;
+	}
+	.ori-agency-section-title h2 {
+		font-size: 26px;
+	}
+	.ori-agency-section-title .sub-title:after, 
+	.ori-agency-section-title .sub-title:before {
+		display: none !important;
+	}
+	.ori-agency-team-section {
+		padding: 75px 0px 30px;
+	}
+	.ori-agency-team-btn a {
+		padding: 10px 20px;
+	}
+	.ori-agency-team-filter-btn {
+		text-align: center;
+	}
+	.ori-agency-portfolio-slider .slick-dots {
+		width: 60%;
+	}
+	.ori-agency-portfolio-section {
+		padding: 70px 0px;
+	}
+	.ori-agency-pricing-section {
+		padding: 75px 0px;
+	}
+	.ori-pricing-item-content {
+		padding-top: 60px;
+	}
+	.ori-agency-contact-title h3 {
+		font-size: 25px;
+	}
+	.ori-agency-contact-section {
+		padding: 60px 0px;
+	}
+	.ori-agency-contact-title {
+		padding-bottom: 40px;
+	}
+	.ori-agency-contact-info .info-item-area .inner-text h3 {
+		font-size: 18px;
+	}
+	.ori-agency-footer-content-wrap-3 .ori-agency-footer-copyright {
+		margin-top: 30px;
+	}
+}

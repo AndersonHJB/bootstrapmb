@@ -1,0 +1,54 @@
+.ori-sponsor-section-1 {
+	z-index: 1;
+	overflow: hidden;
+	padding: 125px 0px 0px;
+	.line_animation .line_area:before {
+		display: none;
+	}
+}
+.ori-sponsor-title {
+	padding-bottom: 60px;
+	h3 {
+		display: flex;
+		font-size: 16px;
+		font-weight: 700;
+		flex-wrap: nowrap;
+		align-items: center;
+		letter-spacing: 0.14em;
+		color: var(--base-color-1);
+		span {
+			margin: 0px 20px;
+			white-space: nowrap;
+            display: inline-block;
+		}
+		i { 
+			width: 100%;
+			height: 1.1px;
+			position: relative;
+			display: inline-block;
+			background-color: #181818;
+		}
+	}
+}
+.ori-sponsor-slider {
+	.slick-arrow {
+		display: none !important;
+	}
+	.ori-sponsor-item {
+		padding: 0px 15px;
+		.ori-sponsor-img {
+			a {
+				display: inline-block;
+			}
+			img {
+				margin: 0 auto;
+			}
+		}
+	}
+}
+.ori-sponsor-section-2 {
+	.ori-sponsor-title h3 {
+		color: #fff;
+		font-family: var(--heading-1);
+	}
+}

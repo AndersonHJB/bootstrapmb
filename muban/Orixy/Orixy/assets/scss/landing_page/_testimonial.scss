@@ -1,0 +1,37 @@
+.ori-lan-testimonial-section {
+	padding: 125px 65px;
+}
+.ori-lan-testimonial-slider-wrapper {
+	padding-top: 65px;
+}
+.ori-lan-testimonial-item-area {
+	padding: 0px 30px;
+}
+.ori-lan-testimonial-item {
+	background-color: #212121;
+	padding: 50px 50px 50px 30px;
+	.tst-title {
+		color: #fff;
+		font-size: 18px;
+		font-weight: 700;
+	}
+	.tst-rate {
+		color: var(--base-color-1);
+	}
+	.ori-lan-testimonial-desc {
+		padding: 40px 0px;
+	}
+	.ori-lan-testimonial-author {
+		.inner-img {
+			width: 50px;
+			height: 50px;
+			margin-right: 13px;
+		}
+		.inner-text {
+			a {
+				margin-left: 12px;
+				color: var(--base-color-1);
+			}
+		}
+	}
+}

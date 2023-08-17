@@ -1,0 +1,94 @@
+.ori-about-play-section {
+	overflow: hidden;
+	padding: 125px 0px 120px;
+}
+.ori-about-play-top-content {
+	padding-bottom: 75px;
+	.ori-inner-section-title {
+		max-width: 605px;
+	}
+	.ori-about-play-top-text {
+		font-size: 18px;
+		line-height: 30px;
+		max-width: 490px;
+	}
+}
+.ori-about-play-area {
+	.about-play-btn {
+		left: 0;
+		top: 50%;
+		right: 0;
+		margin: 0 auto;
+		transform: translateY(-50%);
+		a {
+			width: 120px;
+			height: 120px;
+			margin: 0 auto;
+			font-weight: 700;
+			border-radius: 100%;
+			letter-spacing: 0.25em;
+			background-color: #0D0D0D;
+			border: 2px solid #FFFFFF;
+		}
+	}
+}
+.ori-about-counter-area {
+	padding-top: 120px;
+}
+.ori-about-counter-item {
+	h3 {
+		color: #fff;
+		font-size: 50px;
+		font-weight: 700;
+		padding-bottom: 12px;
+	}
+	p {
+		font-size: 18px;
+		span {
+			color: var(--base-color-1);
+		}
+	}
+}
+.ori-about-circle-progress-section {
+	overflow: hidden;
+}
+.ori-circle-progress-top-content {
+	padding-bottom: 70px;
+	.ori-inner-section-title {
+		max-width: 590px;
+	}
+	.ori-circle-progress-btn {
+		a {
+			font-size: 22px;
+			font-weight: 700;
+			i {
+				margin-left: 10px;
+			}
+		}
+	}
+}
+.ori-about-circle-progress-item {
+	.graph-outer {
+		margin-bottom: 20px;
+	}
+	.counter-boxed .count-box {
+		position: absolute;
+		left: 0;
+		top: 42%;
+		width: 100%;
+		color: #fff;
+		font-size: 40px;
+		font-weight: 700;
+		text-align:center;
+		transform: translateY(-50%);
+	}
+	.counter-boxed h3 {
+		color: #fff;
+		font-size: 14px;
+		padding-bottom: 8px;
+		letter-spacing: 0.1em;
+	}
+}
+.inner-sponsor {
+	padding-bottom: 80px;
+}

@@ -1,0 +1,116 @@
+.ori-testimonial-section-7 {
+	padding: 140px 0px 120px;
+	background: linear-gradient( -180deg, rgb(235,247,255) 1%, rgb(242,248,252) 53%, rgb(249,249,249) 99%);
+	.ori-section-title-7 {
+		padding-bottom: 40px;
+	}
+}
+.ori-testimonial-inner-item-7 {
+	padding: 45px 0px 25px 45px;
+	&:before {
+		top: 0;
+		left: 0;
+		width: 73%;
+		height: 75%;
+		content: '';
+		position: absolute;
+		background: linear-gradient(-180deg, rgb(0, 238, 235) 1%, rgb(32, 166, 243) 53%, rgb(63, 93, 251) 100%);
+	}
+	.ori-testimonial-text-img-7 {
+		padding: 35px;
+		max-width: 505px;
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px 0px 27px 0px rgba(6, 6, 6, 0.16);
+		.test-rate {
+			top: -25px;
+			right: 30px;
+		}
+		.ori-testimonial-img-name {
+			.ori-testimonial-img {
+				width: 190px;
+				height: 135px;
+				overflow: hidden;
+				margin-right: 35px;
+			}
+			.testimonial-name {
+				max-width: 135px;
+				h3 {
+					color: #0b1c2b;
+					line-height: 1;
+					font-size: 36px;
+					font-weight: 700;
+					padding-bottom: 5px;
+				}
+			}
+		}
+		.testimonial-desc {
+			font-size: 24px;
+			margin-top: 45px;
+			padding-left: 60px;
+			padding-bottom: 10px;
+			&:before {
+				top: -20px;
+				left: -5px;
+				font-size: 40px;
+				content: '\f10d';
+				font-weight: 900;
+				position: absolute;
+				font-family: 'Font Awesome 5 Pro';
+				background: linear-gradient(-106deg, rgb(0, 238, 235) 1%, rgb(32, 166, 243) 53%, rgb(63, 93, 251) 100%);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+			}
+		}
+	}
+}
+.ori-testimonial-slider-area-7 {
+	.carousel_nav {
+		button {
+			z-index: 1;
+			width: 32px;
+			border: none;
+			height: 32px;
+			margin: 0px 75px;
+			border-radius: 100%;
+			position: relative;
+			background-color: #bdc5f2;
+			transition: 500ms all ease;
+			&:before {
+				top: 0;
+				left: 0;
+				content: '';
+				width: 100%;
+				z-index: -1;
+				height: 100%;
+				position: absolute;
+				border-radius: 100%;
+				transition: 500ms all ease;
+				transform: scale(0);
+				background: linear-gradient(-106deg, rgb(0, 238, 235) 1%, rgb(32, 166, 243) 53%, rgb(63, 93, 251) 100%);
+			}
+			&:hover {
+				color: #fff;
+				&:before {
+					transform: scale(1.0);
+				}
+			}
+		}
+	}
+	.slick-dots {
+		left: 0;
+		right: 0;
+		bottom: -30px;
+		margin: 0 auto;
+		max-width: 130px;
+		li {
+			width: 10px;
+			height: 10px;
+			margin: 0px 10px;
+			border-radius: 100%;
+			background-color: #d8d8d8;
+			&.slick-active {
+				background-color: var(--base-color-6);
+			} 
+		}
+	}
+}

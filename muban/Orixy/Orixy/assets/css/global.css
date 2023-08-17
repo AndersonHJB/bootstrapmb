@@ -1,0 +1,30 @@
+:root {
+	
+	/* #ff6b61 in decimal RGB */
+  --base-color-1: #FF7425;
+  --base-color-2: #FFE43B;
+  --base-color-3: #7486E5;
+  --base-color-4: #63DAD9;
+  --base-color-5: #14A3EB;
+  --base-color-6: #43d4d2;
+  --base-color-7: #7489f7;
+  
+
+
+  /* Fonts */
+  --heading-1: 'Arimo';
+  --heading-2: 'Oswald';
+  --heading-3: 'Jost';
+  --heading-4: 'Poppins';
+  --body-font: 'Arimo';  
+	--transition: 500ms all ease;
+
+   --base-color: #ffc801;
+  
+
+
+  /* Fonts */
+  --heading: 'Nunito';
+  --body-font: 'Rubik';  
+  --transition: 500ms all ease;
+}

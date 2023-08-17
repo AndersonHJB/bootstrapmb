@@ -1,0 +1,33 @@
+.ori-breadcrumbs-section {
+	overflow: hidden;
+}
+.ori-breadcrumb-content {
+	padding: 245px 0px 165px;
+	h1 {
+		font-size: 50px;
+		font-weight: 700;
+		line-height: 60px;
+		padding-bottom: 12px;
+	}
+	li {
+		color: #fff;
+		font-size: 15px;
+		font-weight: 700;
+		margin: 0px 12px;
+		position: relative;
+		letter-spacing: 0.14em;
+		text-transform: uppercase;
+		&:before {
+			top: 0;
+			right: -20px;
+			content: '//';
+			position: absolute;
+			color: var(--base-color-1);
+		}
+		&:last-child {
+			&:before {
+				display: none;
+			}
+		}
+	}
+}

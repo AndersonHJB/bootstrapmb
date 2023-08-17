@@ -1,0 +1,315 @@
+.ori-footer-section {
+	padding-top: 100px;
+	background-color: #171717;
+	&.footer-style-two {
+		padding-top: 120px;
+		background-color: #171717;
+		.ori-copyright-text {
+			color: #fff;
+		}
+	}
+	&.footer-style-three {
+		.ori-footer-title h2 i {
+			color: var(--base-color-2);
+		}
+		.ori-footer-title h2 {
+			font-weight: 500;
+		}
+		.ori-footer-title h2 span {
+			font-weight: 200;
+			-webkit-text-fill-color: #fff;
+		}
+		.ori-footer-widget .widget-title {
+			color: #fff;
+			font-weight: 700;
+			font-family: var(--heading-1);
+		}
+	}
+	&.footer-style-four {
+		background-color: #0B1C2A;
+		.ori-footer-title {
+			background-color: #7687E5;
+		}
+		.ori-footer-title h2 i {
+			color: #fff;
+		}
+		.ori-footer-widget .widget-title {
+			color: #fff;
+		}
+		.ori-footer-widget .menu-location-widget li a,
+		.ori-footer-widget .contact-widget span, .ori-footer-widget .contact-widget a,
+		.ori-footer-copyright .ori-copyright-text {
+			color: #B8C6D2;
+		}
+		.ori-footer-widget .newslatter-widget .newslatter-form input {
+			&::placeholder {
+				color: #B8C6D2;
+			}
+		}
+		.ori-footer-copyright {
+			border-top: 1px solid #FFFFFF2E;
+		}
+	}
+	&.footer-style-five {
+		.ori-footer-title h2 {
+			font-weight: 500;
+			i {
+				color: var(--base-color-5);
+			}
+		}
+		.ori-footer-title h2 span {
+			font-weight: 100;
+			-webkit-text-fill-color: #fff;
+		}
+		.ori-footer-widget .widget-title {
+			color: #fff;
+		}
+		.ori-footer-widget .menu-location-widget li a,
+		.ori-footer-widget .contact-widget span, .ori-footer-widget .contact-widget a,
+		.ori-footer-copyright .ori-copyright-text {
+			color: #ACACAC;
+		}
+	}
+	&.footer-style-six {
+		overflow: hidden;
+		.ori-dm-about-shape1 {
+			left: -30px;
+			bottom: -20px;
+		}
+		.ori-dm-about-shape2 {
+			right: -50px;
+			bottom: -30px;
+		}
+		.ori-footer-title {
+			background: #423EEC;
+			border: 1px solid #5A56FA;
+			h2 {
+				font-weight: 500;
+				span {
+					font-weight: 300;
+					-webkit-text-fill-color: #fff;
+				}
+				i {
+					color: var(--base-color-2);
+				}
+			}
+		}
+		.ori-footer-widget .widget-title {
+			color: #fff;
+			font-family: var(--heading-1);
+		}
+		.ori-footer-widget .menu-location-widget li a,
+		.ori-footer-widget .contact-widget span, 
+		.ori-footer-widget .contact-widget a,
+		.ori-footer-widget .newslatter-widget .newslatter-form input::placeholder,
+		.ori-footer-copyright .ori-copyright-text {
+			color: #fff;
+		}
+		.ori-footer-copyright {
+			border-top: 1px solid #FFFFFF;
+		}
+	}
+	&.footer-style-seven {
+		padding-top: 50px;
+		background-color: #04000b;
+		.ori-footer-text {
+			color: #fff;
+			font-size: 20px;
+			line-height: 1.8;
+		}
+		.ori-footer-newslatter {
+			.email-field {
+				width: 100%;
+				height: 55px;
+				border: none;
+				max-width: 390px;
+				margin-right: 15px;
+				border-radius: 3px;
+				padding-left: 20px;
+				background-color: #27242f;
+			}
+			button {
+				color: #fff;
+				height: 55px;
+				width: 150px;
+				border: none;
+				border-radius: 4px;
+				background: linear-gradient( -180deg, rgb(0,238,235) 1%, rgb(32,166,243) 53%, rgb(63,93,251) 100%);
+			}
+			p {
+				color: #fff;
+				margin-top: 20px;
+				.checkbox-field {
+					margin-right: 10px;
+				}
+			}
+		}
+		.ori-footer-logo-social {
+			padding: 40px 0px 65px;
+			.ori-footer-social {
+				a {
+					color: #a3a3a3;
+					margin-left: 20px;
+					&:hover {
+						color: #29a7fc;
+					}
+				}
+			}
+		}
+		.ori-footer-copyright {
+			color: #e4e4e4;
+			padding: 45px 0px;
+			border-top: 1px solid #262528;
+		}
+	}
+}
+.ori-footer-title {
+	border-radius: 20px;
+	padding: 35px 0px 25px;
+	border: 1px solid #292929;
+	h2 {
+		color: #fff;
+		font-size: 90px;
+		font-weight: 700;
+		span {
+			-webkit-text-fill-color: transparent;
+			-webkit-text-stroke-width: 1px;
+			-webkit-text-stroke-color: #fff;
+		}
+		i {
+			margin-left: 20px;
+			color: var(--base-color-1);
+			transform: rotate(-45deg);
+		}
+	}
+}
+.ori-footer-widget-wrapper {
+	padding: 110px 0px 70px;
+}
+.ori-footer-widget {
+	.widget-title {
+		font-size: 14px;
+		font-weight: 700;
+		padding-bottom: 38px;
+		letter-spacing: 0.14em;
+	}
+	.menu-location-widget {
+		li {
+			margin-bottom: 12px;
+			a {
+				color: #7D7D7D;
+				font-size: 15px;
+			}
+		}
+	}
+	.contact-widget {
+		span,a {
+			color: #7D7D7D;
+			display: block;
+			margin-bottom: 12px;
+		}
+	}
+	.newslatter-widget {
+		.newslatter-form {
+			input {
+				width: 100%;
+				border: none;
+				padding-bottom: 20px;
+				border-bottom: 1px solid #fff;
+				background-color: transparent;
+			}
+			button {
+				color: #fff;
+				border: none;
+				margin-top: 50px;
+				font-weight: 600;
+				text-transform: uppercase;
+				background-color: transparent;
+			}
+		}
+	}
+}
+.ori-footer-copyright {
+	padding: 25px 0px;
+	border-top: 1px solid #292929;
+	.ori-copyright-text {
+		font-size: 14px;
+	}
+	.ori-copyright-social {
+		a {
+			color: #fff;
+			margin-left: 20px;
+			&:hover {
+				color: var(--base-color-1);
+			}
+		}
+	}
+}
+.ori-footer-widget-wrapper-2 {
+	padding-bottom: 80px
+}
+.footer-style-two {
+	.ori-footer-widget {
+		.widget-title {
+			color: #fff;
+			font-size: 18px;
+			font-weight: 700;
+			letter-spacing: 0;
+			padding-bottom: 35px
+		}
+		.logo-widget {
+			p {
+				max-width: 235px;
+				padding: 20px 0px 45px;
+			}
+		}
+		.footer-social {
+			a {
+				margin-right: 25px;
+				&:hover {
+					color: var(--base-color-1);
+				}
+			}
+		}
+		.contact-info {
+			span, a {
+				color: #BAC1D4;
+			}
+		}
+		.support-widget {
+			p {
+				max-width: 250px;
+			}
+			.download-btn {
+				display: flex;
+				margin-top: 45px;
+				a {
+					width: 110px;
+					margin-right: 5px;
+					display: inline-block;
+					&:hover {
+						transform: translateY(-5px);
+					}
+				}
+			}
+		}
+		.newslatter-widget {
+			.newslatter-form {
+				p {
+					padding-bottom: 30px;
+				}
+				input {
+					padding-bottom: 10px;
+				}
+				button {
+					padding: 0;
+					margin-top: 15px;
+					transition: 500ms all ease;
+					&:hover {
+						color: var(--base-color-1);
+					}
+				}
+			}
+		}
+	}
+}

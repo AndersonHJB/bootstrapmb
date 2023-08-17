@@ -1,0 +1,189 @@
+@media screen and (max-width: 1600px) { 
+	.ori-lan-header-btn-grp a {
+		font-size: 14px;
+		margin-left: 15px;
+		padding: 15px 25px 13px;
+	}
+	.ori-header-section.landing-header {
+		padding: 30px 20px;
+	}
+	.ori-theme-feature-content {
+		padding: 60px 15px;
+	}
+	.ori-theme-feature-item:after {
+		display: none;
+	}
+	.ori-inner-img-item {
+		padding: 0px 15px;
+	}
+	.ori-impre-feature-item .inner-text h3 {
+		font-size: 20px;
+	}
+	.ori-impre-feature-item {
+		height: 330px;
+		padding: 35px 20px;
+	}
+	.ori-core-feature-section1 .ori-ft-mockup-img {
+		width: 60%;
+		right: 15px;
+	}
+	.ori-core-feature-section3 .ori-ft-mockup-img {
+		width: 50%;
+		left: 80px;
+	}
+	.ori-core-feature-section4 .ori-ft-mockup-img {
+		width: 60%;
+		right: 15px;
+	}
+	.ori-core-feature-section2 .ori-ft-mockup-img {
+		width: 60%;
+		left: 65px;
+	}
+}
+@media screen and (max-width: 1024px) { 
+	.ori-lan-header-btn-grp a {
+		padding: 10px 12px;
+		&:last-child {
+			display: none;
+		}
+	}
+	.ori-header-section.landing-header .ori-main-navigation li {
+		margin: 0px 15px;
+	}
+	.ori-theme-feature-item .inner-text h3 {
+		font-size: 18px;
+		padding-bottom: 15px;
+	}
+	.ori-impressive-feature-section {
+		padding: 120px 15px 85px;
+	}
+	.ori-impre-feature-item .inner-text h3 {
+		font-size: 16px;
+		padding-bottom: 15px;
+	}
+	.ori-impre-feature-item .inner-text p {
+		font-size: 14px;
+	}
+	.ori-impre-feature-item .inner-icon {
+		width: 40px;
+		margin: 0 auto;
+		margin-bottom: 25px;
+	}
+	.ori-core-feature-section1 .ori-ft-mockup-img,
+	.ori-core-feature-section3 .ori-ft-mockup-img,
+	.ori-core-feature-section4 .ori-ft-mockup-img,
+	.ori-core-feature-section2 .ori-ft-mockup-img {
+		top: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		margin-top: 30px;
+		text-align: center;
+		position: relative !important;
+	}
+	.ori-theme-core-feature .lan-section-title {
+		max-width: 100%;
+		text-align: center;
+	}
+	.ori-theme-core-feature .lan-section-title p {
+		padding-top: 20px;
+	}
+	.ori-core-feature-section1 .ori-ft-mockup-img .ori-ft-elementor {
+		left: 0;
+	}
+	.ori-core-feature-section1,
+	.ori-core-feature-section3,
+	.ori-core-feature-section4,
+	.ori-core-feature-section2 {
+		padding: 80px 0px;
+	}
+	.ori-core-feature-section3 .ori-ft-mockup-img {
+		width: 75%;
+		margin: 0 auto;
+		margin-bottom: 50px;
+	}
+	.ori-theme-core-feature-content {
+		justify-content: center !important;
+	}
+	.ori-core-feature-section2 .ori-ft-mockup-img .ori-ft-rev {
+		display: none;
+	}
+	.ori-core-feature-section2 .ori-ft-mockup-img {
+		margin-bottom: 40px;
+	}
+}
+@media screen and (max-width: 991px) {  
+	.ori-header-section.landing-header .ori-main-navigation  {
+		display: none;
+	}
+	.ori-theme-feature-item .inner-text h3,
+	.ori-impre-feature-item .inner-text h3 {
+		font-size: 20PX;
+	}
+	.ori-theme-feature-item {
+		margin-bottom: 40px;
+	}
+	.ori-impre-feature-item  {
+		height: auto;
+	}
+	.ori-core-feature-section3 .ori-ft-mockup-img .ori-ft-color {
+		display: none;
+	}
+	.ori-core-feature-section3 .ori-ft-mockup-img .ori-ft-mockup {
+		right: 0;
+	}
+	.ori-header-section.landing-header .brand-logo {
+		top: 50%;
+		left: 55px;
+		width: 120px;
+		right: auto;
+		margin: 0 auto;
+		position: absolute;
+		-webkit-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+	.ori-header-section.landing-header .mobile_menu_button {
+		top: -30px;
+		display: block;
+	}
+	.ori-lan-header-area {
+		justify-content: end !important;
+	}
+}
+@media screen and (max-width: 480px) {  
+	.ori-header-section.landing-header {
+		position: relative;
+	}
+	.lan-section-title h2 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.ori-demo-page-section,
+	.ori-inner-page-section,
+	.ori-lan-testimonial-section {
+		padding: 60px 15px;
+	}
+
+	.ori-demo-page-content,
+	.ori-inner-page-slider-wrapper {
+		padding-top: 30px;
+	}
+	.ori-impressive-feature-section {
+		padding: 60px 15px 30px;
+	}
+	.ori-core-feature-section1 .ori-ft-mockup-img .ori-ft-elementor {
+		display: none;
+	}
+	.ori-core-feature-section3 .ori-ft-mockup-img .ori-ft-mockup {
+		width: 100px;
+	}
+	.ori-lan-testimonial-item-area {
+		padding: 0px;
+	}
+	.ori-lan-testimonial-item {
+		padding: 30px 15px;
+	}
+	.ori-purchase-section {
+		padding: 60px 0px;
+	}
+}

@@ -1,0 +1,38 @@
+.ori-ins-search-section {
+	padding: 110px 0px 110px;
+}
+.ori-ins-search-content {
+	padding: 50px 65px;
+	background-color: #fff;
+	box-shadow: 0px 38px 35px 0px #E8EBEE9E;
+	form {
+		position: relative;
+	}
+	input {
+		width: 100%;
+		height: 100px;
+		padding-left: 35px;
+		border: 2px solid #EFF1F3;
+		&::placeholder {
+			color: #6D7680;
+			font-size: 18px;
+		}
+	}
+	button {
+		top: 16px;
+		right: 16px;
+		color: #fff;
+		width: 215px;
+		height: 66px;
+		border: none;
+		font-weight: 700;
+		position: absolute;
+		border-radius: 5px;
+		text-transform: uppercase;
+		background-color: #14A3EB;
+		transition: 500ms all ease;
+		&:hover {
+			background-color: #7486E5;
+		}
+	}
+}

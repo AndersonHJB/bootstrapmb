@@ -1,0 +1,181 @@
+.ori-faq-section {
+	overflow: hidden;
+	padding: 130px 0px;
+}
+.ori-faq-tab-btn {
+	max-width: 430px;
+	li {
+		width: 100%;
+		display: block;
+	}
+	.nav-tabs {
+		border: none;
+	}
+	.nav-pills .nav-link.active,
+	.nav-pills .show>.nav-link,
+	.nav-tabs .nav-item.show .nav-link,
+	.nav-tabs .nav-link.active {
+		border: none;
+		color: #fff;
+		border-radius: 5px;
+		background-color: var(--base-color-1);
+	}
+	.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover,
+	.nav-tabs .nav-link {
+		border: none;
+	}
+	.nav-tabs .nav-link {
+		margin-bottom: 10px;
+		border-radius: 5px;
+		padding: 16px 30px;
+		background-color: #171717; 
+	}
+	.nav {
+		display: inherit;
+	}
+	li,button {
+		color: #fff;
+		width: 100%;
+		font-size: 18px;
+		cursor: pointer;
+		font-size: 18px;
+		font-weight: 700;
+		text-align: left;		
+	}
+}
+.ori-faq-text-wrapper-content {
+	.ori-inner-section-title {
+		max-width: 460px;
+	}
+}
+.ori-faq-accordion-item-area {
+	.accordion-item,
+	.accordion-button:not(.collapsed),
+	.accordion-button {
+		background-color: transparent;
+	}
+	.accordion-item {
+		border:  none;
+		position: relative;
+		padding-left: 50px;
+		margin-bottom: 40px;
+	}
+	.accordion-button {
+		padding: 0;
+		color: #fff;
+		font-size: 24px;
+		font-weight: 700;
+	}
+	.accordion-button:focus {
+		border: none;
+		box-shadow: none;
+	}
+	.accordion-body {
+		color: #BAC1D4;
+		font-size: 18px;
+		line-height: 30px;
+		padding: 25px 0px 0px;
+	}
+	.accordion-button::after {
+		right: auto;
+		left: -50px;
+		content: '\f067';
+		position: absolute;
+		font-weight: 300;
+		background-image: none;
+		font-family: 'Font Awesome 5 Pro';
+	}
+	.accordion-button:not(.collapsed)::after {
+		color: var(--base-color-1);
+		content: '\f068';
+	}
+	.accordion-button:not(.collapsed) {
+		color: var(--base-color-1);
+	}
+}
+.ori-faq-text-wrapper-content {
+	.ori-inner-section-title {
+		padding-bottom: 60px
+	}
+}
+.ori-faq-price-section {
+	overflow: hidden;
+
+}
+.ori-faq-price-content {
+	padding-top: 70px;
+}
+.ori-faq-price-inner-item {
+	padding: 50px;
+	border-radius: 20px;
+	background-color: #171717;
+	.ori-faq-price-title {
+		margin-bottom: 35px;
+		padding-bottom: 30px;
+		border-bottom: 1px solid #1C1C1C;
+		transition: 500ms all ease;
+		.price-plan {
+			font-size: 14px;
+			font-weight: 700;
+			letter-spacing: 0.1em;
+		}
+		h3 {
+			color: #fff;
+			font-size: 50px;
+			font-weight: 700;
+			line-height: 60px;
+			padding-top: 22px;
+			span {
+				font-size: 18px;
+				font-weight: 400;
+			}
+		}
+	}
+	.ori-faq-price-slug {
+		font-size: 700;
+		font-size: 14px;
+		padding-bottom: 40px;
+		letter-spacing: 0.1em;
+	}
+	.ori-faq-price-list {
+		li {
+			color: #BAC1D4;
+			font-size: 18px;
+			padding-left: 30px;
+			position: relative;
+			margin-bottom: 12px;
+			&:before {
+				top: 0;
+				left: 0;
+				content: '\f336';
+				font-weight: 300;
+				position: absolute;
+				color: var(--base-color-1);
+				font-family: 'Font Awesome 5 Pro';
+			}
+		}
+	}
+	.ori-faq-price-btn {
+		margin-top: 40px;
+		a {
+			width: 100%;
+			display: block;
+			font-size: 14px;
+			font-weight: 700;
+			border-radius: 30px;
+			padding: 20px 0px;
+			letter-spacing: 0.14em;
+			background-color: rgba(255, 255, 255, 0.1)
+		}
+	}
+	&:hover {
+		.ori-faq-price-title {
+			border-bottom: 1px solid var(--base-color-1);
+		}
+		.ori-faq-price-btn {
+			a {
+				background-color: var(--base-color-1);
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+.ori-video-play-section {
+	.background_parallax {
+		padding: 290px 0px;
+		&:before {
+			top: 0;
+			left: 0;
+			width: 100%;
+			content: '';
+			height: 100%;
+			position: absolute;
+			background-color: rgba(13, 13, 13, 0.6);
+		}
+	}
+	.ori-video-play-btn {
+		z-index: 2;
+		position: relative;
+		a {
+			width: 228px;
+			height: 228px;
+			margin: 0 auto;
+			font-weight: 700;
+			border-radius: 100%;
+			letter-spacing: 0.25em;
+			color: rgba(13, 13, 13, 1);
+			border: 5px solid rgba(13, 13, 13, 1);
+			background-color: var(--base-color-2);
+		}
+	}
+}

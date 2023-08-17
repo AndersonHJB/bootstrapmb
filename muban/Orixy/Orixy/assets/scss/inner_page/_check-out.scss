@@ -1,0 +1,131 @@
+.ori-checkout-section {
+	overflow: hidden;
+	padding: 125px 0px;
+}
+.ori-coupon-check {
+	input {
+		margin-left: 50px;
+		margin-right: 20px;
+	}
+	span {
+		color: #BAC1D4;
+		font-size: 18px;
+		a {
+			color: #fff;
+			font-weight: 700;
+		}
+	}
+}
+.ori-checkout-billing-order-details {
+	margin-top: 45px;
+}
+.ori-checkout-coupon-code {
+	margin-top: 45px;
+	padding: 25px 30px 30px;
+	border: 1px solid #393939;
+	p {
+		font-size: 18px;
+	}
+	@extend%coupon_form;
+	input {
+		max-width: 570px;
+		background-color: #191919;
+		border: 1px solid #191919;
+	}
+	button {
+		margin-left: 30px;
+	}
+}
+.ori-checkout-billing-details {
+	max-width: 600px;
+	h3 {
+		color: #fff;
+		font-size: 36px;
+		font-weight: 700;
+		padding-bottom: 25px;
+	}
+	label {
+		display: block;
+		font-size: 20px;
+		font-weight: 700;
+		margin-bottom: 15px;
+	}
+	input, select, textarea {
+		width: 100%;
+		height: 50px;
+		padding: 0px 20px;
+		margin-bottom: 30px;
+		border: 1px solid #393939;
+		background-color: #1A1A1A;
+		&::placeholder {
+			color: #BAC1D4;
+		}
+	}
+	.additional-info {
+		margin-top: 50px;
+		h4 {
+			color: #fff;
+			font-size: 36px;
+			font-weight: 700;
+			padding-bottom: 15px;
+		}
+		p {
+			font-size: 20px;
+			font-weight: 700;
+		}
+		textarea {
+			height: 165px;
+			padding-top: 20px;
+		}
+	}
+}
+.ori-checkout-order-details {
+	padding-left: 30px;
+	h3 {
+		color: #fff;
+		font-size: 36px;
+		font-weight: 700;
+		padding-bottom: 25px;
+	}
+}
+.order-details-info {
+	table {
+		width: 100%;
+		text-transform: uppercase;
+	}
+	tr {
+		width: 100%;
+		border: 1px solid #393939;
+		th {
+			font-size: 20px;
+			font-weight: 700;
+		}
+		td,th {
+			padding: 15px 20px;
+		}
+		td {
+			font-size: 18px;
+		}
+		.p-value {
+			color: #BAC1D4;
+		}
+	}
+	p {
+		color: #BAC1D4;
+		font-size: 18px;
+		padding-top: 35px;
+		line-height: 30px;
+	}
+	.place-order-btn {
+		margin-top: 30px;
+		a {
+			width: 100%;
+			font-weight: 700;
+			padding: 15px 20px;
+			border-radius: 3px;
+			display: inline-block;
+			letter-spacing: 0.05em;
+			background-color: var(--base-color-1);
+		}
+	}
+}

@@ -1,0 +1,33 @@
+.ori-digital-agency {
+	color: #ACACAC;
+	background-color: #0D0D0D;
+	h1,
+	h2,
+	h3, 
+	h4, 
+	h5,
+	h6 {
+		margin: 0;
+		font-weight: 400;
+		font-family: var(--heading-2);
+	}
+}
+.ori-section-title-3 {
+	.sub-title {
+		font-weight: 700;
+		display: inline-block;
+		padding-bottom: 25px;
+		letter-spacing: 0.14em;
+		color: var(--base-color-2);
+	}
+	h2 {
+		color: #fff;
+		font-size: 57px;
+		font-weight: 500;
+		line-height: 67px;
+		span {
+			font-weight: 200;
+			display: block;
+		}
+	}
+}

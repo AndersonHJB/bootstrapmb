@@ -1,0 +1,54 @@
+.ori-dm-about-section {
+	padding: 150px 0px;
+	.ori-dm-about-shape1 {
+		left: 0;
+		bottom: 0;
+	}
+	.ori-dm-about-shape2 {
+		right: 0;
+		bottom: 0;
+	}
+}
+.ori-dm-about-img {
+	z-index: 1;
+	left: -100px;
+	margin-top: 60px;
+	.ori-dm-about-social1,
+	.ori-dm-about-social2 {
+		left: 0;
+		right: 0;
+		bottom: -60px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.ori-dm-about-social2 {
+		top: -90px;
+		bottom: auto;
+	}
+	.ori-dm-about-social3 {
+		left: 115px;
+		bottom: 60px;
+	}
+	.ori-dm-about-social4 {
+		right: 115px;
+		bottom: 60px;
+	}
+	.ori-dm-about-shape {
+		right: 0;
+		bottom: 0;
+		z-index: -1;
+	}
+}
+.ori-dm-about-text-area {
+	.ori-btn-5 a {
+		&:hover {
+			color: #000;
+			background-color: #fff;
+		}
+	}
+	.ori-section-title-6 {
+		h2, p {
+			color: #fff;
+		}
+	}
+}

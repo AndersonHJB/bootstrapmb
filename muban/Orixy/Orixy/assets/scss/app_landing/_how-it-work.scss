@@ -1,0 +1,63 @@
+.ori-how-it-work-section {
+	overflow: hidden;
+	padding: 170px 0px 170px;
+	.ori-section-title-2 {
+		max-width: 360px;
+	}
+}
+.ori-how-it-work-text-area {
+	max-width: 460px;
+	padding-top: 50px;
+}
+.ori-how-it-work-steps {
+	padding-top: 50px;
+	li {
+		font-size: 18px;
+		padding-left: 30px;
+		position: relative;
+		margin-bottom: 28px;
+		&:before {
+			left: 0;
+			top: 5px;
+			width: 16px;
+			content: '';
+			height: 16px;
+			position: absolute;
+			border-radius: 100%;
+			border: 2px solid #00AB82;                 
+		}
+	}
+}
+.ori-app-download-btn {
+	margin-top: 45px;
+	p {
+		color: #fff;
+		font-size: 20px;
+	}
+	.download-btn-grp {
+		margin-top: 35px;
+		a {
+			margin-right: 20px;
+			display: inline-block;
+			&:hover {
+				transform: translateY(-5px);
+			}
+		}
+	}
+}
+.ori-how-it-work-screenshot {
+	z-index: 1;
+	margin: 0 auto;
+	max-width: 525px;
+	&:before {
+		left: 0;
+		bottom: 2px;
+		content: '';
+		width: 100%;
+		height: 60%;
+		z-index: -1;
+		border-radius: 30px;
+		position: absolute;
+		background-color: #00AC83;
+	}
+}

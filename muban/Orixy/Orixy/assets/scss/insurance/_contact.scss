@@ -1,0 +1,38 @@
+.ori-contact-section-1 {
+	padding: 120px 0px;
+}
+.ori-contact-form-contant {
+	max-width: 750px;
+}
+.ori-contact-form-area {
+	padding-top: 45px;
+	input,textarea {
+		width: 100%;
+		height: 70px;
+		border: none;
+		padding-left: 25px;
+		margin-bottom: 25px;
+		border: 1px solid #F0F1F4;
+		box-shadow: 0px 17px 17px 0px #020A240D;
+		&::placeholder {
+			color: #858B93;
+		}
+	}
+	textarea {
+		height: 215px;
+		padding-top: 25px;
+	}
+	button {
+		color: #fff;
+		border: none;
+		font-weight: 700;
+		border-radius: 5px;
+		padding: 25px 40px;
+		text-transform: uppercase;
+		background-color: var(--base-color-5);
+		transition: 500ms all ease;
+		&:hover {
+			background-color: #7486E5;
+		}
+	}
+}

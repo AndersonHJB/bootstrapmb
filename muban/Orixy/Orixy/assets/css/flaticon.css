@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/flaticon.ttf?5ca58220b66f5a999fd9fae5ee57559d") format("truetype"),
+    url("../fonts/flaticon.woff?5ca58220b66f5a999fd9fae5ee57559d") format("woff"),
+    url("../fonts/flaticon.woff2?5ca58220b66f5a999fd9fae5ee57559d") format("woff2"),
+    url("../fonts/flaticon.eot?5ca58220b66f5a999fd9fae5ee57559d#iefix") format("embedded-opentype"),
+    url("../fonts/flaticon.svg?5ca58220b66f5a999fd9fae5ee57559d#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-add:before {
+    content: "\f101";
+}
+.flaticon-create:before {
+    content: "\f102";
+}
+.flaticon-user:before {
+    content: "\f103";
+}
+.flaticon-account:before {
+    content: "\f104";
+}
+.flaticon-wallet:before {
+    content: "\f105";
+}
+.flaticon-wallet-1:before {
+    content: "\f106";
+}
+.flaticon-wallet-2:before {
+    content: "\f107";
+}
+.flaticon-sun:before {
+    content: "\f108";
+}
+.flaticon-shield:before {
+    content: "\f109";
+}
+.flaticon-asset-management:before {
+    content: "\f10a";
+}
+.flaticon-asset-management-1:before {
+    content: "\f10b";
+}
+.flaticon-transfer:before {
+    content: "\f10c";
+}
+.flaticon-transfer-1:before {
+    content: "\f10d";
+}
+.flaticon-angle-arrow-down:before {
+    content: "\f10e";
+}
+.flaticon-chevron:before {
+    content: "\f10f";
+}
+.flaticon-check:before {
+    content: "\f110";
+}
+.flaticon-check-mark-black-outline:before {
+    content: "\f111";
+}
+.flaticon-like:before {
+    content: "\f112";
+}
+.flaticon-time:before {
+    content: "\f113";
+}
+.flaticon-right-arrow:before {
+    content: "\f114";
+}
+.flaticon-right-arrow-1:before {
+    content: "\f115";
+}
