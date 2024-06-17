@@ -1,6 +1,6 @@
 ### 登录注册页面模板
 
-![1](https://github.com/HQEasy/login-page-template/blob/master/readme.png?raw=true)
+![1](https://github.com/AndersonHJB/bootstrapmb/blob/main/login-page-template/readme.png?raw=true)
 
 - [568](https://demo.bornforthis.cn/bootstrapmb/login-page-template/568)
 - [787](https://demo.bornforthis.cn/bootstrapmb/login-page-template/787)
