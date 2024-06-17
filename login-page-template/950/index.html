@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<title>简洁大气的联系我们页面演示_dowebok</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="vendor/select2/select2.min.css">
+	<link rel="stylesheet" href="css/util.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+<div class="dowebok container-contact100">
+	<div class="wrap-contact100">
+		<form class="contact100-form validate-form">
+			<span class="contact100-form-title">联系我们</span>
+
+			<div class="wrap-input100 validate-input" data-validate="姓名不能为空">
+				<label class="label-input100" for="name">姓名</label>
+				<input id="name" class="input100" type="text" name="name" placeholder="请输入姓名">
+				<span class="focus-input100"></span>
+			</div>
+
+			<div class="wrap-input100 validate-input" data-validate="请收入合法的邮箱地址">
+				<label class="label-input100" for="email">电子邮箱</label>
+				<input id="email" class="input100" type="text" name="email" placeholder="请输入电子邮箱">
+				<span class="focus-input100"></span>
+			</div>
+
+			<div class="wrap-input100">
+				<div class="label-input100">需要什么服务？</div>
+				<div>
+					<select class="js-select2" name="service">
+						<option>请选择</option>
+						<option>UI/UX 设计</option>
+						<option>电子商务</option>
+						<option>在线服务</option>
+					</select>
+					<div class="dropDownSelect2"></div>
+				</div>
+				<span class="focus-input100"></span>
+			</div>
+
+			<div class="wrap-input100 validate-input" data-validate="留言不能为空">
+				<label class="label-input100" for="message">留言</label>
+				<textarea id="message" class="input100" name="message" placeholder="请输入留言"></textarea>
+				<span class="focus-input100"></span>
+			</div>
+
+			<div class="container-contact100-form-btn">
+				<button class="contact100-form-btn">提 交</button>
+			</div>
+
+			<div class="contact100-form-social flex-c-m">
+				<a href="http://www.dowebok.com" class="contact100-form-social-item flex-c-m bg1 m-r-20" target="_blank">
+					<i class="fa fa-wechat" aria-hidden="true"></i>
+				</a>
+
+				<a href="http://www.dowebok.com/code" class="contact100-form-social-item flex-c-m bg2 m-r-20" target="_blank">
+					<i class="fa fa-qq" aria-hidden="true"></i>
+				</a>
+
+				<a href="http://www.dowebok.com/950.html" class="contact100-form-social-item flex-c-m bg3" target="_blank">
+					<i class="fa fa-weibo" aria-hidden="true"></i>
+				</a>
+			</div>
+		</form>
+
+		<div class="contact100-more flex-col-c-m" style="background-image: url('images/bg-01.jpg');">
+		</div>
+	</div>
+</div>
+
+<script src="vendor/jquery/jquery-1.12.4.min.js"></script>
+<script src="vendor/select2/select2.min.js"></script>
+<script>
+	$(".js-select2").each(function(){
+		$(this).select2({
+			minimumResultsForSearch: 20,
+			dropdownParent: $(this).next('.dropDownSelect2')
+		});
+	})
+	$(".js-select2").each(function(){
+		$(this).on('select2:open', function (e){
+			$(this).parent().next().addClass('eff-focus-selection');
+		});
+	});
+	$(".js-select2").each(function(){
+		$(this).on('select2:close', function (e){
+			$(this).parent().next().removeClass('eff-focus-selection');
+		});
+	});
+</script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
